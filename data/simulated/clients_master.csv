@@ -1,0 +1,257 @@
+group_client_id,client_name,hq_region,size_segment,cro_account_code,pv_client_ref
+G0001,Sponsor 001,North America,Small biotech,,PV70000
+G0002,Sponsor 002,North America,Mid-size biopharma,ECR-A1007,
+G0003,Sponsor 003,North America,Small biotech,ECR-A1014,PV70026
+G0004,Sponsor 004,North America,Small biotech,,PV70039
+G0005,Sponsor 005,Europe,Large pharma,ECR-A1028,
+G0006,Sponsor 006,Rest of World,Small biotech,ECR-A1035,PV70065
+G0007,Sponsor 007,North America,Small biotech,,
+G0008,Sponsor 008,North America,Small biotech,,PV70091
+G0009,Sponsor 009,Europe,Small biotech,,
+G0010,Sponsor 010,North America,Small biotech,ECR-A1063,PV70117
+G0011,Sponsor 011,North America,Small biotech,,PV70130
+G0012,Sponsor 012,Asia-Pacific,Small biotech,,PV70143
+G0013,Sponsor 013,North America,Small biotech,ECR-A1084,PV70156
+G0014,Sponsor 014,North America,Mid-size biopharma,,PV70169
+G0015,Sponsor 015,North America,Mid-size biopharma,ECR-A1098,PV70182
+G0016,Sponsor 016,Europe,Small biotech,ECR-A1105,PV70195
+G0017,Sponsor 017,North America,Small biotech,,PV70208
+G0018,Sponsor 018,Europe,Small biotech,ECR-A1119,PV70221
+G0019,Sponsor 019,North America,Mid-size biopharma,ECR-A1126,
+G0020,Sponsor 020,North America,Mid-size biopharma,,
+G0021,Sponsor 021,North America,Small biotech,,
+G0022,Sponsor 022,North America,Small biotech,,PV70273
+G0024,Sponsor 024,Asia-Pacific,Small biotech,,PV70299
+G0025,Sponsor 025,North America,Mid-size biopharma,ECR-A1168,PV70312
+G0026,Sponsor 026,Europe,Small biotech,ECR-A1175,PV70325
+G0027,Sponsor 027,North America,Small biotech,ECR-A1182,
+G0028,Sponsor 028,Europe,Small biotech,ECR-A1189,PV70351
+G0029,Sponsor 029,Europe,Small biotech,,PV70364
+G0030,Sponsor 030,North America,Small biotech,ECR-A1203,
+G0031,Sponsor 031,North America,Mid-size biopharma,ECR-A1210,PV70390
+G0032,Sponsor 032,Rest of World,Small biotech,ECR-A1217,PV70403
+G0033,Sponsor 033,Europe,Large pharma,ECR-A1224,
+G0034,Sponsor 034,North America,Small biotech,,PV70429
+G0035,Sponsor 035,North America,Mid-size biopharma,ECR-A1238,PV70442
+G0036,Sponsor 036,Europe,Large pharma,ECR-A1245,
+G0037,Sponsor 037,Europe,Large pharma,ECR-A1252,
+G0038,Sponsor 038,North America,Mid-size biopharma,ECR-A1259,PV70481
+G0039,Sponsor 039,Europe,Mid-size biopharma,,
+G0040,Sponsor 040,North America,Mid-size biopharma,ECR-A1273,PV70507
+G0041,Sponsor 041,North America,Mid-size biopharma,ECR-A1280,PV70520
+G0042,Sponsor 042,North America,Small biotech,ECR-A1287,PV70533
+G0043,Sponsor 043,North America,Small biotech,,PV70546
+G0044,Sponsor 044,Europe,Small biotech,,
+G0045,Sponsor 045,North America,Mid-size biopharma,,
+G0046,Sponsor 046,North America,Small biotech,,PV70585
+G0047,Sponsor 047,North America,Small biotech,,PV70598
+G0048,Sponsor 048,Europe,Mid-size biopharma,ECR-A1329,PV70611
+G0049,Sponsor 049,North America,Small biotech,ECR-A1336,
+G0050,Sponsor 050,Europe,Small biotech,,PV70637
+G0051,Sponsor 051,Europe,Small biotech,ECR-A1350,PV70650
+G0052,Sponsor 052,Europe,Small biotech,,PV70663
+G0053,Sponsor 053,North America,Small biotech,ECR-A1364,PV70676
+G0054,Sponsor 054,North America,Small biotech,,
+G0055,Sponsor 055,North America,Small biotech,,
+G0056,Sponsor 056,North America,Small biotech,,PV70715
+G0057,Sponsor 057,North America,Small biotech,,
+G0058,Sponsor 058,North America,Mid-size biopharma,,
+G0059,Sponsor 059,Europe,Small biotech,,PV70754
+G0060,Sponsor 060,Europe,Large pharma,ECR-A1413,PV70767
+G0061,Sponsor 061,North America,Large pharma,ECR-A1420,PV70780
+G0062,Sponsor 062,North America,Small biotech,,
+G0063,Sponsor 063,North America,Small biotech,ECR-A1434,PV70806
+G0064,Sponsor 064,North America,Small biotech,ECR-A1441,PV70819
+G0065,Sponsor 065,North America,Mid-size biopharma,,PV70832
+G0066,Sponsor 066,North America,Mid-size biopharma,,
+G0067,Sponsor 067,North America,Mid-size biopharma,ECR-A1462,PV70858
+G0068,Sponsor 068,Europe,Small biotech,ECR-A1469,
+G0069,Sponsor 069,Europe,Mid-size biopharma,ECR-A1476,PV70884
+G0070,Sponsor 070,North America,Small biotech,ECR-A1483,
+G0071,Sponsor 071,Europe,Mid-size biopharma,,PV70910
+G0072,Sponsor 072,North America,Small biotech,ECR-A1497,PV70923
+G0073,Sponsor 073,North America,Mid-size biopharma,ECR-A1504,
+G0074,Sponsor 074,Europe,Mid-size biopharma,,
+G0075,Sponsor 075,Europe,Small biotech,ECR-A1518,PV70962
+G0076,Sponsor 076,Europe,Mid-size biopharma,ECR-A1525,PV70975
+G0077,Sponsor 077,Europe,Small biotech,,
+G0078,Sponsor 078,North America,Mid-size biopharma,,
+G0079,Sponsor 079,North America,Small biotech,,PV71014
+G0080,Sponsor 080,North America,Large pharma,,PV71027
+G0081,Sponsor 081,North America,Small biotech,ECR-A1560,
+G0082,Sponsor 082,North America,Large pharma,,
+G0083,Sponsor 083,North America,Mid-size biopharma,,
+G0084,Sponsor 084,Europe,Mid-size biopharma,,PV71079
+G0085,Sponsor 085,Europe,Mid-size biopharma,,PV71092
+G0086,Sponsor 086,Europe,Mid-size biopharma,,
+G0087,Sponsor 087,North America,Large pharma,,
+G0088,Sponsor 088,North America,Small biotech,ECR-A1609,
+G0089,Sponsor 089,Europe,Mid-size biopharma,,PV71144
+G0090,Sponsor 090,North America,Small biotech,ECR-A1623,PV71157
+G0091,Sponsor 091,Europe,Mid-size biopharma,,
+G0092,Sponsor 092,North America,Small biotech,,PV71183
+G0093,Sponsor 093,North America,Mid-size biopharma,,
+G0094,Sponsor 094,North America,Mid-size biopharma,,PV71209
+G0095,Sponsor 095,Europe,Small biotech,ECR-A1658,
+G0096,Sponsor 096,North America,Small biotech,,
+G0098,Sponsor 098,Europe,Mid-size biopharma,ECR-A1679,PV71261
+G0099,Sponsor 099,Europe,Small biotech,ECR-A1686,PV71274
+G0100,Sponsor 100,Rest of World,Mid-size biopharma,ECR-A1693,PV71287
+G0101,Sponsor 101,Asia-Pacific,Large pharma,,PV71300
+G0102,Sponsor 102,North America,Small biotech,ECR-A1707,PV71313
+G0103,Sponsor 103,Europe,Small biotech,,
+G0104,Sponsor 104,Rest of World,Small biotech,ECR-A1721,PV71339
+G0105,Sponsor 105,North America,Mid-size biopharma,,PV71352
+G0106,Sponsor 106,North America,Small biotech,ECR-A1735,PV71365
+G0107,Sponsor 107,North America,Mid-size biopharma,,PV71378
+G0108,Sponsor 108,Europe,Mid-size biopharma,ECR-A1749,PV71391
+G0109,Sponsor 109,Europe,Small biotech,,PV71404
+G0110,Sponsor 110,Asia-Pacific,Mid-size biopharma,,
+G0111,Sponsor 111,North America,Mid-size biopharma,,PV71430
+G0112,Sponsor 112,Europe,Small biotech,,
+G0113,Sponsor 113,Europe,Small biotech,ECR-A1784,PV71456
+G0115,Sponsor 115,Europe,Small biotech,ECR-A1798,
+G0116,Sponsor 116,North America,Small biotech,ECR-A1805,
+G0117,Sponsor 117,North America,Large pharma,,PV71508
+G0118,Sponsor 118,North America,Small biotech,,PV71521
+G0119,Sponsor 119,North America,Small biotech,,PV71534
+G0120,Sponsor 120,North America,Mid-size biopharma,,PV71547
+G0121,Sponsor 121,North America,Mid-size biopharma,,PV71560
+G0122,Sponsor 122,North America,Large pharma,,PV71573
+G0123,Sponsor 123,Europe,Mid-size biopharma,ECR-A1854,PV71586
+G0124,Sponsor 124,North America,Small biotech,ECR-A1861,PV71599
+G0125,Sponsor 125,Europe,Small biotech,,
+G0126,Sponsor 126,North America,Large pharma,,
+G0127,Sponsor 127,Europe,Mid-size biopharma,ECR-A1882,PV71638
+G0128,Sponsor 128,Europe,Large pharma,,PV71651
+G0129,Sponsor 129,Europe,Small biotech,,PV71664
+G0130,Sponsor 130,North America,Mid-size biopharma,ECR-A1903,PV71677
+G0131,Sponsor 131,Europe,Mid-size biopharma,ECR-A1910,
+G0132,Sponsor 132,Asia-Pacific,Small biotech,,
+G0133,Sponsor 133,North America,Mid-size biopharma,,
+G0134,Sponsor 134,North America,Mid-size biopharma,ECR-A1931,
+G0135,Sponsor 135,North America,Small biotech,,
+G0136,Sponsor 136,Europe,Small biotech,ECR-A1945,
+G0137,Sponsor 137,Rest of World,Mid-size biopharma,,PV71768
+G0138,Sponsor 138,North America,Small biotech,ECR-A1959,PV71781
+G0140,Sponsor 140,Europe,Small biotech,ECR-A1973,PV71807
+G0141,Sponsor 141,North America,Small biotech,ECR-A1980,PV71820
+G0142,Sponsor 142,North America,Large pharma,,
+G0143,Sponsor 143,Asia-Pacific,Mid-size biopharma,ECR-A1994,PV71846
+G0144,Sponsor 144,North America,Small biotech,ECR-A2001,PV71859
+G0145,Sponsor 145,North America,Large pharma,ECR-A2008,PV71872
+G0146,Sponsor 146,Europe,Mid-size biopharma,,PV71885
+G0147,Sponsor 147,North America,Small biotech,,PV71898
+G0148,Sponsor 148,North America,Mid-size biopharma,,
+G0149,Sponsor 149,North America,Small biotech,ECR-A2036,PV71924
+G0150,Sponsor 150,Europe,Large pharma,ECR-A2043,
+G0151,Sponsor 151,North America,Mid-size biopharma,ECR-A2050,PV71950
+G0152,Sponsor 152,Asia-Pacific,Mid-size biopharma,,PV71963
+G0153,Sponsor 153,Europe,Small biotech,,PV71976
+G0154,Sponsor 154,North America,Mid-size biopharma,,
+G0155,Sponsor 155,Europe,Small biotech,,
+G0156,Sponsor 156,North America,Small biotech,ECR-A2085,PV72015
+G0157,Sponsor 157,Europe,Small biotech,,
+G0158,Sponsor 158,North America,Mid-size biopharma,ECR-A2099,PV72041
+G0159,Sponsor 159,North America,Small biotech,ECR-A2106,
+G0160,Sponsor 160,North America,Large pharma,ECR-A2113,PV72067
+G0161,Sponsor 161,Europe,Mid-size biopharma,ECR-A2120,PV72080
+G0162,Sponsor 162,Asia-Pacific,Small biotech,ECR-A2127,
+G0163,Sponsor 163,Europe,Small biotech,ECR-A2134,PV72106
+G0164,Sponsor 164,Europe,Small biotech,ECR-A2141,PV72119
+G0165,Sponsor 165,North America,Mid-size biopharma,,PV72132
+G0166,Sponsor 166,North America,Mid-size biopharma,ECR-A2155,PV72145
+G0167,Sponsor 167,North America,Small biotech,ECR-A2162,
+G0168,Sponsor 168,North America,Mid-size biopharma,,
+G0169,Sponsor 169,Europe,Small biotech,,
+G0170,Sponsor 170,Rest of World,Mid-size biopharma,,PV72197
+G0171,Sponsor 171,Europe,Large pharma,ECR-A2190,PV72210
+G0172,Sponsor 172,North America,Mid-size biopharma,,PV72223
+G0173,Sponsor 173,Europe,Mid-size biopharma,ECR-A2204,PV72236
+G0174,Sponsor 174,Asia-Pacific,Mid-size biopharma,ECR-A2211,PV72249
+G0175,Sponsor 175,Europe,Small biotech,,
+G0176,Sponsor 176,Europe,Small biotech,,
+G0177,Sponsor 177,North America,Small biotech,,
+G0178,Sponsor 178,Rest of World,Small biotech,,PV72301
+G0179,Sponsor 179,Asia-Pacific,Mid-size biopharma,,PV72314
+G0180,Sponsor 180,North America,Mid-size biopharma,ECR-A2253,PV72327
+G0181,Sponsor 181,Asia-Pacific,Mid-size biopharma,ECR-A2260,PV72340
+G0182,Sponsor 182,Asia-Pacific,Small biotech,ECR-A2267,PV72353
+G0183,Sponsor 183,North America,Mid-size biopharma,ECR-A2274,PV72366
+G0184,Sponsor 184,Europe,Small biotech,,PV72379
+G0185,Sponsor 185,North America,Small biotech,ECR-A2288,
+G0186,Sponsor 186,North America,Mid-size biopharma,,PV72405
+G0187,Sponsor 187,North America,Large pharma,,
+G0188,Sponsor 188,Europe,Mid-size biopharma,,PV72431
+G0189,Sponsor 189,North America,Small biotech,ECR-A2316,PV72444
+G0190,Sponsor 190,Europe,Mid-size biopharma,ECR-A2323,PV72457
+G0191,Sponsor 191,Asia-Pacific,Small biotech,,PV72470
+G0192,Sponsor 192,Europe,Mid-size biopharma,,PV72483
+G0193,Sponsor 193,Europe,Mid-size biopharma,,PV72496
+G0194,Sponsor 194,North America,Small biotech,,
+G0195,Sponsor 195,Europe,Small biotech,,PV72522
+G0196,Sponsor 196,Europe,Small biotech,ECR-A2365,PV72535
+G0197,Sponsor 197,North America,Large pharma,,PV72548
+G0198,Sponsor 198,Asia-Pacific,Small biotech,ECR-A2379,PV72561
+G0199,Sponsor 199,Europe,Mid-size biopharma,,PV72574
+G0200,Sponsor 200,Europe,Mid-size biopharma,,PV72587
+G0201,Sponsor 201,North America,Mid-size biopharma,,
+G0202,Sponsor 202,Rest of World,Small biotech,ECR-A2407,
+G0203,Sponsor 203,North America,Large pharma,ECR-A2414,
+G0204,Sponsor 204,Europe,Small biotech,,PV72639
+G0205,Sponsor 205,Europe,Mid-size biopharma,ECR-A2428,PV72652
+G0206,Sponsor 206,Europe,Mid-size biopharma,ECR-A2435,
+G0207,Sponsor 207,Europe,Mid-size biopharma,ECR-A2442,PV72678
+G0208,Sponsor 208,North America,Large pharma,ECR-A2449,PV72691
+G0209,Sponsor 209,Europe,Small biotech,ECR-A2456,PV72704
+G0210,Sponsor 210,North America,Small biotech,,
+G0211,Sponsor 211,North America,Small biotech,ECR-A2470,
+G0212,Sponsor 212,North America,Small biotech,ECR-A2477,
+G0213,Sponsor 213,Europe,Small biotech,ECR-A2484,
+G0214,Sponsor 214,North America,Small biotech,ECR-A2491,PV72769
+G0215,Sponsor 215,North America,Small biotech,ECR-A2498,
+G0216,Sponsor 216,North America,Small biotech,,PV72795
+G0217,Sponsor 217,Europe,Small biotech,ECR-A2512,
+G0218,Sponsor 218,Europe,Mid-size biopharma,ECR-A2519,PV72821
+G0219,Sponsor 219,Asia-Pacific,Mid-size biopharma,ECR-A2526,
+G0220,Sponsor 220,North America,Small biotech,ECR-A2533,PV72847
+G0221,Sponsor 221,Europe,Small biotech,ECR-A2540,PV72860
+G0222,Sponsor 222,North America,Small biotech,ECR-A2547,PV72873
+G0223,Sponsor 223,North America,Mid-size biopharma,,PV72886
+G0224,Sponsor 224,Rest of World,Small biotech,ECR-A2561,PV72899
+G0225,Sponsor 225,Europe,Small biotech,,
+G0226,Sponsor 226,Asia-Pacific,Small biotech,ECR-A2575,PV72925
+G0227,Sponsor 227,Europe,Small biotech,ECR-A2582,
+G0228,Sponsor 228,North America,Small biotech,ECR-A2589,PV72951
+G0229,Sponsor 229,North America,Mid-size biopharma,,
+G0230,Sponsor 230,Europe,Mid-size biopharma,,PV72977
+G0231,Sponsor 231,Europe,Mid-size biopharma,ECR-A2610,
+G0232,Sponsor 232,North America,Mid-size biopharma,ECR-A2617,PV73003
+G0233,Sponsor 233,Rest of World,Mid-size biopharma,ECR-A2624,PV73016
+G0234,Sponsor 234,North America,Small biotech,ECR-A2631,
+G0235,Sponsor 235,Asia-Pacific,Mid-size biopharma,,PV73042
+G0236,Sponsor 236,North America,Small biotech,ECR-A2645,PV73055
+G0237,Sponsor 237,North America,Small biotech,ECR-A2652,
+G0238,Sponsor 238,North America,Mid-size biopharma,,
+G0239,Sponsor 239,Europe,Small biotech,ECR-A2666,PV73094
+G0240,Sponsor 240,Europe,Small biotech,ECR-A2673,PV73107
+G0241,Sponsor 241,North America,Mid-size biopharma,,
+G0242,Sponsor 242,North America,Mid-size biopharma,ECR-A2687,
+G0243,Sponsor 243,Europe,Large pharma,ECR-A2694,
+G0244,Sponsor 244,North America,Small biotech,ECR-A2701,PV73159
+G0245,Sponsor 245,North America,Small biotech,,
+G0246,Sponsor 246,North America,Mid-size biopharma,ECR-A2715,PV73185
+G0247,Sponsor 247,North America,Small biotech,ECR-A2722,
+G0248,Sponsor 248,North America,Mid-size biopharma,ECR-A2729,PV73211
+G0249,Sponsor 249,North America,Small biotech,ECR-A2736,
+G0250,Sponsor 250,North America,Small biotech,,PV73237
+G0251,Sponsor 251,North America,Small biotech,ECR-A2750,PV73250
+G0252,Sponsor 252,North America,Mid-size biopharma,,
+G0253,Sponsor 253,North America,Small biotech,,PV73276
+G0254,Sponsor 254,Europe,Small biotech,,
+G0255,Sponsor 255,Europe,Small biotech,ECR-A2778,PV73302
+G0256,Sponsor 256,North America,Small biotech,,
+G0257,Sponsor 257,North America,Small biotech,,PV73328
+G0258,Sponsor 258,Europe,Mid-size biopharma,ECR-A2799,PV73341
+G0259,Sponsor 259,Europe,Small biotech,,PV73354
+G0260,Sponsor 260,North America,Mid-size biopharma,,PV73367

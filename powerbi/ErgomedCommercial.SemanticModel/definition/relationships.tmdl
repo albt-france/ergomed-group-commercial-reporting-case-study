@@ -1,0 +1,65 @@
+relationship rel_01
+	fromColumn: FactOpportunity.won_date
+	toColumn: DimDate.date
+
+relationship rel_02
+	isActive: false
+	fromColumn: FactOpportunity.decision_date
+	toColumn: DimDate.date
+
+relationship rel_03
+	isActive: false
+	fromColumn: FactOpportunity.created_date
+	toColumn: DimDate.date
+
+relationship rel_04
+	fromColumn: FactOpportunity.business
+	toColumn: DimBusiness.business
+
+relationship rel_05
+	fromColumn: FactOpportunity.region
+	toColumn: DimRegion.region
+
+relationship rel_06
+	fromColumn: FactOpportunity.therapeutic_area
+	toColumn: DimTherapeuticArea.therapeutic_area
+
+relationship rel_07
+	fromColumn: FactOpportunity.group_client_id
+	toColumn: DimClient.group_client_id
+
+relationship rel_08
+	fromColumn: FactOpportunity.common_stage
+	toColumn: DimStage.common_stage
+
+relationship rel_09
+	fromColumn: FactTarget.month
+	toColumn: DimDate.date
+
+relationship rel_10
+	fromColumn: FactTarget.business
+	toColumn: DimBusiness.business
+
+relationship rel_11
+	fromColumn: FactTarget.region
+	toColumn: DimRegion.region
+
+relationship rel_12
+	fromColumn: FactRevenue.month
+	toColumn: DimDate.date
+
+relationship rel_13
+	fromColumn: FactRevenue.business
+	toColumn: DimBusiness.business
+
+relationship rel_14
+	fromColumn: FactRevenue.region
+	toColumn: DimRegion.region
+
+relationship rel_15
+	fromColumn: OrderBook.month
+	toColumn: DimDate.date
+
+relationship rel_16
+	fromColumn: OrderBook.business
+	toColumn: DimBusiness.business

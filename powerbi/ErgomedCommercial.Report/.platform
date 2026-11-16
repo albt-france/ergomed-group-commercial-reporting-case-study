@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "ErgomedCommercial"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7b767bf1-76d3-5122-a56d-0fa6981dc268"
+  }
+}

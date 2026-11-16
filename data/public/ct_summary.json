@@ -1,0 +1,32 @@
+{
+  "source_file": "studies_2026-11-16.jsonl",
+  "collected": "2026-11-16",
+  "studies": 38468,
+  "focus_studies": 8693,
+  "focus_share": 0.226,
+  "small_mid_share_focus": 0.682,
+  "small_mid_share_other": 0.734,
+  "phase2_3_share_focus": 0.586,
+  "focus_by_region": {
+    "Asia-Pacific": 4465,
+    "Europe": 3391,
+    "North America": 5035,
+    "Rest of World": 2149
+  },
+  "top_countries": {
+    "United States": 4931,
+    "China": 2630,
+    "Spain": 2154,
+    "France": 1759,
+    "United Kingdom": 1631,
+    "Italy": 1601,
+    "Australia": 1586,
+    "Germany": 1517
+  },
+  "ergomed_studies": 24,
+  "ergomed_roles": {
+    "Collaborator": 24
+  },
+  "focus_2019": 1122,
+  "focus_2025": 1185
+}

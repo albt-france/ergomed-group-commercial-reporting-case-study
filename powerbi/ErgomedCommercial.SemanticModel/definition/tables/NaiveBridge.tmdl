@@ -1,0 +1,34 @@
+table NaiveBridge
+	lineageTag: 6269d745-18d0-57dd-ac46-7c76f76703ab
+
+	column step
+		dataType: string
+		lineageTag: 6ce0972c-52be-5e2d-a99b-c11f4fa97487
+		summarizeBy: none
+		sourceColumn: step
+
+	column value
+		dataType: double
+		formatString: \$#,0.0,,"m"
+		lineageTag: 0464e87e-4d6b-556a-888a-eff122631082
+		summarizeBy: none
+		sourceColumn: value
+
+	column note
+		dataType: string
+		lineageTag: b28ce44a-90a4-5544-be5a-339aa2f80be1
+		summarizeBy: none
+		sourceColumn: note
+
+	partition NaiveBridge = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "naive_vs_governed.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"step", "value", "note"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"step", type text}, {"value", type number}, {"note", type text}}, "en-US")
+				in
+					Typed

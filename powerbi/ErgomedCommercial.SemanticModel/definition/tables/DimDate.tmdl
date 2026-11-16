@@ -1,0 +1,84 @@
+table DimDate
+	lineageTag: cdde05ad-a5f5-52ca-9bb8-71e472f7bb6f
+	dataCategory: Time
+
+	column date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-mm-dd
+		lineageTag: 6d29d0aa-0879-585a-b6f9-c94312d8c8b0
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: f23aa34e-d61d-5829-8bc4-f00388b091b3
+		summarizeBy: none
+		sourceColumn: year
+
+	column month_num
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c59f5dda-7184-5a96-b2e2-b7bea22a543a
+		summarizeBy: none
+		sourceColumn: month_num
+
+	column month
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 3c5810fa-6e39-535f-86f9-1cbcc0138e8e
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column month_label
+		dataType: string
+		lineageTag: 55c32aa3-a7d0-5d87-aa22-b2badb50e472
+		summarizeBy: none
+		sourceColumn: month_label
+		sortByColumn: month
+
+	column quarter
+		dataType: string
+		lineageTag: 40f0d526-f616-5f03-a182-3c3039092079
+		summarizeBy: none
+		sourceColumn: quarter
+
+	column week_ending
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: a6e7fcaf-c3d8-59ea-8d25-650cb48b3015
+		summarizeBy: none
+		sourceColumn: week_ending
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column quarter_end_week
+		dataType: boolean
+		lineageTag: 5c5d2992-87c5-5604-8375-db6569af94bc
+		summarizeBy: none
+		sourceColumn: quarter_end_week
+
+	column is_closed_month
+		dataType: boolean
+		lineageTag: 27ede844-2684-5e43-9914-7ad2dc6492a3
+		summarizeBy: none
+		sourceColumn: is_closed_month
+
+	partition DimDate = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"date", "year", "month_num", "month", "month_label", "quarter", "week_ending", "quarter_end_week", "is_closed_month"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"date", type date}, {"year", Int64.Type}, {"month_num", Int64.Type}, {"month", type date}, {"month_label", type text}, {"quarter", type text}, {"week_ending", type date}, {"quarter_end_week", type logical}, {"is_closed_month", type logical}}, "en-US")
+				in
+					Typed

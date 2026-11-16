@@ -1,0 +1,21 @@
+business,source_stage,common_stage,stage_order,status,note
+Ergomed CRO,Qualification,1 Qualify,1,Open,opportunity logged before an RFP
+Ergomed CRO,RFP Received,2 Propose,2,Open,proposal in preparation
+Ergomed CRO,Proposal Submitted,2 Propose,2,Open,
+Ergomed CRO,Bid Defense,3 Negotiate,3,Open,shortlisted; bid defense meeting
+Ergomed CRO,Awarded,3 Negotiate,3,Open,verbal award: NOT a win until the contract is signed (8% are never contracted)
+Ergomed CRO,Contracted,4 Won,4,Won,contract signed = the group definition of a win
+Ergomed CRO,Cancelled,4 Won,4,Won,won then cancelled: counted as won at signature and as a cancellation at cancellation date
+Ergomed CRO,Closed Lost,5 Lost,5,Lost,includes verbal awards not contracted (loss reason 'Award not contracted')
+Ergomed CRO,No Bid,6 Disqualified,6,Disqualified,not in the win-rate denominator
+PrimeVigilance,Lead,1 Qualify,1,Open,
+PrimeVigilance,Qualified,1 Qualify,1,Open,
+PrimeVigilance,Proposal Sent,2 Propose,2,Open,
+PrimeVigilance,Negotiation,3 Negotiate,3,Open,
+PrimeVigilance,Signed,4 Won,4,Won,contract signed
+PrimeVigilance,Closed Lost,5 Lost,5,Lost,lost after a proposal; before a proposal -> 6 Disqualified (rule in prepare.py)
+ADAMAS,Enquiry,1 Qualify,1,Open,
+ADAMAS,Quoted,2 Propose,2,Open,quote sent
+ADAMAS,Confirmed,4 Won,4,Won,booking confirmed by the client
+ADAMAS,Declined,5 Lost,5,Lost,
+ADAMAS,Withdrawn,6 Disqualified,6,Disqualified,enquiry withdrawn before a quote

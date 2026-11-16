@@ -1,0 +1,16 @@
+kpi,sql,python,match
+New business won (net awards),255961857.0,255961857.0,yes
+Deals won and average deal size,455448.14412811387,,-
+Open pipeline,246556018.0,246556018.0,yes
+Weighted pipeline,75538142.0,75538142.0,yes
+Win rate (count),0.48406546080964685,0.48406546080964685,yes
+Win rate (value),0.3291975581445406,,-
+Proposal conversion (funnel),0.8104575163398693,,-
+Sales cycle (days),59.98220640569395,,-
+Book-to-bill,1.0856145536441368,1.0856145536441368,yes
+Order book,498477248.0,498477248.0,yes
+Cancellation rate,0.01802877996779028,,-
+Attainment vs target,0.9524927659302106,0.9524927659302106,yes
+Variance decomposition,,,-
+Cross-sell share,,0.6637513533901264,-
+Data freshness and quality,1.0,1.0,yes

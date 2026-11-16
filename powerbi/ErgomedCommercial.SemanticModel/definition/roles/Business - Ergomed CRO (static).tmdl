@@ -1,0 +1,7 @@
+/// Static test role.
+role 'Business - Ergomed CRO (static)'
+	modelPermission: read
+
+	tablePermission DimBusiness = [business] = "Ergomed CRO"
+
+	annotation PBI_Id = 79f433e823f053e7814a9bd3e6a9c176

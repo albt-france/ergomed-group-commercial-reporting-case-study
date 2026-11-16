@@ -1,0 +1,270 @@
+/// SIMULATED. One row per opportunity of the three businesses, harmonised by src/prepare.py: common stage, USD at the ECB monthly average, group client id, duplicates excluded, cross-sell counted once.
+table FactOpportunity
+	lineageTag: f3b0a1d7-6c51-5832-a2d3-25b33bc42c57
+
+	column opp_key
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5ba7aaac-392e-5ab4-a5d7-4e951fdad315
+		summarizeBy: none
+		sourceColumn: opp_key
+
+	column business
+		dataType: string
+		lineageTag: 93f53cf2-2d4a-53cc-9690-702ed16df981
+		summarizeBy: none
+		sourceColumn: business
+
+	column source_id
+		dataType: string
+		lineageTag: 33ccd5a3-87f6-5314-9159-dae89ba2f4ad
+		summarizeBy: none
+		sourceColumn: source_id
+
+	column group_client_id
+		dataType: string
+		lineageTag: d24a14c8-c377-5bdb-abef-a9c0e7c9bcd2
+		summarizeBy: none
+		sourceColumn: group_client_id
+
+	column client_name
+		dataType: string
+		lineageTag: 01925e93-6ea9-54e3-9bbd-109deb33ad3a
+		summarizeBy: none
+		sourceColumn: client_name
+
+	column region
+		dataType: string
+		lineageTag: 4928762c-4c4c-5e4c-ab2c-39493eb503a8
+		summarizeBy: none
+		sourceColumn: region
+
+	column country
+		dataType: string
+		lineageTag: 02341979-c234-5e39-9da7-4baf8a43c383
+		summarizeBy: none
+		sourceColumn: country
+
+	column therapeutic_area
+		dataType: string
+		lineageTag: 9d56c0fb-ff9e-5566-b83f-dc6a3c30914d
+		summarizeBy: none
+		sourceColumn: therapeutic_area
+
+	column detail
+		dataType: string
+		lineageTag: cec30248-f661-5a2d-b23a-34b73f8b60da
+		summarizeBy: none
+		sourceColumn: detail
+
+	column services
+		dataType: string
+		lineageTag: cb12859d-2d89-54d3-988f-2902400455b6
+		summarizeBy: none
+		sourceColumn: services
+
+	column source_stage
+		dataType: string
+		lineageTag: 76d05ab1-38bb-50a0-8a04-719066187c99
+		summarizeBy: none
+		sourceColumn: source_stage
+
+	column common_stage
+		dataType: string
+		lineageTag: 9e0e102b-e6de-50cc-bcb4-393d328a09f8
+		summarizeBy: none
+		sourceColumn: common_stage
+
+	column status
+		dataType: string
+		lineageTag: e6345657-3cd1-5f9a-92f2-e4b711954089
+		summarizeBy: none
+		sourceColumn: status
+
+	column currency
+		dataType: string
+		lineageTag: 7d29a457-c90c-56b8-8a71-249c182f37cc
+		summarizeBy: none
+		sourceColumn: currency
+
+	column value_local
+		dataType: double
+		formatString: #,0
+		lineageTag: 1971a583-c269-515b-a314-8bb4bfeeb73a
+		summarizeBy: none
+		sourceColumn: value_local
+
+	column fx_rate
+		dataType: double
+		formatString: 0.0000
+		lineageTag: 417986ae-8c5c-5afc-a2ce-ec6f526cbd98
+		summarizeBy: none
+		sourceColumn: fx_rate
+
+	column fx_provisional
+		dataType: boolean
+		lineageTag: 0b3452b1-a384-5c4d-a468-51874daf810d
+		summarizeBy: none
+		sourceColumn: fx_provisional
+
+	column value_usd
+		dataType: double
+		formatString: \$#,0
+		lineageTag: 247a0988-94a3-5ac5-898f-7fb767f7351a
+		summarizeBy: none
+		sourceColumn: value_usd
+
+	column cross_sell_adj_usd
+		dataType: double
+		formatString: \$#,0
+		lineageTag: 02630ed5-7cc4-55de-a325-f41fb8dd50bf
+		summarizeBy: none
+		sourceColumn: cross_sell_adj_usd
+
+	column value_usd_governed
+		dataType: double
+		formatString: \$#,0
+		lineageTag: cc488781-7393-508c-aec9-137d6f44dd36
+		summarizeBy: none
+		sourceColumn: value_usd_governed
+
+	column acv_usd
+		dataType: double
+		formatString: \$#,0
+		lineageTag: 23ca2c77-bfe0-5760-8151-0cf21b8fc692
+		summarizeBy: none
+		sourceColumn: acv_usd
+
+	column probability
+		dataType: double
+		formatString: 0%
+		lineageTag: 32d9efb1-939d-5373-ab01-796e23293134
+		summarizeBy: none
+		sourceColumn: probability
+
+	column weighted_value_usd
+		dataType: double
+		formatString: \$#,0
+		lineageTag: a1385ef7-dc6d-5aba-812d-fdaab63916e0
+		summarizeBy: none
+		sourceColumn: weighted_value_usd
+
+	column created_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b04ff528-4e94-505a-a098-3c00f394b949
+		summarizeBy: none
+		sourceColumn: created_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column proposal_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: db732035-f377-5f5d-ad1f-593c3ca6d774
+		summarizeBy: none
+		sourceColumn: proposal_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column award_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 39e22e9a-ad91-58c2-ac60-c88e891a5f4f
+		summarizeBy: none
+		sourceColumn: award_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column won_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b7f2d2f8-0e09-59a4-861e-e63ed738ac75
+		summarizeBy: none
+		sourceColumn: won_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column lost_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 2c2fa6a4-2fd6-55ce-ad8f-2424fbd974e3
+		summarizeBy: none
+		sourceColumn: lost_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column decision_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b0a49a46-c18f-559f-97d2-63f39d764a73
+		summarizeBy: none
+		sourceColumn: decision_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cancel_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 482d85d1-907f-5724-9c2a-ad9c23fb2da5
+		summarizeBy: none
+		sourceColumn: cancel_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column reached_proposal
+		dataType: boolean
+		lineageTag: f87b6525-b566-5617-bd8a-512fedd15c5c
+		summarizeBy: none
+		sourceColumn: reached_proposal
+
+	column in_win_rate
+		dataType: boolean
+		lineageTag: e3424137-1276-585d-b5ea-8d4050e8ef60
+		summarizeBy: none
+		sourceColumn: in_win_rate
+
+	column cycle_days
+		dataType: double
+		formatString: 0
+		lineageTag: 79a7f9bd-1739-5256-b922-75adf47e18a3
+		summarizeBy: none
+		sourceColumn: cycle_days
+
+	column is_cross_sell
+		dataType: boolean
+		lineageTag: 24c80cf4-03f6-5f60-a5bf-9528a0ce099e
+		summarizeBy: none
+		sourceColumn: is_cross_sell
+
+	column verbal_award_open
+		dataType: boolean
+		lineageTag: d45b792e-4f4f-5f0f-a9ed-8aeeee08d05a
+		summarizeBy: none
+		sourceColumn: verbal_award_open
+
+	column loss_reason
+		dataType: string
+		lineageTag: 06f08a08-c01b-51b7-bcab-584e5b89085e
+		summarizeBy: none
+		sourceColumn: loss_reason
+
+	column data_owner
+		dataType: string
+		lineageTag: fba68872-b461-5c7f-85c1-7535481b5ac5
+		summarizeBy: none
+		sourceColumn: data_owner
+
+	partition FactOpportunity = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "fact_opportunity.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"opp_key", "business", "source_id", "group_client_id", "client_name", "region", "country", "therapeutic_area", "detail", "services", "source_stage", "common_stage", "status", "currency", "value_local", "fx_rate", "fx_provisional", "value_usd", "cross_sell_adj_usd", "value_usd_governed", "acv_usd", "probability", "weighted_value_usd", "created_date", "proposal_date", "award_date", "won_date", "lost_date", "decision_date", "cancel_date", "reached_proposal", "in_win_rate", "cycle_days", "is_cross_sell", "verbal_award_open", "loss_reason", "data_owner"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"opp_key", Int64.Type}, {"business", type text}, {"source_id", type text}, {"group_client_id", type text}, {"client_name", type text}, {"region", type text}, {"country", type text}, {"therapeutic_area", type text}, {"detail", type text}, {"services", type text}, {"source_stage", type text}, {"common_stage", type text}, {"status", type text}, {"currency", type text}, {"value_local", type number}, {"fx_rate", type number}, {"fx_provisional", type logical}, {"value_usd", type number}, {"cross_sell_adj_usd", type number}, {"value_usd_governed", type number}, {"acv_usd", type number}, {"probability", type number}, {"weighted_value_usd", type number}, {"created_date", type date}, {"proposal_date", type date}, {"award_date", type date}, {"won_date", type date}, {"lost_date", type date}, {"decision_date", type date}, {"cancel_date", type date}, {"reached_proposal", type logical}, {"in_win_rate", type logical}, {"cycle_days", type number}, {"is_cross_sell", type logical}, {"verbal_award_open", type logical}, {"loss_reason", type text}, {"data_owner", type text}}, "en-US")
+				in
+					Typed

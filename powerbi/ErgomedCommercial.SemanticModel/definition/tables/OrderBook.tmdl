@@ -1,0 +1,59 @@
+/// SIMULATED. Monthly order-book roll-forward: opening + won - revenue - cancellations.
+table OrderBook
+	lineageTag: 72b1a88f-18f0-5423-a4b7-8687885ae9f6
+
+	column business
+		dataType: string
+		lineageTag: 1e61c3dc-c45b-538b-9f7f-c98d2b50fb9b
+		summarizeBy: none
+		sourceColumn: business
+
+	column month
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: e03b8098-3886-5dec-ae4b-8693a1e1b3d4
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column won
+		dataType: double
+		formatString: \$#,0
+		lineageTag: e6034718-417a-5cd4-98d7-76df2eb5f17b
+		summarizeBy: none
+		sourceColumn: won
+
+	column revenue
+		dataType: double
+		formatString: \$#,0
+		lineageTag: 2e37a80b-d7e5-586c-a718-095f5d820a59
+		summarizeBy: none
+		sourceColumn: revenue
+
+	column cancelled
+		dataType: double
+		formatString: \$#,0
+		lineageTag: 49193748-7587-56d4-bd3c-24b396433c4e
+		summarizeBy: none
+		sourceColumn: cancelled
+
+	column closing_order_book
+		dataType: double
+		formatString: \$#,0
+		lineageTag: c22360c5-099a-522d-9a61-5edb805fc97f
+		summarizeBy: none
+		sourceColumn: closing_order_book
+
+	partition OrderBook = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "an_order_book.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"business", "month", "won", "revenue", "cancelled", "closing_order_book"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"business", type text}, {"month", type date}, {"won", type number}, {"revenue", type number}, {"cancelled", type number}, {"closing_order_book", type number}}, "en-US")
+				in
+					Typed

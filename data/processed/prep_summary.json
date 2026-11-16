@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-11-11 16:00:00",
+  "rows": 4116,
+  "won_ytd_usd": 255961857.0,
+  "naive_ytd": 265176100.0,
+  "cross_sell_pairs": 7,
+  "duplicates": 1,
+  "naive_win_rate": 0.394,
+  "governed_win_rate": 0.492,
+  "dq_open": 8,
+  "dq_checks": 14
+}

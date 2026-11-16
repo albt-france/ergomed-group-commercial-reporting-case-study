@@ -1,0 +1,7 @@
+common_stage,stage_order
+1 Qualify,1
+2 Propose,2
+3 Negotiate,3
+4 Won,4
+5 Lost,5
+6 Disqualified,6

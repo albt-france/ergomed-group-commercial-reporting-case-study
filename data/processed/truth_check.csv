@@ -1,0 +1,9 @@
+issue,name,evidence,found
+1,Cross-sell deal counted twice,7/7 pairs matched,True
+2,Stage names do not match,naive win rate 39% vs governed 49%; 9% of CRO verbal awards never contracted,True
+3,Currencies summed as if equal,FX effect +21.5m USD on Jan-Oct 2026,True
+4,Large win entered twice,CRO-11172 excluded: True,True
+5,Late data owner,DQ05 PV BD North America: 4 deals flagged (truth 4),True
+6,Flat target on a seasonal business,last month of quarter holds 39% on average (flat 33%); mid-quarter attainment 89% flat vs 103% re-phased,True
+7,Europe behind target: oncology conversion,"Europe 83%; conversion effect -26.9m, oncology win rate 30% -> 11%",True
+8,False signal: quarter-end spike,last week holds 17%-26% of every quarter (uniform 8%); Q3 2026 22%: within the usual range,True

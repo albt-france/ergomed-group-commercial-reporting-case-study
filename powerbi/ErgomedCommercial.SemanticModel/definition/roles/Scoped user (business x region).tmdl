@@ -1,0 +1,11 @@
+/// Dynamic RLS: a signed-in user sees only the businesses and regions mapped to the account in SecUserScope.
+role 'Scoped user (business x region)'
+	modelPermission: read
+
+	tablePermission DimBusiness = [business] IN CALCULATETABLE ( VALUES ( SecUserScope[business] ), SecUserScope[user_principal_name] = USERPRINCIPALNAME () )
+
+	tablePermission DimRegion = [region] IN CALCULATETABLE ( VALUES ( SecUserScope[region] ), SecUserScope[user_principal_name] = USERPRINCIPALNAME () )
+
+	tablePermission SecUserScope = [user_principal_name] = USERPRINCIPALNAME ()
+
+	annotation PBI_Id = f9fdeaa7f93c50e19212ef2c33f71622

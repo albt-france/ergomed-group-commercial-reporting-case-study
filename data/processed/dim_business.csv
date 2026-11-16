@@ -1,0 +1,4 @@
+business,business_sort,source_currency,value_basis,won_definition
+Ergomed CRO,1,EUR,"Contract value (EUR), signed contract",Contracted (not 'Awarded')
+PrimeVigilance,2,USD,Total contract value = annual value x years (USD),Signed
+ADAMAS,3,GBP,Confirmed audit quote (GBP),Confirmed

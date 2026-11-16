@@ -1,0 +1,8 @@
+source,check,source_value,model_value,difference,status,note
+cro_crm.xlsx,Rows,1169.0,1168.0,-1.0,Explained,1 duplicate excluded
+cro_crm.xlsx,"Amount, EUR (all records)",1305673000.0,1302356000.0,-3317000.0,Explained,duplicate excluded
+pv_pipeline.csv (+ NA late file),Rows,1315.0,1315.0,0.0,OK,late NA file replaces the NA rows
+pv_pipeline.csv (+ NA late file),"TCV, USD",1287835000.0,1287835000.0,0.0,OK,
+adamas_tracker.xlsx,Audit rows (excl. banners),1633.0,1633.0,0.0,OK,month banner rows dropped
+All,Won value USD: before vs after cross-sell rule,755063670.0,744818670.0,-10245000.0,Explained,7 cross-sell pairs: PV scope counted once
+revenue_actuals.csv,Revenue USD,543439300.0,543439300.0,0.0,OK,finance file loaded as is

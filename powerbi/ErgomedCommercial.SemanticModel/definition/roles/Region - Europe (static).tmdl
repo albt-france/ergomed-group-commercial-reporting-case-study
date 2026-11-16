@@ -1,0 +1,7 @@
+/// Static test role.
+role 'Region - Europe (static)'
+	modelPermission: read
+
+	tablePermission DimRegion = [region] = "Europe"
+
+	annotation PBI_Id = 13f3d4a32bd657e7bfec30ea4529caa5

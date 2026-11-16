@@ -1,0 +1,261 @@
+group_client_id,client_name,hq_region,size_segment,businesses_won,multi_business_client
+G0001,Sponsor 001,North America,Small biotech,1,False
+G0002,Sponsor 002,North America,Mid-size biopharma,1,False
+G0003,Sponsor 003,North America,Small biotech,0,False
+G0004,Sponsor 004,North America,Small biotech,0,False
+G0005,Sponsor 005,Europe,Large pharma,2,True
+G0006,Sponsor 006,Rest of World,Small biotech,2,True
+G0007,Sponsor 007,North America,Small biotech,1,False
+G0008,Sponsor 008,North America,Small biotech,1,False
+G0009,Sponsor 009,Europe,Small biotech,0,False
+G0010,Sponsor 010,North America,Small biotech,1,False
+G0011,Sponsor 011,North America,Small biotech,1,False
+G0012,Sponsor 012,Asia-Pacific,Small biotech,2,True
+G0013,Sponsor 013,North America,Small biotech,2,True
+G0014,Sponsor 014,North America,Mid-size biopharma,2,True
+G0015,Sponsor 015,North America,Mid-size biopharma,3,True
+G0016,Sponsor 016,Europe,Small biotech,2,True
+G0017,Sponsor 017,North America,Small biotech,1,False
+G0018,Sponsor 018,Europe,Small biotech,1,False
+G0019,Sponsor 019,North America,Mid-size biopharma,1,False
+G0020,Sponsor 020,North America,Mid-size biopharma,0,False
+G0021,Sponsor 021,North America,Small biotech,0,False
+G0022,Sponsor 022,North America,Small biotech,1,False
+G0024,Sponsor 024,Asia-Pacific,Small biotech,0,False
+G0025,Sponsor 025,North America,Mid-size biopharma,3,True
+G0026,Sponsor 026,Europe,Small biotech,2,True
+G0027,Sponsor 027,North America,Small biotech,1,False
+G0028,Sponsor 028,Europe,Small biotech,2,True
+G0029,Sponsor 029,Europe,Small biotech,1,False
+G0030,Sponsor 030,North America,Small biotech,1,False
+G0031,Sponsor 031,North America,Mid-size biopharma,2,True
+G0032,Sponsor 032,Rest of World,Small biotech,1,False
+G0033,Sponsor 033,Europe,Large pharma,1,False
+G0034,Sponsor 034,North America,Small biotech,1,False
+G0035,Sponsor 035,North America,Mid-size biopharma,2,True
+G0036,Sponsor 036,Europe,Large pharma,2,True
+G0037,Sponsor 037,Europe,Large pharma,1,False
+G0038,Sponsor 038,North America,Mid-size biopharma,2,True
+G0039,Sponsor 039,Europe,Mid-size biopharma,0,False
+G0040,Sponsor 040,North America,Mid-size biopharma,3,True
+G0041,Sponsor 041,North America,Mid-size biopharma,3,True
+G0042,Sponsor 042,North America,Small biotech,2,True
+G0043,Sponsor 043,North America,Small biotech,0,False
+G0044,Sponsor 044,Europe,Small biotech,0,False
+G0045,Sponsor 045,North America,Mid-size biopharma,0,False
+G0046,Sponsor 046,North America,Small biotech,1,False
+G0047,Sponsor 047,North America,Small biotech,1,False
+G0048,Sponsor 048,Europe,Mid-size biopharma,2,True
+G0049,Sponsor 049,North America,Small biotech,0,False
+G0050,Sponsor 050,Europe,Small biotech,1,False
+G0051,Sponsor 051,Europe,Small biotech,2,True
+G0052,Sponsor 052,Europe,Small biotech,1,False
+G0053,Sponsor 053,North America,Small biotech,3,True
+G0054,Sponsor 054,North America,Small biotech,1,False
+G0055,Sponsor 055,North America,Small biotech,0,False
+G0056,Sponsor 056,North America,Small biotech,1,False
+G0057,Sponsor 057,North America,Small biotech,1,False
+G0058,Sponsor 058,North America,Mid-size biopharma,0,False
+G0059,Sponsor 059,Europe,Small biotech,1,False
+G0060,Sponsor 060,Europe,Large pharma,3,True
+G0061,Sponsor 061,North America,Large pharma,3,True
+G0062,Sponsor 062,North America,Small biotech,1,False
+G0063,Sponsor 063,North America,Small biotech,1,False
+G0064,Sponsor 064,North America,Small biotech,1,False
+G0065,Sponsor 065,North America,Mid-size biopharma,2,True
+G0066,Sponsor 066,North America,Mid-size biopharma,0,False
+G0067,Sponsor 067,North America,Mid-size biopharma,2,True
+G0068,Sponsor 068,Europe,Small biotech,0,False
+G0069,Sponsor 069,Europe,Mid-size biopharma,2,True
+G0070,Sponsor 070,North America,Small biotech,2,True
+G0071,Sponsor 071,Europe,Mid-size biopharma,2,True
+G0072,Sponsor 072,North America,Small biotech,2,True
+G0073,Sponsor 073,North America,Mid-size biopharma,1,False
+G0074,Sponsor 074,Europe,Mid-size biopharma,0,False
+G0075,Sponsor 075,Europe,Small biotech,1,False
+G0076,Sponsor 076,Europe,Mid-size biopharma,3,True
+G0077,Sponsor 077,Europe,Small biotech,1,False
+G0078,Sponsor 078,North America,Mid-size biopharma,0,False
+G0079,Sponsor 079,North America,Small biotech,2,True
+G0080,Sponsor 080,North America,Large pharma,1,False
+G0081,Sponsor 081,North America,Small biotech,1,False
+G0082,Sponsor 082,North America,Large pharma,1,False
+G0083,Sponsor 083,North America,Mid-size biopharma,0,False
+G0084,Sponsor 084,Europe,Mid-size biopharma,2,True
+G0085,Sponsor 085,Europe,Mid-size biopharma,1,False
+G0086,Sponsor 086,Europe,Mid-size biopharma,0,False
+G0087,Sponsor 087,North America,Large pharma,0,False
+G0088,Sponsor 088,North America,Small biotech,1,False
+G0089,Sponsor 089,Europe,Mid-size biopharma,1,False
+G0090,Sponsor 090,North America,Small biotech,1,False
+G0091,Sponsor 091,Europe,Mid-size biopharma,0,False
+G0092,Sponsor 092,North America,Small biotech,1,False
+G0093,Sponsor 093,North America,Mid-size biopharma,1,False
+G0094,Sponsor 094,North America,Mid-size biopharma,1,False
+G0095,Sponsor 095,Europe,Small biotech,0,False
+G0096,Sponsor 096,North America,Small biotech,1,False
+G0098,Sponsor 098,Europe,Mid-size biopharma,2,True
+G0099,Sponsor 099,Europe,Small biotech,3,True
+G0100,Sponsor 100,Rest of World,Mid-size biopharma,2,True
+G0101,Sponsor 101,Asia-Pacific,Large pharma,2,True
+G0102,Sponsor 102,North America,Small biotech,0,False
+G0103,Sponsor 103,Europe,Small biotech,0,False
+G0104,Sponsor 104,Rest of World,Small biotech,2,True
+G0105,Sponsor 105,North America,Mid-size biopharma,1,False
+G0106,Sponsor 106,North America,Small biotech,3,True
+G0107,Sponsor 107,North America,Mid-size biopharma,0,False
+G0108,Sponsor 108,Europe,Mid-size biopharma,2,True
+G0109,Sponsor 109,Europe,Small biotech,1,False
+G0110,Sponsor 110,Asia-Pacific,Mid-size biopharma,0,False
+G0111,Sponsor 111,North America,Mid-size biopharma,2,True
+G0112,Sponsor 112,Europe,Small biotech,0,False
+G0113,Sponsor 113,Europe,Small biotech,2,True
+G0115,Sponsor 115,Europe,Small biotech,1,False
+G0116,Sponsor 116,North America,Small biotech,1,False
+G0117,Sponsor 117,North America,Large pharma,2,True
+G0118,Sponsor 118,North America,Small biotech,2,True
+G0119,Sponsor 119,North America,Small biotech,0,False
+G0120,Sponsor 120,North America,Mid-size biopharma,1,False
+G0121,Sponsor 121,North America,Mid-size biopharma,2,True
+G0122,Sponsor 122,North America,Large pharma,1,False
+G0123,Sponsor 123,Europe,Mid-size biopharma,2,True
+G0124,Sponsor 124,North America,Small biotech,2,True
+G0125,Sponsor 125,Europe,Small biotech,1,False
+G0126,Sponsor 126,North America,Large pharma,0,False
+G0127,Sponsor 127,Europe,Mid-size biopharma,1,False
+G0128,Sponsor 128,Europe,Large pharma,1,False
+G0129,Sponsor 129,Europe,Small biotech,0,False
+G0130,Sponsor 130,North America,Mid-size biopharma,3,True
+G0131,Sponsor 131,Europe,Mid-size biopharma,1,False
+G0132,Sponsor 132,Asia-Pacific,Small biotech,0,False
+G0133,Sponsor 133,North America,Mid-size biopharma,1,False
+G0134,Sponsor 134,North America,Mid-size biopharma,1,False
+G0135,Sponsor 135,North America,Small biotech,0,False
+G0136,Sponsor 136,Europe,Small biotech,1,False
+G0137,Sponsor 137,Rest of World,Mid-size biopharma,1,False
+G0138,Sponsor 138,North America,Small biotech,2,True
+G0140,Sponsor 140,Europe,Small biotech,2,True
+G0141,Sponsor 141,North America,Small biotech,1,False
+G0142,Sponsor 142,North America,Large pharma,1,False
+G0143,Sponsor 143,Asia-Pacific,Mid-size biopharma,3,True
+G0144,Sponsor 144,North America,Small biotech,3,True
+G0145,Sponsor 145,North America,Large pharma,3,True
+G0146,Sponsor 146,Europe,Mid-size biopharma,1,False
+G0147,Sponsor 147,North America,Small biotech,1,False
+G0148,Sponsor 148,North America,Mid-size biopharma,0,False
+G0149,Sponsor 149,North America,Small biotech,3,True
+G0150,Sponsor 150,Europe,Large pharma,1,False
+G0151,Sponsor 151,North America,Mid-size biopharma,2,True
+G0152,Sponsor 152,Asia-Pacific,Mid-size biopharma,1,False
+G0153,Sponsor 153,Europe,Small biotech,1,False
+G0154,Sponsor 154,North America,Mid-size biopharma,0,False
+G0155,Sponsor 155,Europe,Small biotech,0,False
+G0156,Sponsor 156,North America,Small biotech,3,True
+G0157,Sponsor 157,Europe,Small biotech,1,False
+G0158,Sponsor 158,North America,Mid-size biopharma,2,True
+G0159,Sponsor 159,North America,Small biotech,1,False
+G0160,Sponsor 160,North America,Large pharma,2,True
+G0161,Sponsor 161,Europe,Mid-size biopharma,1,False
+G0162,Sponsor 162,Asia-Pacific,Small biotech,1,False
+G0163,Sponsor 163,Europe,Small biotech,2,True
+G0164,Sponsor 164,Europe,Small biotech,1,False
+G0165,Sponsor 165,North America,Mid-size biopharma,2,True
+G0166,Sponsor 166,North America,Mid-size biopharma,3,True
+G0167,Sponsor 167,North America,Small biotech,1,False
+G0168,Sponsor 168,North America,Mid-size biopharma,0,False
+G0169,Sponsor 169,Europe,Small biotech,1,False
+G0170,Sponsor 170,Rest of World,Mid-size biopharma,1,False
+G0171,Sponsor 171,Europe,Large pharma,2,True
+G0172,Sponsor 172,North America,Mid-size biopharma,1,False
+G0173,Sponsor 173,Europe,Mid-size biopharma,2,True
+G0174,Sponsor 174,Asia-Pacific,Mid-size biopharma,2,True
+G0175,Sponsor 175,Europe,Small biotech,1,False
+G0176,Sponsor 176,Europe,Small biotech,0,False
+G0177,Sponsor 177,North America,Small biotech,1,False
+G0178,Sponsor 178,Rest of World,Small biotech,0,False
+G0179,Sponsor 179,Asia-Pacific,Mid-size biopharma,1,False
+G0180,Sponsor 180,North America,Mid-size biopharma,3,True
+G0181,Sponsor 181,Asia-Pacific,Mid-size biopharma,2,True
+G0182,Sponsor 182,Asia-Pacific,Small biotech,3,True
+G0183,Sponsor 183,North America,Mid-size biopharma,2,True
+G0184,Sponsor 184,Europe,Small biotech,1,False
+G0185,Sponsor 185,North America,Small biotech,1,False
+G0186,Sponsor 186,North America,Mid-size biopharma,1,False
+G0187,Sponsor 187,North America,Large pharma,0,False
+G0188,Sponsor 188,Europe,Mid-size biopharma,1,False
+G0189,Sponsor 189,North America,Small biotech,2,True
+G0190,Sponsor 190,Europe,Mid-size biopharma,3,True
+G0191,Sponsor 191,Asia-Pacific,Small biotech,2,True
+G0192,Sponsor 192,Europe,Mid-size biopharma,1,False
+G0193,Sponsor 193,Europe,Mid-size biopharma,2,True
+G0194,Sponsor 194,North America,Small biotech,0,False
+G0195,Sponsor 195,Europe,Small biotech,2,True
+G0196,Sponsor 196,Europe,Small biotech,2,True
+G0197,Sponsor 197,North America,Large pharma,2,True
+G0198,Sponsor 198,Asia-Pacific,Small biotech,0,False
+G0199,Sponsor 199,Europe,Mid-size biopharma,2,True
+G0200,Sponsor 200,Europe,Mid-size biopharma,2,True
+G0201,Sponsor 201,North America,Mid-size biopharma,0,False
+G0202,Sponsor 202,Rest of World,Small biotech,1,False
+G0203,Sponsor 203,North America,Large pharma,2,True
+G0204,Sponsor 204,Europe,Small biotech,1,False
+G0205,Sponsor 205,Europe,Mid-size biopharma,3,True
+G0206,Sponsor 206,Europe,Mid-size biopharma,2,True
+G0207,Sponsor 207,Europe,Mid-size biopharma,1,False
+G0208,Sponsor 208,North America,Large pharma,3,True
+G0209,Sponsor 209,Europe,Small biotech,1,False
+G0210,Sponsor 210,North America,Small biotech,0,False
+G0211,Sponsor 211,North America,Small biotech,2,True
+G0212,Sponsor 212,North America,Small biotech,2,True
+G0213,Sponsor 213,Europe,Small biotech,1,False
+G0214,Sponsor 214,North America,Small biotech,0,False
+G0215,Sponsor 215,North America,Small biotech,2,True
+G0216,Sponsor 216,North America,Small biotech,1,False
+G0217,Sponsor 217,Europe,Small biotech,0,False
+G0218,Sponsor 218,Europe,Mid-size biopharma,2,True
+G0219,Sponsor 219,Asia-Pacific,Mid-size biopharma,1,False
+G0220,Sponsor 220,North America,Small biotech,2,True
+G0221,Sponsor 221,Europe,Small biotech,3,True
+G0222,Sponsor 222,North America,Small biotech,1,False
+G0223,Sponsor 223,North America,Mid-size biopharma,2,True
+G0224,Sponsor 224,Rest of World,Small biotech,2,True
+G0225,Sponsor 225,Europe,Small biotech,0,False
+G0226,Sponsor 226,Asia-Pacific,Small biotech,2,True
+G0227,Sponsor 227,Europe,Small biotech,1,False
+G0228,Sponsor 228,North America,Small biotech,1,False
+G0229,Sponsor 229,North America,Mid-size biopharma,0,False
+G0230,Sponsor 230,Europe,Mid-size biopharma,1,False
+G0231,Sponsor 231,Europe,Mid-size biopharma,1,False
+G0232,Sponsor 232,North America,Mid-size biopharma,2,True
+G0233,Sponsor 233,Rest of World,Mid-size biopharma,2,True
+G0234,Sponsor 234,North America,Small biotech,1,False
+G0235,Sponsor 235,Asia-Pacific,Mid-size biopharma,1,False
+G0236,Sponsor 236,North America,Small biotech,1,False
+G0237,Sponsor 237,North America,Small biotech,1,False
+G0238,Sponsor 238,North America,Mid-size biopharma,1,False
+G0239,Sponsor 239,Europe,Small biotech,1,False
+G0240,Sponsor 240,Europe,Small biotech,2,True
+G0241,Sponsor 241,North America,Mid-size biopharma,1,False
+G0242,Sponsor 242,North America,Mid-size biopharma,1,False
+G0243,Sponsor 243,Europe,Large pharma,1,False
+G0244,Sponsor 244,North America,Small biotech,1,False
+G0245,Sponsor 245,North America,Small biotech,0,False
+G0246,Sponsor 246,North America,Mid-size biopharma,2,True
+G0247,Sponsor 247,North America,Small biotech,1,False
+G0248,Sponsor 248,North America,Mid-size biopharma,3,True
+G0249,Sponsor 249,North America,Small biotech,1,False
+G0250,Sponsor 250,North America,Small biotech,0,False
+G0251,Sponsor 251,North America,Small biotech,2,True
+G0252,Sponsor 252,North America,Mid-size biopharma,0,False
+G0253,Sponsor 253,North America,Small biotech,1,False
+G0254,Sponsor 254,Europe,Small biotech,1,False
+G0255,Sponsor 255,Europe,Small biotech,2,True
+G0256,Sponsor 256,North America,Small biotech,1,False
+G0257,Sponsor 257,North America,Small biotech,1,False
+G0258,Sponsor 258,Europe,Mid-size biopharma,3,True
+G0259,Sponsor 259,Europe,Small biotech,1,False
+G0260,Sponsor 260,North America,Mid-size biopharma,1,False
+UNMAPPED:Sponsor 114,Sponsor 114,Unknown,Unknown,2,True
+UNMAPPED:Sponsor 139,Sponsor 139,Unknown,Unknown,2,True
+UNMAPPED:Sponsor 097,Sponsor 097,Unknown,Unknown,1,False
+UNMAPPED:Sponsor 023,Sponsor 023,Unknown,Unknown,1,False

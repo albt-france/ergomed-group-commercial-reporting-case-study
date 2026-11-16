@@ -1,0 +1,20 @@
+table VarianceStep
+	lineageTag: e017d123-a41a-5362-a4d0-0dd33f98ecaa
+
+	column step
+		dataType: string
+		lineageTag: 8ab29737-9d92-5a6e-b34d-d96577beb10e
+		summarizeBy: none
+		sourceColumn: step
+		sortByColumn: step_sort
+
+	column step_sort
+		dataType: int64
+		isHidden
+		lineageTag: 8b60950e-3f4a-56fb-a0c8-a799ea3886a1
+		summarizeBy: none
+		sourceColumn: step_sort
+
+	partition VarianceStep = m
+		mode: import
+		source = #table(type table [step = text, step_sort = Int64.Type], {{"Last year", 1}, {"Volume (decisions)", 2}, {"Conversion (win rate)", 3}, {"Deal size", 4}})

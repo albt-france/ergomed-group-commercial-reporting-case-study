@@ -1,0 +1,53 @@
+/// Governed mapping of each source stage to the common funnel.
+table StageMap
+	lineageTag: 1d60f0ec-8351-566d-a755-961344aa776c
+
+	column business
+		dataType: string
+		lineageTag: 78acb942-09c9-5ccc-948e-35acf504949f
+		summarizeBy: none
+		sourceColumn: business
+
+	column source_stage
+		dataType: string
+		lineageTag: 8031b715-d5d4-5af4-b254-9eb152c6fb96
+		summarizeBy: none
+		sourceColumn: source_stage
+
+	column common_stage
+		dataType: string
+		lineageTag: cb77932b-5adf-564f-8a43-d9a9670ea0aa
+		summarizeBy: none
+		sourceColumn: common_stage
+
+	column stage_order
+		dataType: int64
+		formatString: 0
+		lineageTag: b522b981-b3d3-5bb8-b5ec-72de2cfc7d16
+		summarizeBy: none
+		sourceColumn: stage_order
+
+	column status
+		dataType: string
+		lineageTag: 6c996d24-a463-5b8b-a319-71dd5f2de6a7
+		summarizeBy: none
+		sourceColumn: status
+
+	column note
+		dataType: string
+		lineageTag: 3155fcdd-9204-5e6e-aa9e-ad9128a4d567
+		summarizeBy: none
+		sourceColumn: note
+
+	partition StageMap = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "stage_map.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"business", "source_stage", "common_stage", "stage_order", "status", "note"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"business", type text}, {"source_stage", type text}, {"common_stage", type text}, {"stage_order", Int64.Type}, {"status", type text}, {"note", type text}}, "en-US")
+				in
+					Typed

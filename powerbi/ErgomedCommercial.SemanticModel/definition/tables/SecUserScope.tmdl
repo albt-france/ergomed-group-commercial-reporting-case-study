@@ -1,0 +1,35 @@
+/// SIMULATED RLS mapping (fictional @example.com accounts): user -> business x region.
+table SecUserScope
+	lineageTag: 24203ae3-b599-5b2c-8e05-d2d89d0dae3c
+	isHidden
+
+	column user_principal_name
+		dataType: string
+		lineageTag: 6d6c9e02-a9ee-5631-ac37-fb2ce118b35f
+		summarizeBy: none
+		sourceColumn: user_principal_name
+
+	column business
+		dataType: string
+		lineageTag: 98d5d940-dfdc-57c8-84f9-db92a73d39ab
+		summarizeBy: none
+		sourceColumn: business
+
+	column region
+		dataType: string
+		lineageTag: 0f1dcf24-7d58-5d71-90a9-5c52c6db51f2
+		summarizeBy: none
+		sourceColumn: region
+
+	partition SecUserScope = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "sec_user_scope.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"user_principal_name", "business", "region"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"user_principal_name", type text}, {"business", type text}, {"region", type text}}, "en-US")
+				in
+					Typed

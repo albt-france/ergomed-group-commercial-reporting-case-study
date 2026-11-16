@@ -1,0 +1,223 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "tbl_health",
+  "position": {
+    "x": 32,
+    "y": 298,
+    "z": 7000,
+    "height": 210,
+    "width": 1856,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "data_owner"
+                }
+              },
+              "queryRef": "DataHealth.data_owner",
+              "nativeQueryRef": "data_owner"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "source_file"
+                }
+              },
+              "queryRef": "DataHealth.source_file",
+              "nativeQueryRef": "source_file"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "deadline"
+                }
+              },
+              "queryRef": "DataHealth.deadline",
+              "nativeQueryRef": "deadline"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "received"
+                }
+              },
+              "queryRef": "DataHealth.received",
+              "nativeQueryRef": "received"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "status"
+                }
+              },
+              "queryRef": "DataHealth.status",
+              "nativeQueryRef": "status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "completeness"
+                }
+              },
+              "queryRef": "DataHealth.completeness",
+              "nativeQueryRef": "completeness"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "rows_in_model"
+                }
+              },
+              "queryRef": "DataHealth.rows_in_model",
+              "nativeQueryRef": "rows_in_model"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DataHealth"
+                    }
+                  },
+                  "Property": "impact"
+                }
+              },
+              "queryRef": "DataHealth.impact",
+              "nativeQueryRef": "impact"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11.0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11.0D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#52514E'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Weekly submissions, week ending 8 Nov 2026'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

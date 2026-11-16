@@ -1,0 +1,64 @@
+table DQIssues
+	lineageTag: af73df94-59b6-555b-8281-6fa705ad85b4
+
+	column check_id
+		dataType: string
+		lineageTag: 6f35362e-7511-57dc-949c-bee95dbbf36d
+		summarizeBy: none
+		sourceColumn: check_id
+
+	column check
+		dataType: string
+		lineageTag: 778aa6ea-6a8e-580c-81a1-62c2f5847e27
+		summarizeBy: none
+		sourceColumn: check
+
+	column source
+		dataType: string
+		lineageTag: 6c0184f2-7462-55d4-a788-1862244d90c9
+		summarizeBy: none
+		sourceColumn: source
+
+	column data_owner
+		dataType: string
+		lineageTag: bb195b7f-5900-5091-a5cd-25ea81292532
+		summarizeBy: none
+		sourceColumn: data_owner
+
+	column rows_flagged
+		dataType: int64
+		formatString: #,0
+		lineageTag: 883b0c49-c34f-5b6f-8f71-b35e7a8f7471
+		summarizeBy: none
+		sourceColumn: rows_flagged
+
+	column severity
+		dataType: string
+		lineageTag: 3c4f1fef-db8d-52b2-ba6a-dd93b1a0fd3d
+		summarizeBy: none
+		sourceColumn: severity
+
+	column status
+		dataType: string
+		lineageTag: 02921efe-4aed-5291-afcc-3b7a1d4bd83b
+		summarizeBy: none
+		sourceColumn: status
+
+	column action
+		dataType: string
+		lineageTag: fba8d544-4077-5e21-b5e4-324fd36f26cb
+		summarizeBy: none
+		sourceColumn: action
+
+	partition DQIssues = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "dq_issues.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"check_id", "check", "source", "data_owner", "rows_flagged", "severity", "status", "action"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"check_id", type text}, {"check", type text}, {"source", type text}, {"data_owner", type text}, {"rows_flagged", Int64.Type}, {"severity", type text}, {"status", type text}, {"action", type text}}, "en-US")
+				in
+					Typed

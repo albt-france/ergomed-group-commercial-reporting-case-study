@@ -1,0 +1,48 @@
+table DimBusiness
+	lineageTag: 0c42ab91-b9c7-532e-8fcd-553c9a264a24
+
+	column business
+		dataType: string
+		lineageTag: 30751f7e-516c-596e-909b-d1ff961b9eef
+		summarizeBy: none
+		sourceColumn: business
+		sortByColumn: business_sort
+
+	column business_sort
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d7cd6f8e-5159-5bd2-bd2a-4fcdab24bff1
+		summarizeBy: none
+		sourceColumn: business_sort
+
+	column source_currency
+		dataType: string
+		lineageTag: 1a1c0c7c-1622-5138-8f3f-49bd7df8434e
+		summarizeBy: none
+		sourceColumn: source_currency
+
+	column value_basis
+		dataType: string
+		lineageTag: ade6708a-749d-5ac4-955b-08b317670510
+		summarizeBy: none
+		sourceColumn: value_basis
+
+	column won_definition
+		dataType: string
+		lineageTag: b6781289-d190-5375-ae10-071f2ca7599c
+		summarizeBy: none
+		sourceColumn: won_definition
+
+	partition DimBusiness = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "dim_business.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"business", "business_sort", "source_currency", "value_basis", "won_definition"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"business", type text}, {"business_sort", Int64.Type}, {"source_currency", type text}, {"value_basis", type text}, {"won_definition", type text}}, "en-US")
+				in
+					Typed

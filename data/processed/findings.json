@@ -1,0 +1,352 @@
+{
+  "kpi": {
+    "ytd_won": 255961857.0,
+    "ytd_target": 268728400.0,
+    "attainment": 0.9524927659302106,
+    "attainment_flat": 0.9348429047267733,
+    "py_won": 257144985.0,
+    "growth": -0.004601015259932062,
+    "revenue_ytd": 235776000.0,
+    "book_to_bill": 1.0856145536441368,
+    "open_pipeline": 246556018.0,
+    "weighted_pipeline": 75538142.0,
+    "win_rate": 0.48406546080964685,
+    "win_rate_py": 0.48579545454545453,
+    "oct_won": 23938013.0,
+    "oct_target": 22309000.0,
+    "oct_target_flat": 27380200.0,
+    "cross_sell_share": 0.6637513533901264,
+    "order_book": 498477248.0,
+    "order_book_open": 408200000.0
+  },
+  "by_business": {
+    "Ergomed CRO": {
+      "won": 102542229.0,
+      "target": 131194800.0,
+      "py": 120756888.0,
+      "revenue": 95661000.0,
+      "win_rate": 0.24,
+      "win_rate_py": 0.3055555555555556
+    },
+    "PrimeVigilance": {
+      "won": 139506000.0,
+      "target": 125133900.0,
+      "py": 124942000.0,
+      "revenue": 126194800.0,
+      "win_rate": 0.45110410094637227,
+      "win_rate_py": 0.4375
+    },
+    "ADAMAS": {
+      "won": 13913628.0,
+      "target": 12399700.0,
+      "py": 11446097.0,
+      "revenue": 13920200.0,
+      "win_rate": 0.6781376518218624,
+      "win_rate_py": 0.6413043478260869
+    }
+  },
+  "by_region": {
+    "Europe": {
+      "won": 83212104.0,
+      "target": 100563600.0,
+      "py": 91550537.0
+    },
+    "North America": {
+      "won": 142317397.0,
+      "target": 137928700.0,
+      "py": 140324169.0
+    },
+    "Asia-Pacific": {
+      "won": 16942192.0,
+      "target": 18644000.0,
+      "py": 20648631.0
+    },
+    "Rest of World": {
+      "won": 13490164.0,
+      "target": 11592100.0,
+      "py": 4621648.0
+    }
+  },
+  "by_business_region": [
+    {
+      "business": "Ergomed CRO",
+      "region": "Europe",
+      "won": 31348235.0,
+      "target": 55017000.0
+    },
+    {
+      "business": "Ergomed CRO",
+      "region": "North America",
+      "won": 59658354.0,
+      "target": 63717000.0
+    },
+    {
+      "business": "Ergomed CRO",
+      "region": "Asia-Pacific",
+      "won": 4240476.0,
+      "target": 7338000.0
+    },
+    {
+      "business": "Ergomed CRO",
+      "region": "Rest of World",
+      "won": 7295164.0,
+      "target": 5122800.0
+    },
+    {
+      "business": "PrimeVigilance",
+      "region": "Europe",
+      "won": 47456000.0,
+      "target": 41564700.0
+    },
+    {
+      "business": "PrimeVigilance",
+      "region": "North America",
+      "won": 74152000.0,
+      "target": 66710800.0
+    },
+    {
+      "business": "PrimeVigilance",
+      "region": "Asia-Pacific",
+      "won": 11703000.0,
+      "target": 10389100.0
+    },
+    {
+      "business": "PrimeVigilance",
+      "region": "Rest of World",
+      "won": 6195000.0,
+      "target": 6469300.0
+    },
+    {
+      "business": "ADAMAS",
+      "region": "Europe",
+      "won": 4407869.0,
+      "target": 3981900.0
+    },
+    {
+      "business": "ADAMAS",
+      "region": "North America",
+      "won": 8507043.0,
+      "target": 7500900.0
+    },
+    {
+      "business": "ADAMAS",
+      "region": "Asia-Pacific",
+      "won": 998716.0,
+      "target": 916900.0
+    },
+    {
+      "business": "ADAMAS",
+      "region": "Rest of World",
+      "won": 0.0,
+      "target": 0.0
+    }
+  ],
+  "europe": {
+    "attainment": 0.8274574895886783,
+    "gap": -17351496.0,
+    "cro_eu_attainment": 0.5697917916280423,
+    "cro_eu_gap": -23668765.0,
+    "decomposition": {
+      "py": 47257117.0,
+      "volume": 20128031.314814813,
+      "conversion": -26879048.029100526,
+      "deal_size": -9157865.28571429,
+      "cy": 31348235.0,
+      "n_cy": 154,
+      "n_py": 108,
+      "wr_cy": 0.19480519480519481,
+      "wr_py": 0.32407407407407407,
+      "avg_cy": 1044941.1666666666,
+      "avg_py": 1350203.342857143
+    },
+    "decomposition_na": {
+      "py": 68933946.0,
+      "volume": -10577166.317460315,
+      "conversion": -6948413.174065098,
+      "deal_size": 8249987.491525429,
+      "cy": 59658354.0,
+      "n_cy": 160,
+      "n_py": 189,
+      "wr_cy": 0.275,
+      "wr_py": 0.31216931216931215,
+      "avg_cy": 1355871.6818181819,
+      "avg_py": 1168371.9661016949
+    },
+    "ta_win_rates": [
+      {
+        "ta": "Oncology",
+        "wr_py": 0.30434782608695654,
+        "n_py": 46,
+        "wr_ytd": 0.10666666666666667,
+        "n_ytd": 75,
+        "wr_na_ytd": 0.3333333333333333,
+        "n_na_ytd": 78
+      },
+      {
+        "ta": "Rare disease",
+        "wr_py": 0.35714285714285715,
+        "n_py": 42,
+        "wr_ytd": 0.2978723404255319,
+        "n_ytd": 47,
+        "wr_na_ytd": 0.22916666666666666,
+        "n_na_ytd": 48
+      },
+      {
+        "ta": "CNS",
+        "wr_py": 0.2727272727272727,
+        "n_py": 11,
+        "wr_ytd": 0.23076923076923078,
+        "n_ytd": 13,
+        "wr_na_ytd": 0.21428571428571427,
+        "n_na_ytd": 14
+      },
+      {
+        "ta": "Immunology",
+        "wr_py": 0.3333333333333333,
+        "n_py": 6,
+        "wr_ytd": 0.35714285714285715,
+        "n_ytd": 14,
+        "wr_na_ytd": 0.09090909090909091,
+        "n_na_ytd": 11
+      },
+      {
+        "ta": "Other",
+        "wr_py": 0.3333333333333333,
+        "n_py": 3,
+        "wr_ytd": 0.0,
+        "n_ytd": 5,
+        "wr_na_ytd": 0.3333333333333333,
+        "n_na_ytd": 9
+      }
+    ],
+    "onc_rfps_py": 52,
+    "onc_rfps_cy": 81,
+    "onc_avg_value_py": 1289658.673076923,
+    "onc_avg_value_cy": 1234382.7037037036,
+    "onc_loss_reasons": {
+      "Price": 23,
+      "Competitor capability": 16,
+      "Sponsor cancelled programme": 15,
+      "Timeline": 7,
+      "Not shortlisted": 6
+    },
+    "target_cro_eu": 55017000.0
+  },
+  "phasing": {
+    "months_below_90_flat": 6,
+    "months_below_90_phased": 5,
+    "mid_quarter_att_flat": 0.8936837568754064,
+    "mid_quarter_att_phased": 1.0254308032720933,
+    "qe_att_flat": 1.030880916379963,
+    "m3_share_avg": 0.39058377844079145,
+    "m3_share_min": 0.2514753228224639,
+    "m3_share_max": 0.5164320500906818,
+    "m1_share_avg": 0.2829540587142441,
+    "quarters": [
+      {
+        "quarter": "2026Q1",
+        "won": 69121093.0,
+        "target": 82139800.0,
+        "attainment": 0.8415054942914397
+      },
+      {
+        "quarter": "2026Q2",
+        "won": 78830713.0,
+        "target": 82139800.0,
+        "attainment": 0.9597139632675025
+      },
+      {
+        "quarter": "2026Q3",
+        "won": 84072038.0,
+        "target": 82139800.0,
+        "attainment": 1.0235237728847648
+      }
+    ]
+  },
+  "quarter_end": {
+    "avg_last_week_share": 0.21368334592454383,
+    "min_share": 0.1733819279295368,
+    "max_share": 0.2576868095796305,
+    "uniform_share": 0.07692307692307693,
+    "sep_2026_peak_week": 10894181.0,
+    "median_week": 5551579.0,
+    "q3_2026_share": 0.21752172821122762
+  },
+  "data_issues": {
+    "bridge": [
+      {
+        "step": "Naive: stack the three files",
+        "value": 265176100.0,
+        "note": "sum of value columns, EUR + USD + GBP, 'Awarded' counted as won, duplicate included"
+      },
+      {
+        "step": "Convert EUR and GBP to USD",
+        "value": 21452313.0,
+        "note": "ECB monthly average of the win month"
+      },
+      {
+        "step": "Remove the duplicate CRM record",
+        "value": -3883013.0,
+        "note": "planted issue 4"
+      },
+      {
+        "step": "Won = signed contract, not verbal award",
+        "value": -22145543.0,
+        "note": "CRO 'Awarded' -> open; won dated at signature"
+      },
+      {
+        "step": "Count cross-sell PV scope once",
+        "value": -4638000.0,
+        "note": "planted issue 1"
+      },
+      {
+        "step": "Governed: new business won, Jan-Oct 2026",
+        "value": 255961857.0,
+        "note": "model value"
+      }
+    ],
+    "naive_win_rate": 0.394,
+    "governed_win_rate": 0.492,
+    "award_not_contracted_rate": 0.09433962264150944,
+    "cross_sell_pairs": 7,
+    "cross_sell_value": 10245000.0,
+    "duplicate_value": 3883013.0,
+    "fx_effect": 21452313.0,
+    "late_source": [
+      {
+        "data_owner": "PV BD North America",
+        "received": "2026-11-11 15:20:00",
+        "deadline": "2026-11-09 10:00:00",
+        "impact": "4 signed deals ($5.8m TCV) missing from the Monday report; restated after receipt"
+      }
+    ],
+    "dq_open": 8,
+    "dq_checks": 14
+  },
+  "funnel": [
+    {
+      "business": "Ergomed CRO",
+      "created": 810,
+      "reached_proposal": 706,
+      "reached_negotiate": 209,
+      "won": 164,
+      "cycle_days": 136.0
+    },
+    {
+      "business": "PrimeVigilance",
+      "created": 926,
+      "reached_proposal": 616,
+      "reached_negotiate": 264,
+      "won": 257,
+      "cycle_days": 93.0
+    },
+    {
+      "business": "ADAMAS",
+      "created": 1127,
+      "reached_proposal": 1051,
+      "reached_negotiate": 691,
+      "won": 691,
+      "cycle_days": 22.0
+    }
+  ]
+}

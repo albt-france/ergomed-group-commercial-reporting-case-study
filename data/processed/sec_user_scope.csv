@@ -1,0 +1,32 @@
+user_principal_name,business,region
+exec.team@example.com,Ergomed CRO,Europe
+exec.team@example.com,Ergomed CRO,North America
+exec.team@example.com,Ergomed CRO,Asia-Pacific
+exec.team@example.com,Ergomed CRO,Rest of World
+exec.team@example.com,PrimeVigilance,Europe
+exec.team@example.com,PrimeVigilance,North America
+exec.team@example.com,PrimeVigilance,Asia-Pacific
+exec.team@example.com,PrimeVigilance,Rest of World
+exec.team@example.com,ADAMAS,Europe
+exec.team@example.com,ADAMAS,North America
+exec.team@example.com,ADAMAS,Asia-Pacific
+exec.team@example.com,ADAMAS,Rest of World
+cro.lead@example.com,Ergomed CRO,Europe
+cro.lead@example.com,Ergomed CRO,North America
+cro.lead@example.com,Ergomed CRO,Asia-Pacific
+cro.lead@example.com,Ergomed CRO,Rest of World
+pv.lead@example.com,PrimeVigilance,Europe
+pv.lead@example.com,PrimeVigilance,North America
+pv.lead@example.com,PrimeVigilance,Asia-Pacific
+pv.lead@example.com,PrimeVigilance,Rest of World
+adamas.lead@example.com,ADAMAS,Europe
+adamas.lead@example.com,ADAMAS,North America
+adamas.lead@example.com,ADAMAS,Asia-Pacific
+adamas.lead@example.com,ADAMAS,Rest of World
+europe.lead@example.com,Ergomed CRO,Europe
+europe.lead@example.com,PrimeVigilance,Europe
+europe.lead@example.com,ADAMAS,Europe
+na.lead@example.com,Ergomed CRO,North America
+na.lead@example.com,PrimeVigilance,North America
+na.lead@example.com,ADAMAS,North America
+pv.na.manager@example.com,PrimeVigilance,North America

@@ -1,0 +1,5 @@
+/// All businesses and regions (executive view).
+role 'Group leadership'
+	modelPermission: read
+
+	annotation PBI_Id = 822d8fe6ced259b1b09e8dbeac501690

@@ -1,0 +1,100 @@
+table DataHealth
+	lineageTag: 3cf26fa9-ba4f-5c04-aa9b-26e20bf3530a
+
+	column week_ending
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: d94c86a5-a4b9-5849-8779-71b838c63284
+		summarizeBy: none
+		sourceColumn: week_ending
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column source_file
+		dataType: string
+		lineageTag: 2fa82b23-e061-5c22-882c-8728ecca88e0
+		summarizeBy: none
+		sourceColumn: source_file
+
+	column data_owner
+		dataType: string
+		lineageTag: 0f1639c2-63eb-523d-8a6c-b47c0bcdaba2
+		summarizeBy: none
+		sourceColumn: data_owner
+
+	column scope
+		dataType: string
+		lineageTag: c3064584-19a7-55a5-a851-83d2014a6463
+		summarizeBy: none
+		sourceColumn: scope
+
+	column deadline
+		dataType: string
+		lineageTag: 1ec794ae-aa6c-5a95-bb87-620c15b0032c
+		summarizeBy: none
+		sourceColumn: deadline
+
+	column received
+		dataType: string
+		lineageTag: b589d0cc-89d5-5e7a-bc56-bf3489012b34
+		summarizeBy: none
+		sourceColumn: received
+
+	column on_time
+		dataType: boolean
+		lineageTag: 9132d657-143a-59b4-bdf4-d0b17fbc6c3a
+		summarizeBy: none
+		sourceColumn: on_time
+
+	column hours_late
+		dataType: double
+		formatString: 0.0
+		lineageTag: 3523f5e8-7127-5e56-bbe6-02916fcd4f02
+		summarizeBy: none
+		sourceColumn: hours_late
+
+	column rows_in_model
+		dataType: int64
+		formatString: #,0
+		lineageTag: f30c5b39-305c-5e1c-beaf-11be16db8ec2
+		summarizeBy: none
+		sourceColumn: rows_in_model
+
+	column on_time_rate_52w
+		dataType: double
+		formatString: 0%
+		lineageTag: b825a37c-8a75-530f-9da2-45b180408154
+		summarizeBy: none
+		sourceColumn: on_time_rate_52w
+
+	column completeness
+		dataType: double
+		formatString: 0.0%
+		lineageTag: ef31fceb-010a-5fc0-b07c-14e4aec6a672
+		summarizeBy: none
+		sourceColumn: completeness
+
+	column status
+		dataType: string
+		lineageTag: c41ddebc-c41a-5fd9-bdd2-d6daf4069df6
+		summarizeBy: none
+		sourceColumn: status
+
+	column impact
+		dataType: string
+		lineageTag: 71816ed6-5b45-573b-9e47-63c414ad8cb0
+		summarizeBy: none
+		sourceColumn: impact
+
+	partition DataHealth = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "data_health.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"week_ending", "source_file", "data_owner", "scope", "deadline", "received", "on_time", "hours_late", "rows_in_model", "on_time_rate_52w", "completeness", "status", "impact"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"week_ending", type date}, {"source_file", type text}, {"data_owner", type text}, {"scope", type text}, {"deadline", type text}, {"received", type text}, {"on_time", type logical}, {"hours_late", type number}, {"rows_in_model", Int64.Type}, {"on_time_rate_52w", type number}, {"completeness", type number}, {"status", type text}, {"impact", type text}}, "en-US")
+				in
+					Typed

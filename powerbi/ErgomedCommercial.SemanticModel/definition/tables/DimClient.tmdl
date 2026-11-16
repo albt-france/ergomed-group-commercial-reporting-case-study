@@ -1,0 +1,53 @@
+/// SIMULATED anonymous clients ('Sponsor 014'); one id across the three businesses.
+table DimClient
+	lineageTag: 96238f28-8d15-5b47-9205-f590626df112
+
+	column group_client_id
+		dataType: string
+		lineageTag: 49d0e135-cb4a-59a4-a667-845abab0310b
+		summarizeBy: none
+		sourceColumn: group_client_id
+
+	column client_name
+		dataType: string
+		lineageTag: c8339dec-b874-5ef3-be6d-9fff05ef9a7c
+		summarizeBy: none
+		sourceColumn: client_name
+
+	column hq_region
+		dataType: string
+		lineageTag: ac2409cb-80a7-5b0f-89e3-dd49b042007d
+		summarizeBy: none
+		sourceColumn: hq_region
+
+	column size_segment
+		dataType: string
+		lineageTag: 35a2e594-a894-5aa3-9eb9-2906e8044774
+		summarizeBy: none
+		sourceColumn: size_segment
+
+	column businesses_won
+		dataType: int64
+		formatString: 0
+		lineageTag: 72a70b96-4f4c-56a0-a506-a6bb086e8ddf
+		summarizeBy: none
+		sourceColumn: businesses_won
+
+	column multi_business_client
+		dataType: boolean
+		lineageTag: c7dfbca0-f2a9-5211-bbdd-dabf8655cf92
+		summarizeBy: none
+		sourceColumn: multi_business_client
+
+	partition DimClient = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "dim_client.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"group_client_id", "client_name", "hq_region", "size_segment", "businesses_won", "multi_business_client"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"group_client_id", type text}, {"client_name", type text}, {"hq_region", type text}, {"size_segment", type text}, {"businesses_won", Int64.Type}, {"multi_business_client", type logical}}, "en-US")
+				in
+					Typed

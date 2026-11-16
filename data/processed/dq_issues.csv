@@ -1,0 +1,17 @@
+check_id,check,source,data_owner,rows_flagged,severity,status,action
+DQ01,"Duplicate opportunity (same account, amount, phase, area, contract date)",cro_crm.xlsx,CRO Sales Operations,1,ERROR,Resolved in model,Second record excluded; CRM owner asked to merge CRO-11172
+DQ06,"Non-standard status spelling ('CONF', 'confirmed ', ...)",adamas_tracker.xlsx,ADAMAS Operations,452,WARNING,Resolved in model,Mapped to the standard list; data-validation drop-down proposed for the tracker
+DQ07,Confirmed booking without a confirmation date ('TBC'),adamas_tracker.xlsx,ADAMAS Operations,22,WARNING,Open,Provisional date = quote date + 14 days; owner to enter the real date
+DQ08,Dates typed as text (dd/mm/yyyy),adamas_tracker.xlsx,ADAMAS Operations,99,INFO,Resolved in model,Parsed day-first
+DQ09,Quote stored as text with a currency sign,adamas_tracker.xlsx,ADAMAS Operations,238,INFO,Resolved in model,Converted to number
+DQ14,"Merged cells (client name on the first row only, month banners)",adamas_tracker.xlsx,ADAMAS Operations,349,INFO,Resolved in model,"Forward-filled; move the tracker to a list (one row per audit, no merges)"
+DQ10,Client not in the client master (matched on name or left unmapped),adamas_tracker.xlsx,Commercial Operations (master data),3,WARNING,Open,"Add to clients_master.csv: Sponsor 023, Sponsor 114, Sponsor 139"
+DQ10,Client not in the client master (matched on name or left unmapped),cro_crm.xlsx,Commercial Operations (master data),1,WARNING,Open,Add to clients_master.csv: Sponsor 114
+DQ10,Client not in the client master (matched on name or left unmapped),pv_pipeline.csv,Commercial Operations (master data),3,WARNING,Open,"Add to clients_master.csv: Sponsor 097, Sponsor 114, Sponsor 139"
+DQ04,Source stage without a mapping to the common stages,all,Commercial Operations,0,INFO,OK,docs/governance/mappings/stage_map.csv
+DQ03,Values in EUR / GBP converted to USD at the ECB monthly average,cro_crm.xlsx; adamas_tracker.xlsx,Commercial Operations,2801,INFO,OK,Rule in KPI_DICTIONARY.md (FX policy)
+DQ03b,November 2026 rate not yet published: last published month used,all,Commercial Operations,187,WARNING,Open,Re-run after the ECB publishes the monthly average
+DQ02,Cross-sell deal counted in CRO and in PV,cro_crm.xlsx + pv_pipeline.csv,CRO Sales Operations; PV BD,7,ERROR,Resolved in model,PV scope deducted from the CRO amount; rule added to the KPI dictionary
+DQ11,Verbal award older than 90 days without a signed contract,cro_crm.xlsx,CRO Sales Operations,1,WARNING,Open,Confirm with the business development lead: contract pending or lost?
+DQ13,Targets phased flat (annual / 12) on a seasonal business,targets.xlsx,FP&A,22,WARNING,Open,Phased target proposed (FY2025 month-in-quarter profile per business); FP&A to approve
+DQ05,Source received after the reporting deadline (week 45),pv_pipeline.csv,PV BD North America,4,ERROR,Open,Weekly report flagged INCOMPLETE; restated Wed 11 Nov; escalation per REPORTING_CALENDAR.md

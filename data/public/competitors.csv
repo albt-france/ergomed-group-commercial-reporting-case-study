@@ -1,0 +1,16 @@
+company,year,backlog_usd_bn,net_awards_usd_m,revenue_usd_m,book_to_bill,btb_basis,cancellation_rate,source,collected
+Medpace,2020,1.54,1175.0,925.9,1.27,net new business awards / revenue (computed),,"Medpace Holdings 10-K for FY2020 (SEC EDGAR, CIK 1668397); revenue from XBRL",2026-11-16
+Medpace,2021,2.0,1610.4,1142.4,1.41,net new business awards / revenue (computed),,"Medpace Holdings 10-K for FY2021 (SEC EDGAR, CIK 1668397); revenue from XBRL",2026-11-16
+Medpace,2022,2.34,1829.5,1460.0,1.25,net new business awards / revenue (computed),,"Medpace Holdings 10-K for FY2022 (SEC EDGAR, CIK 1668397); revenue from XBRL",2026-11-16
+Medpace,2023,2.81,2356.7,1885.8,1.25,net new business awards / revenue (computed),,"Medpace Holdings 10-K for FY2023 (SEC EDGAR, CIK 1668397); revenue from XBRL",2026-11-16
+Medpace,2024,2.9,2230.0,2109.1,1.06,net new business awards / revenue (computed),,"Medpace Holdings 10-K for FY2024 (SEC EDGAR, CIK 1668397); revenue from XBRL",2026-11-16
+Medpace,2025,3.03,2646.8,2530.2,1.05,net new business awards / revenue (computed),,"Medpace Holdings 10-K for FY2025 (SEC EDGAR, CIK 1668397); revenue from XBRL",2026-11-16
+IQVIA (R&D Solutions),2019,19.0,,5788.0,,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2019 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+IQVIA (R&D Solutions),2020,22.6,9360.0,5760.0,1.62,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2020 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+IQVIA (R&D Solutions),2021,24.8,9756.0,7556.0,1.29,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2021 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+IQVIA (R&D Solutions),2022,27.2,10321.0,7921.0,1.3,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2022 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+IQVIA (R&D Solutions),2023,29.7,10895.0,8395.0,1.3,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2023 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+IQVIA (R&D Solutions),2024,31.1,9927.0,8527.0,1.16,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2024 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+IQVIA (R&D Solutions),2025,32.7,10496.0,8896.0,1.18,implied: change in backlog + segment revenue,,"IQVIA Holdings 10-K for FY2025 (SEC EDGAR, CIK 1478242), R&DS segment",2026-11-16
+ICON,2024,24.7,9974.0,8282.0,1.2,net business wins / revenue (published),0.174,"ICON Q4 & FY2024 results release, 19 Feb 2025 (Form 6-K): sec.gov/Archives/edgar/data/1060955/000106095525000013/q42024pressrelease.htm",2026-11-16
+ICON,2025,21.8,9033.0,8251.3,1.09,net business wins / revenue (published),0.239,"ICON Q4 & FY2025 results release, 27 May 2026: iconplc.com/news-events/press-releases/icon-reports-fourth-quarter-and-full-year-2025-results (backlog under the methodology effective 1 Oct 2025)",2026-11-16

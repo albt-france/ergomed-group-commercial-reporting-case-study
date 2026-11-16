@@ -1,0 +1,38 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DataFolder"]
+
+annotation PBI_ProTooling = ["TMDLView_Desktop","DevMode"]
+
+ref table FactOpportunity
+ref table FactTarget
+ref table FactRevenue
+ref table OrderBook
+ref table DimDate
+ref table DimBusiness
+ref table DimRegion
+ref table DimTherapeuticArea
+ref table DimClient
+ref table DimStage
+ref table StageMap
+ref table DataHealth
+ref table DQIssues
+ref table Reconciliation
+ref table NaiveBridge
+ref table SecUserScope
+ref table VarianceStep
+ref table _Measures
+
+ref role 'Group leadership'
+ref role 'Scoped user (business x region)'
+ref role 'Business - Ergomed CRO (static)'
+ref role 'Region - Europe (static)'

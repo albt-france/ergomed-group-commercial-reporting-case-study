@@ -1,0 +1,6 @@
+/// Folder of the processed CSV files written by src/prepare.py and src/analysis.py (keep the final backslash).
+expression DataFolder = "C:\case-study-ergomed\data\processed\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: cc706a81-f11f-5588-89e8-e4d53c0931a6
+
+	annotation PBI_ResultType = Text
+

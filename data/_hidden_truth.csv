@@ -1,0 +1,15 @@
+issue,name,source,record,true_value_usd,note
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10551 / PVD-29001,1284000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10490 / PVD-29002,1571000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10954 / PVD-29003,1765000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10351 / PVD-29004,1746000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10766 / PVD-29005,1192000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10834 / PVD-29006,1682000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+1,Cross-sell deal counted twice,cro_crm + pv_pipeline,CRO-10287 / PVD-29007,1005000.0,"PV scope included in the CRO amount and booked again in PV; count it once, in PV"
+2,Stage names do not match across businesses,all,stage columns,,CRO 'Awarded' is a verbal award (8% never contracted); PV 'Signed' and ADAMAS 'Confirmed' are contracts
+3,Currencies summed as if equal,all,value columns,,"CRO EUR, PV USD, ADAMAS GBP; convert at the ECB monthly average of the win month"
+4,Large win entered twice in the CRM,cro_crm,CRO-10737 / CRO-11172,3883013.0,"same account, amount, phase and dates; second record created at contract signature"
+5,"Late data owner (PV North America, week 45)",pv_pipeline,PVD-25168;PVD-25185;PVD-25206;PVD-25237,5766000.0,"NA tracker received Wed 11 Nov 15:20, deadline Mon 9 Nov 10:00; on-time file holds last week's NA state"
+6,Target phased flat (annual / 12) on a seasonal business,targets.xlsx,all sheets,,won value peaks in the last month of each quarter; flat phasing makes Q1/Q2 months look behind
+7,Europe behind target: oncology bid-defense win rate,cro_crm,"Region EU, TA Oncology, decisions from 2026-03-01",,win probability at bid defense falls from 0.47 to 0.10; volume and deal size unchanged
+8,False signal: quarter-end spike in wins,all,last week of Mar/Jun/Sep/Dec,,"decisions due within 45 days of quarter end pulled to its last week, p=0.5 (CRO, PV) / 0.3 (ADAMAS), every quarter"

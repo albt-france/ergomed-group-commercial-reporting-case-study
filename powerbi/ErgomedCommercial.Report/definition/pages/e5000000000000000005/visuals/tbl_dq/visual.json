@@ -1,0 +1,195 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "tbl_dq",
+  "position": {
+    "x": 32,
+    "y": 532,
+    "z": 8000,
+    "height": 496,
+    "width": 916,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DQIssues"
+                    }
+                  },
+                  "Property": "check_id"
+                }
+              },
+              "queryRef": "DQIssues.check_id",
+              "nativeQueryRef": "check_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DQIssues"
+                    }
+                  },
+                  "Property": "check"
+                }
+              },
+              "queryRef": "DQIssues.check",
+              "nativeQueryRef": "check"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DQIssues"
+                    }
+                  },
+                  "Property": "data_owner"
+                }
+              },
+              "queryRef": "DQIssues.data_owner",
+              "nativeQueryRef": "data_owner"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DQIssues"
+                    }
+                  },
+                  "Property": "rows_flagged"
+                }
+              },
+              "queryRef": "DQIssues.rows_flagged",
+              "nativeQueryRef": "rows_flagged"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DQIssues"
+                    }
+                  },
+                  "Property": "severity"
+                }
+              },
+              "queryRef": "DQIssues.severity",
+              "nativeQueryRef": "severity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DQIssues"
+                    }
+                  },
+                  "Property": "status"
+                }
+              },
+              "queryRef": "DQIssues.status",
+              "nativeQueryRef": "status"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10.0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10.0D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#52514E'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Quality checks (src/prepare.py)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

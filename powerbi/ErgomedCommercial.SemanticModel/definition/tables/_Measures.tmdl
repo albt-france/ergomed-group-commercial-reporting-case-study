@@ -1,0 +1,213 @@
+table _Measures
+	lineageTag: d19d8b83-6ed4-508e-8915-cf0962ff0741
+
+	/// Value of contracts signed in the period (won date), USD, duplicates excluded, cross-sell PV scope counted once.
+	measure 'New Business Won' = CALCULATE ( SUM ( FactOpportunity[value_usd_governed] ), FactOpportunity[status] = "Won" )
+		formatString: \$#,0
+		displayFolder: 1 Wins
+		lineageTag: b7ebd940-fd96-5fea-89d3-8fb8fbcc0bb6
+
+	/// Number of contracts signed in the period.
+	measure 'Deals Won' = CALCULATE ( COUNTROWS ( FactOpportunity ), FactOpportunity[status] = "Won" )
+		formatString: #,0
+		displayFolder: 1 Wins
+		lineageTag: 4a4d7568-6656-5462-9571-00f5ff85ff27
+
+	/// New business won / deals won.
+	measure 'Average Deal Size' = DIVIDE ( [New Business Won], [Deals Won] )
+		formatString: \$#,0
+		displayFolder: 1 Wins
+		lineageTag: d7410a14-3a7f-56fe-be04-bf7d3c0c5136
+
+	/// Same period last year.
+	measure 'New Business Won PY' = CALCULATE ( [New Business Won], SAMEPERIODLASTYEAR ( DimDate[date] ) )
+		formatString: \$#,0
+		displayFolder: 1 Wins
+		lineageTag: ed6c1a02-eed2-560e-adeb-3b05921e5760
+
+	measure 'New Business Won YoY %' = DIVIDE ( [New Business Won] - [New Business Won PY], [New Business Won PY] )
+		formatString: 0%
+		displayFolder: 1 Wins
+		lineageTag: 32dbf1f8-e073-5c60-847a-495be4aa8776
+
+	/// Calendar year to date.
+	measure 'New Business Won YTD' = TOTALYTD ( [New Business Won], DimDate[date] )
+		formatString: \$#,0
+		displayFolder: 1 Wins
+		lineageTag: 449d4fc8-8ac0-5a09-bccc-e5c7c9941ec4
+
+	/// Share of new business won from clients that signed with 2+ businesses.
+	measure 'Cross-Sell Share' = DIVIDE ( CALCULATE ( [New Business Won], DimClient[multi_business_client] = TRUE () ), [New Business Won] )
+		formatString: 0%
+		displayFolder: 1 Wins
+		lineageTag: 6dc24575-bec8-5c1f-b405-f80a3ce18036
+
+	/// Unweighted value of open opportunities at the data cut (not time-filtered).
+	measure 'Open Pipeline' = CALCULATE ( SUM ( FactOpportunity[value_usd_governed] ), FactOpportunity[status] = "Open", REMOVEFILTERS ( DimDate ) )
+		formatString: \$#,0
+		displayFolder: 2 Pipeline
+		lineageTag: 87a19809-bd41-5822-9d6b-b5bb9f6018e6
+
+	/// Open value x stage probability of the source system.
+	measure 'Weighted Pipeline' = CALCULATE ( SUM ( FactOpportunity[weighted_value_usd] ), FactOpportunity[status] = "Open", REMOVEFILTERS ( DimDate ) )
+		formatString: \$#,0
+		displayFolder: 2 Pipeline
+		lineageTag: 761b9042-cc75-5d5e-90f1-eda3c24c8ff7
+
+	/// Opportunities created in the period.
+	measure 'Opportunities Created' = CALCULATE ( COUNTROWS ( FactOpportunity ), USERELATIONSHIP ( FactOpportunity[created_date], DimDate[date] ) )
+		formatString: #,0
+		displayFolder: 2 Pipeline
+		lineageTag: 0d382998-de53-5dd5-b863-2871be91a73f
+
+	/// Share of opportunities created in the period that reached the proposal stage (cohort).
+	measure 'Reached Proposal %' = DIVIDE ( CALCULATE ( COUNTROWS ( FactOpportunity ), FactOpportunity[reached_proposal] = TRUE (), USERELATIONSHIP ( FactOpportunity[created_date], DimDate[date] ) ), [Opportunities Created] )
+		formatString: 0%
+		displayFolder: 2 Pipeline
+		lineageTag: 35858524-c6e7-5047-afd2-fcb666236442
+
+	/// CRO 'Awarded' without a signed contract: open, not won.
+	measure 'Verbal Awards Pending' = CALCULATE ( COUNTROWS ( FactOpportunity ), FactOpportunity[verbal_award_open] = TRUE (), REMOVEFILTERS ( DimDate ) )
+		formatString: #,0
+		displayFolder: 2 Pipeline
+		lineageTag: ebda0198-7703-563f-9922-1bb35e81a054
+
+	/// Opportunities won or lost after a proposal, by decision date.
+	measure Decisions = CALCULATE ( COUNTROWS ( FactOpportunity ), FactOpportunity[in_win_rate] = TRUE (), USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) )
+		formatString: #,0
+		displayFolder: 3 Conversion
+		lineageTag: 7fcfe6ab-464d-5e80-945a-575ea99a8515
+
+	/// Won / (won + lost after a proposal), by count.
+	measure 'Win Rate' = DIVIDE ( CALCULATE ( COUNTROWS ( FactOpportunity ), FactOpportunity[in_win_rate] = TRUE (), FactOpportunity[status] = "Won", USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) ), [Decisions] )
+		formatString: 0%
+		displayFolder: 3 Conversion
+		lineageTag: 5146b691-d2ae-5c71-ab6a-9aa655ab1832
+
+	/// Won value / value of all decisions.
+	measure 'Win Rate (value)' = DIVIDE ( CALCULATE ( SUM ( FactOpportunity[value_usd_governed] ), FactOpportunity[in_win_rate] = TRUE (), FactOpportunity[status] = "Won", USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) ), CALCULATE ( SUM ( FactOpportunity[value_usd_governed] ), FactOpportunity[in_win_rate] = TRUE (), USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) ) )
+		formatString: 0%
+		displayFolder: 3 Conversion
+		lineageTag: 9a933802-23e4-5536-b50f-d061cd7fac6f
+
+	measure 'Win Rate PY' = CALCULATE ( [Win Rate], SAMEPERIODLASTYEAR ( DimDate[date] ) )
+		formatString: 0%
+		displayFolder: 3 Conversion
+		lineageTag: 892ea6a7-8148-5ac6-a35d-1f626ae1d5ae
+
+	/// Average days from creation to signature, won deals.
+	measure 'Sales Cycle (days)' = CALCULATE ( AVERAGE ( FactOpportunity[cycle_days] ), FactOpportunity[status] = "Won" )
+		formatString: 0
+		displayFolder: 3 Conversion
+		lineageTag: 74ccb6c8-4182-5f4b-b035-4204d3bcfb4f
+
+	/// Re-phased target (month-in-quarter profile).
+	measure Target = SUM ( FactTarget[target_phased_usd] )
+		formatString: \$#,0
+		displayFolder: 4 Targets
+		lineageTag: 2ae66d17-0a17-50ed-a963-3e121b647775
+
+	/// Target as received: annual / 12.
+	measure 'Target (as received)' = SUM ( FactTarget[target_flat_usd] )
+		formatString: \$#,0
+		displayFolder: 4 Targets
+		lineageTag: 2693b307-9221-5d90-bfc2-bfb3edaddb48
+
+	measure 'Variance to Target' = [New Business Won] - [Target]
+		formatString: \$#,0
+		displayFolder: 4 Targets
+		lineageTag: 776fcda5-cbc1-5d8e-b43c-3199cb7a0064
+
+	/// New business won / re-phased target.
+	measure 'Attainment %' = DIVIDE ( [New Business Won], [Target] )
+		formatString: 0%
+		displayFolder: 4 Targets
+		lineageTag: e4f0a4de-c1a5-5bbd-9928-d00e4f7644a9
+
+	measure 'Attainment % (as received)' = DIVIDE ( [New Business Won], [Target (as received)] )
+		formatString: 0%
+		displayFolder: 4 Targets
+		lineageTag: 550be733-ed67-5c79-aeaf-94d7c9e6ad30
+
+	/// Change in decisions x last year's win rate x last year's deal size.
+	measure 'Volume Effect' = VAR n1 = [Decisions] VAR n0 = CALCULATE ( [Decisions], SAMEPERIODLASTYEAR ( DimDate[date] ) ) VAR r0 = [Win Rate PY] VAR a0 = CALCULATE ( [Avg Won Value (decision)], SAMEPERIODLASTYEAR ( DimDate[date] ) ) RETURN ( n1 - n0 ) * r0 * a0
+		formatString: \$#,0
+		displayFolder: 5 Variance
+		lineageTag: e94e08c3-52c7-55b1-87b2-3359cb436ca8
+
+	/// This year's decisions x change in win rate x last year's deal size.
+	measure 'Conversion Effect' = VAR n1 = [Decisions] VAR r1 = [Win Rate] VAR r0 = [Win Rate PY] VAR a0 = CALCULATE ( [Avg Won Value (decision)], SAMEPERIODLASTYEAR ( DimDate[date] ) ) RETURN n1 * ( r1 - r0 ) * a0
+		formatString: \$#,0
+		displayFolder: 5 Variance
+		lineageTag: 3326ff45-35a4-5570-95ad-c67558ffa6bd
+
+	/// This year's wins x change in average won value.
+	measure 'Deal Size Effect' = VAR n1 = [Decisions] VAR r1 = [Win Rate] VAR a1 = [Avg Won Value (decision)] VAR a0 = CALCULATE ( [Avg Won Value (decision)], SAMEPERIODLASTYEAR ( DimDate[date] ) ) RETURN n1 * r1 * ( a1 - a0 )
+		formatString: \$#,0
+		displayFolder: 5 Variance
+		lineageTag: 0b2d4aed-fa50-5143-9814-2fd3de1e5c2f
+
+	/// Average won value by decision date (helper of the decomposition).
+	measure 'Avg Won Value (decision)' = DIVIDE ( CALCULATE ( SUM ( FactOpportunity[value_usd_governed] ), FactOpportunity[in_win_rate] = TRUE (), FactOpportunity[status] = "Won", USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) ), CALCULATE ( COUNTROWS ( FactOpportunity ), FactOpportunity[in_win_rate] = TRUE (), FactOpportunity[status] = "Won", USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) ) )
+		formatString: \$#,0
+		displayFolder: 5 Variance
+		lineageTag: c30e3a01-d266-57aa-8450-447a5d8cb2c4
+
+	/// Waterfall: last year's won value, then the three effects; the visual's total = this year.
+	measure 'Variance Bridge' = SWITCH ( SELECTEDVALUE ( VarianceStep[step_sort] ), 1, CALCULATE ( CALCULATE ( SUM ( FactOpportunity[value_usd_governed] ), FactOpportunity[in_win_rate] = TRUE (), FactOpportunity[status] = "Won", USERELATIONSHIP ( FactOpportunity[decision_date], DimDate[date] ) ), SAMEPERIODLASTYEAR ( DimDate[date] ) ), 2, [Volume Effect], 3, [Conversion Effect], 4, [Deal Size Effect] )
+		formatString: \$#,0
+		displayFolder: 5 Variance
+		lineageTag: 7c119648-5f2d-59d2-bbf0-2fdba4e5a4f0
+
+	/// Recognised revenue (finance).
+	measure Revenue = SUM ( FactRevenue[revenue_usd] )
+		formatString: \$#,0
+		displayFolder: 6 Revenue & order book
+		lineageTag: f6cb2e36-5550-58b5-8f2b-95342d0ef864
+
+	/// New business won / revenue, same period.
+	measure 'Book-to-Bill' = DIVIDE ( [New Business Won], [Revenue] )
+		formatString: 0.00"x"
+		displayFolder: 6 Revenue & order book
+		lineageTag: 2444d49d-eac9-5faf-bc59-282cadf3e51c
+
+	/// Closing order book of the last month in the period.
+	measure 'Order Book' = VAR m = MAX ( OrderBook[month] ) RETURN CALCULATE ( SUM ( OrderBook[closing_order_book] ), OrderBook[month] = m )
+		formatString: \$#,0
+		displayFolder: 6 Revenue & order book
+		lineageTag: 4912820a-5209-5ef3-8cc0-56b0b30d7bbb
+
+	/// Cancelled contract value / won value, same period.
+	measure 'Cancellation Rate' = DIVIDE ( SUM ( OrderBook[cancelled] ), SUM ( OrderBook[won] ) )
+		formatString: 0.0%
+		displayFolder: 6 Revenue & order book
+		lineageTag: 1f9365a5-37fe-5e23-88df-d233bc4ced35
+
+	/// Submissions received after the deadline (latest week).
+	measure 'Late Sources' = CALCULATE ( COUNTROWS ( DataHealth ), DataHealth[status] = "LATE" )
+		formatString: #,0
+		displayFolder: 7 Data health
+		lineageTag: f47dea9c-195f-54ed-bfe3-6398fe12adbb
+
+	/// Quality checks still open.
+	measure 'Open DQ Issues' = CALCULATE ( COUNTROWS ( DQIssues ), DQIssues[status] = "Open" )
+		formatString: #,0
+		displayFolder: 7 Data health
+		lineageTag: 494e9779-0eb5-5b36-a07f-9891418d6854
+
+	/// Share of weekly submissions on time.
+	measure 'On-Time Rate (52 weeks)' = AVERAGE ( DataHealth[on_time_rate_52w] )
+		formatString: 0%
+		displayFolder: 7 Data health
+		lineageTag: fd022dc8-63e7-50b2-afa7-894d190ee7ad
+
+	column '_'
+		dataType: string
+		isHidden
+		lineageTag: 22ecdd25-72e5-5dca-b51c-7c190b65ffc5
+		summarizeBy: none
+		sourceColumn: _
+
+	partition _Measures = m
+		mode: import
+		source = #table(type table [_ = text], {})

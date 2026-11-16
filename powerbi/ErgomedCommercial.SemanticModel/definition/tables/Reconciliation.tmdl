@@ -1,0 +1,60 @@
+table Reconciliation
+	lineageTag: ffb747b0-745e-5a3d-99f1-32e9aaa94d99
+
+	column source
+		dataType: string
+		lineageTag: 7899593e-7f3c-5f6a-b26f-1b1ea1e309bb
+		summarizeBy: none
+		sourceColumn: source
+
+	column check
+		dataType: string
+		lineageTag: 2aa84e4c-dd08-5981-a230-bd9564255584
+		summarizeBy: none
+		sourceColumn: check
+
+	column source_value
+		dataType: double
+		formatString: #,0
+		lineageTag: c4b10676-14e2-577e-a3a8-199e3f292030
+		summarizeBy: none
+		sourceColumn: source_value
+
+	column model_value
+		dataType: double
+		formatString: #,0
+		lineageTag: 04ae7afe-60b7-5dfc-93a2-bc45a4cdc74d
+		summarizeBy: none
+		sourceColumn: model_value
+
+	column difference
+		dataType: double
+		formatString: #,0
+		lineageTag: e1ae668b-189e-5670-94cc-6da4ba398c57
+		summarizeBy: none
+		sourceColumn: difference
+
+	column status
+		dataType: string
+		lineageTag: 8ca51b50-7fd9-5b73-81a2-d3585b947915
+		summarizeBy: none
+		sourceColumn: status
+
+	column note
+		dataType: string
+		lineageTag: b8c7d5e0-5074-541a-a17b-4712363927a0
+		summarizeBy: none
+		sourceColumn: note
+
+	partition Reconciliation = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents(DataFolder & "reconciliation.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+					Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+					Selected = Table.SelectColumns(Promoted, {"source", "check", "source_value", "model_value", "difference", "status", "note"}),
+					// empty CSV cells become null before typing (dates of open deals, missing ACV, ...)
+					Blanks = Table.TransformColumns(Selected, List.Transform(Table.ColumnNames(Selected), each {_, each if _ = "" then null else _})),
+					Typed = Table.TransformColumnTypes(Blanks, {{"source", type text}, {"check", type text}, {"source_value", type number}, {"model_value", type number}, {"difference", type number}, {"status", type text}, {"note", type text}}, "en-US")
+				in
+					Typed

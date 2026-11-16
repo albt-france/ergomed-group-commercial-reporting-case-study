@@ -1,0 +1,7 @@
+step,value,note
+Naive: stack the three files,265176100.0,"sum of value columns, EUR + USD + GBP, 'Awarded' counted as won, duplicate included"
+Convert EUR and GBP to USD,21452313.0,ECB monthly average of the win month
+Remove the duplicate CRM record,-3883013.0,planted issue 4
+"Won = signed contract, not verbal award",-22145543.0,CRO 'Awarded' -> open; won dated at signature
+Count cross-sell PV scope once,-4638000.0,planted issue 1
+"Governed: new business won, Jan-Oct 2026",255961857.0,model value

@@ -1,0 +1,10 @@
+business,source_value,region,rule
+Ergomed CRO,EU,Europe,CRM region code
+Ergomed CRO,NA,North America,CRM region code
+Ergomed CRO,APAC,Asia-Pacific,CRM region code
+Ergomed CRO,ROW,Rest of World,CRM region code
+ADAMAS,UK,Europe,tracker region
+ADAMAS,EMEA,Europe,"tracker region; Middle East and Africa cannot be separated (limitation, small)"
+ADAMAS,Americas,North America,tracker region
+ADAMAS,Asia,Asia-Pacific,tracker region
+PrimeVigilance,(country),see country_region_map.csv,PV has no region field: derived from the client country

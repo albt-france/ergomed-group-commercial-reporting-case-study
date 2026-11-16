@@ -1,0 +1,717 @@
+deal_ref,client_ref,client,country,product_area,service,pipeline_status,annual_value_usd,contract_years,tcv_usd,created_on,proposal_sent_on,signed_on,status_changed_on,origin,tracker,extract_ts
+PVD-24001,PV70507,Sponsor 040,United States,Rare disease,Signal management,Closed Lost,196000.0,2,392000.0,2024-03-01,2024-04-14,,2024-05-29,,PV BD North America,2026-11-11 15:20
+PVD-24002,PV70208,Sponsor 017,United States,Rare disease,Medical information,Signed,129000.0,5,645000.0,2024-03-01,2024-04-18,2024-05-22,2024-05-22,,PV BD North America,2026-11-11 15:20
+PVD-24004,PV72795,Sponsor 216,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,155000.0,4,620000.0,2024-03-07,,,2024-04-13,,PV BD North America,2026-11-11 15:20
+PVD-24005,PV71677,Sponsor 130,United States,Rare disease,Literature surveillance,Signed,504000.0,5,2520000.0,2024-03-07,2024-04-17,2024-05-20,2024-05-20,,PV BD North America,2026-11-11 15:20
+PVD-24009,PV71820,Sponsor 141,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,335000.0,3,1005000.0,2024-03-11,,,2024-04-18,,PV BD North America,2026-11-11 15:20
+PVD-24010,PV70182,Sponsor 015,Canada,Infectious disease,Full PV outsourcing,Closed Lost,196000.0,3,588000.0,2024-03-11,,,2024-04-04,,PV BD North America,2026-11-11 15:20
+PVD-24012,PV72145,Sponsor 166,United States,CNS,Medical information,Closed Lost,372000.0,2,744000.0,2024-03-13,2024-04-18,,2024-05-21,,PV BD North America,2026-11-11 15:20
+PVD-24014,PV72795,Sponsor 216,United States,Infectious disease,Full PV outsourcing,Closed Lost,229000.0,2,458000.0,2024-03-15,2024-04-07,,2024-05-17,,PV BD North America,2026-11-11 15:20
+PVD-24015,PV70312,Sponsor 025,Canada,CNS,QPPV & PSMF,Closed Lost,271000.0,5,1355000.0,2024-03-15,2024-05-09,,2024-06-16,,PV BD North America,2026-11-11 15:20
+PVD-24016,PV71898,Sponsor 147,United States,Oncology,Full PV outsourcing,Signed,312000.0,5,1560000.0,2024-03-19,2024-04-23,2024-06-24,2024-06-24,,PV BD North America,2026-11-11 15:20
+PVD-24017,PV72223,Sponsor 172,Canada,Infectious disease,Literature surveillance,Closed Lost,131000.0,1,131000.0,2024-03-19,2024-05-11,,2024-06-16,,PV BD North America,2026-11-11 15:20
+PVD-24020,PV70819,Sponsor 064,United States,Rare disease,Signal management,Closed Lost,548000.0,5,2740000.0,2024-03-21,2024-05-07,,2024-06-12,,PV BD North America,2026-11-11 15:20
+PVD-24019,PV71677,Sponsor 130,United States,Infectious disease,QPPV & PSMF,Signed,159000.0,3,477000.0,2024-03-21,2024-04-22,2024-06-26,2024-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24022,PV71430,Sponsor 111,United States,Rare disease,Medical information,Closed Lost,278000.0,3,834000.0,2024-03-22,2024-04-17,,2024-06-06,,PV BD North America,2026-11-11 15:20
+PVD-24026,PV72041,Sponsor 158,United States,Oncology,Literature surveillance,Closed Lost,374000.0,2,748000.0,2024-03-25,2024-05-16,,2024-06-12,,PV BD North America,2026-11-11 15:20
+PVD-24027,PV70507,Sponsor 040,United States,Rare disease,Full PV outsourcing,Closed Lost,211000.0,4,844000.0,2024-03-25,2024-05-11,,2024-06-10,,PV BD North America,2026-11-11 15:20
+PVD-24028,PV72847,Sponsor 220,United States,Rare disease,Literature surveillance,Closed Lost,296000.0,2,592000.0,2024-03-25,2024-05-07,,2024-06-14,,PV BD North America,2026-11-11 15:20
+PVD-24030,PV72067,Sponsor 160,United States,Rare disease,Case processing,Closed Lost,290000.0,1,290000.0,2024-03-26,,,2024-04-23,,PV BD North America,2026-11-11 15:20
+PVD-24031,PV71365,Sponsor 106,United States,Rare disease,Medical information,Closed Lost,174000.0,4,696000.0,2024-03-26,2024-04-22,,2024-05-30,,PV BD North America,2026-11-11 15:20
+PVD-24032,PV71079,Sponsor 084,United States,Infectious disease,QPPV & PSMF,Closed Lost,397000.0,5,1985000.0,2024-03-27,,,2024-04-27,,PV BD North America,2026-11-11 15:20
+PVD-24033,PV71469,Sponsor 114,United States,Immunology,Full PV outsourcing,Signed,313000.0,2,626000.0,2024-03-27,2024-05-06,2024-06-26,2024-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24034,PV71560,Sponsor 121,United States,Infectious disease,Signal management,Signed,147000.0,1,147000.0,2024-03-28,2024-05-15,2024-06-27,2024-06-27,,PV BD North America,2026-11-11 15:20
+PVD-24037,PV72041,Sponsor 158,United States,Infectious disease,QPPV & PSMF,Closed Lost,283000.0,5,1415000.0,2024-04-01,2024-05-29,,2024-07-13,,PV BD North America,2026-11-11 15:20
+PVD-24035,PV72691,Sponsor 208,United States,Infectious disease,Full PV outsourcing,Closed Lost,316000.0,2,632000.0,2024-04-01,,,2024-04-06,,PV BD North America,2026-11-11 15:20
+PVD-24036,PV71573,Sponsor 122,United States,Infectious disease,QPPV & PSMF,Closed Lost,199000.0,2,398000.0,2024-04-01,2024-04-25,,2024-06-25,,PV BD North America,2026-11-11 15:20
+PVD-24043,PV72366,Sponsor 183,United States,Cardiometabolic,Medical information,Closed Lost,155000.0,4,620000.0,2024-04-08,,,2024-04-23,,PV BD North America,2026-11-11 15:20
+PVD-24051,PV71209,Sponsor 094,United States,Immunology,Full PV outsourcing,Signed,303000.0,1,303000.0,2024-04-17,2024-05-27,2024-07-15,2024-07-15,,PV BD North America,2026-11-11 15:20
+PVD-24053,PV70481,Sponsor 038,United States,Infectious disease,Signal management,Signed,174000.0,5,870000.0,2024-04-17,2024-05-25,2024-06-20,2024-06-20,,PV BD North America,2026-11-11 15:20
+PVD-24054,PV70442,Sponsor 035,Canada,Oncology,Case processing,Signed,365000.0,3,1095000.0,2024-04-17,2024-05-13,2024-07-02,2024-07-02,,PV BD North America,2026-11-11 15:20
+PVD-24055,PV72327,Sponsor 180,United States,Immunology,Case processing,Signed,251000.0,3,753000.0,2024-04-18,2024-06-16,2024-07-31,2024-07-31,,PV BD North America,2026-11-11 15:20
+PVD-24056,PV72223,Sponsor 172,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,279000.0,5,1395000.0,2024-04-18,,,2024-04-25,,PV BD North America,2026-11-11 15:20
+PVD-24058,PV71794,Sponsor 139,United States,CNS,Case processing,Signed,733000.0,1,733000.0,2024-04-19,2024-05-31,2024-07-08,2024-07-08,,PV BD North America,2026-11-11 15:20
+PVD-24061,PV73211,Sponsor 248,United States,Rare disease,Literature surveillance,Closed Lost,315000.0,2,630000.0,2024-04-23,,,2024-05-18,,PV BD North America,2026-11-11 15:20
+PVD-24060,PV71586,Sponsor 123,United States,Oncology,Full PV outsourcing,Closed Lost,163000.0,2,326000.0,2024-04-23,,,2024-06-01,,PV BD North America,2026-11-11 15:20
+PVD-24065,PV73250,Sponsor 251,United States,Cardiometabolic,Case processing,Closed Lost,185000.0,4,740000.0,2024-04-25,,,2024-04-30,,PV BD North America,2026-11-11 15:20
+PVD-24063,PV71430,Sponsor 111,United States,Oncology,Signal management,Closed Lost,315000.0,3,945000.0,2024-04-25,2024-06-01,,2024-07-02,,PV BD North America,2026-11-11 15:20
+PVD-24064,PV70182,Sponsor 015,Canada,Cardiometabolic,Full PV outsourcing,Signed,303000.0,2,606000.0,2024-04-25,2024-05-28,2024-07-22,2024-07-22,,PV BD North America,2026-11-11 15:20
+PVD-24069,PV70273,Sponsor 022,United States,Infectious disease,Case processing,Closed Lost,362000.0,5,1810000.0,2024-04-29,2024-06-06,,2024-07-14,,PV BD North America,2026-11-11 15:20
+PVD-24071,PV70780,Sponsor 061,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,356000.0,3,1068000.0,2024-04-30,2024-06-14,,2024-08-02,,PV BD North America,2026-11-11 15:20
+PVD-24072,PV71365,Sponsor 106,United States,Immunology,QPPV & PSMF,Closed Lost,201000.0,3,603000.0,2024-05-01,,,2024-05-23,,PV BD North America,2026-11-11 15:20
+PVD-24076,PV72847,Sponsor 220,Canada,Rare disease,Literature surveillance,Closed Lost,524000.0,5,2620000.0,2024-05-03,2024-06-24,,2024-08-23,,PV BD North America,2026-11-11 15:20
+PVD-24074,PV70780,Sponsor 061,United States,Rare disease,Literature surveillance,Signed,313000.0,5,1565000.0,2024-05-03,2024-06-06,2024-07-06,2024-07-06,,PV BD North America,2026-11-11 15:20
+PVD-24079,PV70273,Sponsor 022,United States,Rare disease,Full PV outsourcing,Closed Lost,131000.0,5,655000.0,2024-05-07,2024-06-19,,2024-07-29,,PV BD North America,2026-11-11 15:20
+PVD-24080,PV70039,Sponsor 004,Canada,Oncology,Full PV outsourcing,Closed Lost,346000.0,3,1038000.0,2024-05-08,2024-06-15,,2024-07-17,,PV BD North America,2026-11-11 15:20
+PVD-24081,PV70117,Sponsor 010,United States,Rare disease,Case processing,Closed Lost,239000.0,2,478000.0,2024-05-08,,,2024-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24083,PV71560,Sponsor 121,United States,Other,Case processing,Closed Lost,204000.0,2,408000.0,2024-05-09,2024-06-30,,2024-09-27,,PV BD North America,2026-11-11 15:20
+PVD-24085,PV70858,Sponsor 067,Canada,CNS,Signal management,Closed Lost,199000.0,2,398000.0,2024-05-10,2024-06-20,,2024-07-27,,PV BD North America,2026-11-11 15:20
+PVD-24087,PV73003,Sponsor 232,Canada,Other,Case processing,Closed Lost,308000.0,1,308000.0,2024-05-14,,,2024-06-08,,PV BD North America,2026-11-11 15:20
+PVD-24088,PV72886,Sponsor 223,United States,CNS,Case processing,Closed Lost,701000.0,3,2103000.0,2024-05-14,2024-06-25,,2024-07-24,,PV BD North America,2026-11-11 15:20
+PVD-24092,PV72041,Sponsor 158,United States,Oncology,QPPV & PSMF,Closed Lost,477000.0,2,954000.0,2024-05-15,2024-06-06,,2024-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24094,PV72873,Sponsor 222,United States,Oncology,Full PV outsourcing,Closed Lost,235000.0,5,1175000.0,2024-05-16,2024-06-22,,2024-08-06,,PV BD North America,2026-11-11 15:20
+PVD-24095,PV70390,Sponsor 031,United States,CNS,Case processing,Signed,415000.0,1,415000.0,2024-05-20,2024-06-16,2024-08-05,2024-08-05,,PV BD North America,2026-11-11 15:20
+PVD-24096,PV70390,Sponsor 031,United States,Oncology,Full PV outsourcing,Closed Lost,765000.0,3,2295000.0,2024-05-20,2024-06-26,,2024-08-15,,PV BD North America,2026-11-11 15:20
+PVD-24099,PV70832,Sponsor 065,United States,CNS,Case processing,Closed Lost,185000.0,4,740000.0,2024-05-22,2024-06-17,,2024-07-13,,PV BD North America,2026-11-11 15:20
+PVD-24100,PV70169,Sponsor 014,United States,Rare disease,Signal management,Closed Lost,331000.0,1,331000.0,2024-05-27,,,2024-06-09,,PV BD North America,2026-11-11 15:20
+PVD-24101,PV71898,Sponsor 147,United States,CNS,Case processing,Closed Lost,736000.0,3,2208000.0,2024-05-28,2024-07-13,,2024-08-12,,PV BD North America,2026-11-11 15:20
+PVD-24103,PV70598,Sponsor 047,Canada,Cardiometabolic,Full PV outsourcing,Closed Lost,439000.0,4,1756000.0,2024-05-29,,,2024-06-23,,PV BD North America,2026-11-11 15:20
+PVD-24106,PV70169,Sponsor 014,United States,Rare disease,Full PV outsourcing,Signed,375000.0,1,375000.0,2024-05-30,2024-07-03,2024-09-30,2024-09-30,,PV BD North America,2026-11-11 15:20
+PVD-24107,PV71027,Sponsor 080,United States,Infectious disease,Signal management,Closed Lost,340000.0,5,1700000.0,2024-05-31,,,2024-06-16,,PV BD North America,2026-11-11 15:20
+PVD-24108,PV72327,Sponsor 180,United States,Cardiometabolic,Case processing,Signed,294000.0,3,882000.0,2024-05-31,2024-07-01,2024-08-30,2024-08-30,,PV BD North America,2026-11-11 15:20
+PVD-24112,PV71209,Sponsor 094,United States,Rare disease,Full PV outsourcing,Closed Lost,257000.0,5,1285000.0,2024-06-06,,,2024-07-06,,PV BD North America,2026-11-11 15:20
+PVD-24114,PV70546,Sponsor 043,United States,CNS,Signal management,Closed Lost,281000.0,5,1405000.0,2024-06-11,,,2024-06-21,,PV BD North America,2026-11-11 15:20
+PVD-24116,PV72444,Sponsor 189,United States,Oncology,Signal management,Closed Lost,247000.0,2,494000.0,2024-06-11,,,2024-07-29,,PV BD North America,2026-11-11 15:20
+PVD-24120,PV70312,Sponsor 025,United States,CNS,Full PV outsourcing,Signed,461000.0,3,1383000.0,2024-06-14,2024-07-29,2024-09-07,2024-09-07,,PV BD North America,2026-11-11 15:20
+PVD-24123,PV71794,Sponsor 139,United States,Immunology,QPPV & PSMF,Closed Lost,211000.0,1,211000.0,2024-06-17,,,2024-07-08,,PV BD North America,2026-11-11 15:20
+PVD-24124,PV70923,Sponsor 072,United States,Rare disease,Case processing,Signed,233000.0,5,1165000.0,2024-06-18,2024-07-20,2024-09-26,2024-09-26,,PV BD North America,2026-11-11 15:20
+PVD-24129,PV73237,Sponsor 250,Canada,Rare disease,Literature surveillance,Closed Lost,538000.0,2,1076000.0,2024-06-19,2024-07-26,,2024-08-25,,PV BD North America,2026-11-11 15:20
+PVD-24131,PV70923,Sponsor 072,United States,Infectious disease,Case processing,Signed,195000.0,1,195000.0,2024-06-20,2024-08-02,2024-09-15,2024-09-15,,PV BD North America,2026-11-11 15:20
+PVD-24130,PV71573,Sponsor 122,United States,Rare disease,Full PV outsourcing,Closed Lost,282000.0,3,846000.0,2024-06-20,2024-07-31,,2024-09-08,,PV BD North America,2026-11-11 15:20
+PVD-24136,PV72327,Sponsor 180,United States,Rare disease,Full PV outsourcing,Closed Lost,265000.0,5,1325000.0,2024-06-21,2024-08-01,,2024-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24137,PV73159,Sponsor 244,Canada,Cardiometabolic,Case processing,Closed Lost,119000.0,2,238000.0,2024-06-24,,,2024-07-11,,PV BD North America,2026-11-11 15:20
+PVD-24138,PV71950,Sponsor 151,United States,Other,QPPV & PSMF,Signed,170000.0,4,680000.0,2024-06-24,2024-08-08,2024-10-02,2024-10-02,,PV BD North America,2026-11-11 15:20
+PVD-24140,PV72444,Sponsor 189,Canada,Cardiometabolic,Full PV outsourcing,Closed Lost,316000.0,4,1264000.0,2024-06-26,2024-07-31,,2024-09-24,,PV BD North America,2026-11-11 15:20
+PVD-24142,PV72067,Sponsor 160,United States,Oncology,Full PV outsourcing,Closed Lost,251000.0,2,502000.0,2024-06-27,,,2024-07-27,,PV BD North America,2026-11-11 15:20
+PVD-24145,PV72041,Sponsor 158,United States,Oncology,Literature surveillance,Closed Lost,446000.0,5,2230000.0,2024-06-28,,,2024-07-14,,PV BD North America,2026-11-11 15:20
+PVD-24146,PV71547,Sponsor 120,Canada,Cardiometabolic,Full PV outsourcing,Closed Lost,314000.0,4,1256000.0,2024-06-28,2024-08-04,,2024-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24148,PV71027,Sponsor 080,United States,Rare disease,Signal management,Signed,546000.0,5,2730000.0,2024-07-02,2024-08-28,2024-10-17,2024-10-17,,PV BD North America,2026-11-11 15:20
+PVD-24149,PV71547,Sponsor 120,United States,Infectious disease,QPPV & PSMF,Signed,159000.0,5,795000.0,2024-07-02,2024-08-12,2024-09-25,2024-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24152,PV72587,Sponsor 200,United States,Oncology,Case processing,Closed Lost,271000.0,3,813000.0,2024-07-08,,,2024-07-17,,PV BD North America,2026-11-11 15:20
+PVD-24156,PV71092,Sponsor 085,United States,Cardiometabolic,QPPV & PSMF,Signed,392000.0,2,784000.0,2024-07-09,2024-08-29,2024-10-09,2024-10-09,,PV BD North America,2026-11-11 15:20
+PVD-24155,PV73094,Sponsor 239,Canada,Rare disease,Signal management,Signed,241000.0,2,482000.0,2024-07-09,2024-08-06,2024-09-13,2024-09-13,,PV BD North America,2026-11-11 15:20
+PVD-24157,PV70442,Sponsor 035,United States,Oncology,Case processing,Closed Lost,489000.0,1,489000.0,2024-07-10,2024-08-14,,2024-09-24,,PV BD North America,2026-11-11 15:20
+PVD-24158,PV70819,Sponsor 064,United States,Oncology,Case processing,Closed Lost,388000.0,3,1164000.0,2024-07-10,2024-08-16,,2024-09-26,,PV BD North America,2026-11-11 15:20
+PVD-24160,PV73328,Sponsor 257,Canada,Immunology,Medical information,Closed Lost,160000.0,1,160000.0,2024-07-12,2024-08-12,,2024-10-02,,PV BD North America,2026-11-11 15:20
+PVD-24161,PV70676,Sponsor 053,United States,CNS,QPPV & PSMF,Signed,313000.0,3,939000.0,2024-07-12,2024-08-30,2024-10-21,2024-10-21,,PV BD North America,2026-11-11 15:20
+PVD-24162,PV71794,Sponsor 139,United States,Infectious disease,Signal management,Closed Lost,204000.0,1,204000.0,2024-07-18,2024-09-11,,2024-10-28,,PV BD North America,2026-11-11 15:20
+PVD-24164,PV72210,Sponsor 171,United States,Oncology,Case processing,Signed,274000.0,3,822000.0,2024-07-19,2024-08-08,2024-09-30,2024-09-30,,PV BD North America,2026-11-11 15:20
+PVD-24165,PV70715,Sponsor 056,United States,Cardiometabolic,Case processing,Closed Lost,145000.0,5,725000.0,2024-07-19,,,2024-07-27,,PV BD North America,2026-11-11 15:20
+PVD-24166,PV72067,Sponsor 160,United States,CNS,Case processing,Closed Lost,290000.0,3,870000.0,2024-07-22,,,2024-08-22,,PV BD North America,2026-11-11 15:20
+PVD-24169,PV72210,Sponsor 171,United States,Oncology,Full PV outsourcing,Closed Lost,810000.0,5,4050000.0,2024-07-24,,,2024-08-15,,PV BD North America,2026-11-11 15:20
+PVD-24168,PV70091,Sponsor 008,United States,Oncology,Signal management,Closed Lost,240000.0,3,720000.0,2024-07-24,,,2024-08-15,,PV BD North America,2026-11-11 15:20
+PVD-24172,PV70780,Sponsor 061,United States,Immunology,Case processing,Closed Lost,501000.0,1,501000.0,2024-07-25,,,2024-08-14,,PV BD North America,2026-11-11 15:20
+PVD-24171,PV71573,Sponsor 122,United States,Oncology,Literature surveillance,Closed Lost,250000.0,3,750000.0,2024-07-25,2024-09-02,,2024-10-17,,PV BD North America,2026-11-11 15:20
+PVD-24175,PV70520,Sponsor 041,United States,Rare disease,Full PV outsourcing,Closed Lost,424000.0,1,424000.0,2024-07-30,2024-08-27,,2024-10-23,,PV BD North America,2026-11-11 15:20
+PVD-24178,PV72548,Sponsor 197,United States,Infectious disease,Case processing,Signed,194000.0,3,582000.0,2024-07-30,2024-09-14,2024-10-30,2024-10-30,,PV BD North America,2026-11-11 15:20
+PVD-24179,PV72132,Sponsor 165,United States,Oncology,Case processing,Closed Lost,631000.0,4,2524000.0,2024-07-31,2024-09-02,,2024-10-15,,PV BD North America,2026-11-11 15:20
+PVD-24182,PV71508,Sponsor 117,United States,Cardiometabolic,Literature surveillance,Signed,606000.0,3,1818000.0,2024-08-02,2024-09-01,2024-10-15,2024-10-15,,PV BD North America,2026-11-11 15:20
+PVD-24184,PV73003,Sponsor 232,United States,Immunology,Case processing,Closed Lost,263000.0,5,1315000.0,2024-08-05,2024-09-14,,2024-11-11,,PV BD North America,2026-11-11 15:20
+PVD-24185,PV73003,Sponsor 232,Canada,Immunology,Signal management,Closed Lost,537000.0,4,2148000.0,2024-08-05,2024-09-03,,2024-10-15,,PV BD North America,2026-11-11 15:20
+PVD-24188,PV71027,Sponsor 080,United States,Oncology,Medical information,Closed Lost,284000.0,3,852000.0,2024-08-07,2024-08-31,,2024-11-01,,PV BD North America,2026-11-11 15:20
+PVD-24192,PV72873,Sponsor 222,Canada,Other,Full PV outsourcing,Signed,542000.0,5,2710000.0,2024-08-08,2024-09-23,2024-11-12,2024-11-12,,PV BD North America,2026-11-11 15:20
+PVD-24193,PV72847,Sponsor 220,United States,Oncology,Case processing,Signed,243000.0,2,486000.0,2024-08-12,2024-09-17,2024-11-24,2024-11-24,,PV BD North America,2026-11-11 15:20
+PVD-24195,PV70585,Sponsor 046,Canada,Oncology,Case processing,Closed Lost,412000.0,3,1236000.0,2024-08-13,,,2024-09-01,,PV BD North America,2026-11-11 15:20
+PVD-24203,PV71352,Sponsor 105,United States,CNS,Medical information,Signed,298000.0,2,596000.0,2024-08-15,2024-10-07,2024-11-17,2024-11-17,,PV BD North America,2026-11-11 15:20
+PVD-24199,PV72886,Sponsor 223,United States,Rare disease,Literature surveillance,Closed Lost,232000.0,4,928000.0,2024-08-15,,,2024-09-09,,PV BD North America,2026-11-11 15:20
+PVD-24200,PV71430,Sponsor 111,Canada,Infectious disease,Signal management,Signed,206000.0,2,412000.0,2024-08-15,2024-09-22,2024-11-20,2024-11-20,,PV BD North America,2026-11-11 15:20
+PVD-24205,PV71872,Sponsor 145,United States,CNS,Signal management,Signed,241000.0,5,1205000.0,2024-08-19,2024-09-25,2024-11-02,2024-11-02,,PV BD North America,2026-11-11 15:20
+PVD-24208,PV71898,Sponsor 147,United States,Immunology,Medical information,Signed,379000.0,5,1895000.0,2024-08-21,2024-10-11,2024-12-19,2024-12-19,,PV BD North America,2026-11-11 15:20
+PVD-24209,PV70481,Sponsor 038,United States,Rare disease,Signal management,Signed,403000.0,4,1612000.0,2024-08-26,2024-10-19,2024-12-26,2024-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24211,PV70754,Sponsor 059,United States,CNS,Signal management,Signed,943000.0,1,943000.0,2024-08-27,2024-10-10,2024-11-22,2024-11-22,,PV BD North America,2026-11-11 15:20
+PVD-24213,PV70806,Sponsor 063,United States,Infectious disease,Full PV outsourcing,Closed Lost,156000.0,5,780000.0,2024-08-28,2024-10-14,,2024-11-09,,PV BD North America,2026-11-11 15:20
+PVD-24215,PV72223,Sponsor 172,Canada,Cardiometabolic,Case processing,Signed,528000.0,3,1584000.0,2024-08-30,2024-10-21,2024-12-04,2024-12-04,,PV BD North America,2026-11-11 15:20
+PVD-24218,PV71157,Sponsor 090,United States,Oncology,Case processing,Closed Lost,388000.0,2,776000.0,2024-09-02,,,2024-09-14,,PV BD North America,2026-11-11 15:20
+PVD-24221,PV70962,Sponsor 075,United States,Rare disease,Full PV outsourcing,Closed Lost,170000.0,5,850000.0,2024-09-03,2024-10-20,,2024-11-13,,PV BD North America,2026-11-11 15:20
+PVD-24224,PV70130,Sponsor 011,United States,Other,QPPV & PSMF,Signed,226000.0,1,226000.0,2024-09-04,2024-10-14,2024-11-19,2024-11-19,,PV BD North America,2026-11-11 15:20
+PVD-24223,PV70312,Sponsor 025,United States,CNS,Case processing,Closed Lost,440000.0,1,440000.0,2024-09-04,2024-10-17,,2024-11-27,,PV BD North America,2026-11-11 15:20
+PVD-24226,PV70715,Sponsor 056,United States,Rare disease,Medical information,Signed,158000.0,1,158000.0,2024-09-13,2024-11-12,2024-12-25,2024-12-25,,PV BD North America,2026-11-11 15:20
+PVD-24228,PV71872,Sponsor 145,United States,Cardiometabolic,QPPV & PSMF,Signed,447000.0,2,894000.0,2024-09-13,2024-10-20,2024-12-05,2024-12-05,,PV BD North America,2026-11-11 15:20
+PVD-24229,PV72548,Sponsor 197,Canada,CNS,QPPV & PSMF,Closed Lost,223000.0,3,669000.0,2024-09-16,2024-10-30,,2024-12-09,,PV BD North America,2026-11-11 15:20
+PVD-24232,PV70481,Sponsor 038,Canada,Rare disease,Literature surveillance,Signed,571000.0,4,2284000.0,2024-09-17,2024-10-29,2024-12-21,2024-12-21,,PV BD North America,2026-11-11 15:20
+PVD-24233,PV73055,Sponsor 236,United States,Oncology,Literature surveillance,Closed Lost,146000.0,1,146000.0,2024-09-17,2024-10-24,,2024-12-13,,PV BD North America,2026-11-11 15:20
+PVD-24237,PV71027,Sponsor 080,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,151000.0,4,604000.0,2024-09-19,2024-10-24,,2024-12-10,,PV BD North America,2026-11-11 15:20
+PVD-24240,PV72405,Sponsor 186,United States,CNS,Case processing,Signed,432000.0,3,1296000.0,2024-09-23,2024-11-04,2024-12-26,2024-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24242,PV72366,Sponsor 183,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,414000.0,3,1242000.0,2024-09-24,2024-11-18,,2025-01-14,,PV BD North America,2026-11-11 15:20
+PVD-24243,PV72366,Sponsor 183,United States,Oncology,Full PV outsourcing,Closed Lost,347000.0,3,1041000.0,2024-09-24,,,2024-11-08,,PV BD North America,2026-11-11 15:20
+PVD-24244,PV70858,Sponsor 067,Canada,Oncology,Case processing,Signed,250000.0,1,250000.0,2024-09-25,2024-10-26,2024-12-09,2024-12-09,,PV BD North America,2026-11-11 15:20
+PVD-24246,PV72067,Sponsor 160,Canada,CNS,QPPV & PSMF,Closed Lost,393000.0,3,1179000.0,2024-09-26,2024-11-20,,2024-12-29,,PV BD North America,2026-11-11 15:20
+PVD-24247,PV72405,Sponsor 186,United States,Oncology,Full PV outsourcing,Signed,571000.0,3,1713000.0,2024-09-27,2024-11-14,2024-12-19,2024-12-19,,PV BD North America,2026-11-11 15:20
+PVD-24249,PV72145,Sponsor 166,United States,CNS,QPPV & PSMF,Closed Lost,291000.0,3,873000.0,2024-09-27,,,2024-11-07,,PV BD North America,2026-11-11 15:20
+PVD-24250,PV70858,Sponsor 067,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,329000.0,3,987000.0,2024-09-30,2024-11-16,,2025-01-12,,PV BD North America,2026-11-11 15:20
+PVD-24251,PV72249,Sponsor 174,United States,Oncology,Full PV outsourcing,Closed Lost,255000.0,4,1020000.0,2024-09-30,2024-11-19,,2025-01-07,,PV BD North America,2026-11-11 15:20
+PVD-24254,PV72444,Sponsor 189,Canada,Immunology,Signal management,Signed,335000.0,5,1675000.0,2024-10-01,2024-11-06,2024-12-26,2024-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24256,PV71157,Sponsor 090,United States,Other,QPPV & PSMF,Closed Lost,438000.0,2,876000.0,2024-10-02,2024-11-15,,2025-01-06,,PV BD North America,2026-11-11 15:20
+PVD-24257,PV72067,Sponsor 160,United States,Rare disease,Literature surveillance,Signed,90000.0,5,450000.0,2024-10-03,2024-11-06,2024-12-10,2024-12-10,,PV BD North America,2026-11-11 15:20
+PVD-24258,PV70676,Sponsor 053,Canada,Oncology,Signal management,Closed Lost,181000.0,4,724000.0,2024-10-04,,,2024-11-17,,PV BD North America,2026-11-11 15:20
+PVD-24261,PV70832,Sponsor 065,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,161000.0,5,805000.0,2024-10-07,,,2024-10-31,,PV BD North America,2026-11-11 15:20
+PVD-24263,PV71781,Sponsor 138,United States,CNS,Case processing,Signed,231000.0,2,462000.0,2024-10-08,2024-11-11,2024-12-16,2024-12-16,,PV BD North America,2026-11-11 15:20
+PVD-24264,PV72691,Sponsor 208,Canada,CNS,Literature surveillance,Closed Lost,313000.0,5,1565000.0,2024-10-09,,,2024-11-11,,PV BD North America,2026-11-11 15:20
+PVD-24267,PV71794,Sponsor 139,United States,Oncology,Case processing,Signed,205000.0,4,820000.0,2024-10-10,2024-11-17,2025-01-05,2025-01-05,,PV BD North America,2026-11-11 15:20
+PVD-24268,PV73003,Sponsor 232,United States,Rare disease,QPPV & PSMF,Closed Lost,211000.0,3,633000.0,2024-10-11,2024-11-24,,2025-01-03,,PV BD North America,2026-11-11 15:20
+PVD-24269,PV71547,Sponsor 120,Canada,Rare disease,Signal management,Closed Lost,213000.0,3,639000.0,2024-10-14,,,2024-11-04,,PV BD North America,2026-11-11 15:20
+PVD-24270,PV70169,Sponsor 014,United States,CNS,Medical information,Closed Lost,434000.0,1,434000.0,2024-10-14,2024-11-10,,2024-12-08,,PV BD North America,2026-11-11 15:20
+PVD-24272,PV71781,Sponsor 138,Canada,Immunology,QPPV & PSMF,Closed Lost,388000.0,1,388000.0,2024-10-16,2024-11-28,,2025-01-07,,PV BD North America,2026-11-11 15:20
+PVD-24273,PV71378,Sponsor 107,United States,CNS,Full PV outsourcing,Closed Lost,250000.0,1,250000.0,2024-10-17,,,2024-11-19,,PV BD North America,2026-11-11 15:20
+PVD-24274,PV72145,Sponsor 166,Canada,CNS,Literature surveillance,Signed,296000.0,3,888000.0,2024-10-18,2024-12-07,2025-01-05,2025-01-05,,PV BD North America,2026-11-11 15:20
+PVD-24277,PV71508,Sponsor 117,United States,Immunology,Case processing,Closed Lost,115000.0,3,345000.0,2024-10-21,,,2024-11-01,,PV BD North America,2026-11-11 15:20
+PVD-24279,PV72769,Sponsor 214,United States,CNS,Case processing,Closed Lost,212000.0,3,636000.0,2024-10-25,2024-12-02,,2024-12-30,,PV BD North America,2026-11-11 15:20
+PVD-24280,PV70169,Sponsor 014,United States,Immunology,Medical information,Closed Lost,283000.0,5,1415000.0,2024-10-25,2024-12-03,,2025-01-15,,PV BD North America,2026-11-11 15:20
+PVD-24281,PV70429,Sponsor 034,United States,Oncology,Medical information,Closed Lost,538000.0,5,2690000.0,2024-10-28,,,2024-11-04,,PV BD North America,2026-11-11 15:20
+PVD-24285,PV73055,Sponsor 236,Canada,Cardiometabolic,Case processing,Closed Lost,238000.0,3,714000.0,2024-10-29,,,2024-11-08,,PV BD North America,2026-11-11 15:20
+PVD-24283,PV70832,Sponsor 065,Canada,Infectious disease,Full PV outsourcing,Closed Lost,197000.0,2,394000.0,2024-10-29,2024-12-01,,2025-01-20,,PV BD North America,2026-11-11 15:20
+PVD-24286,PV72405,Sponsor 186,United States,Oncology,Signal management,Closed Lost,179000.0,3,537000.0,2024-10-30,2024-12-07,,2025-01-09,,PV BD North America,2026-11-11 15:20
+PVD-24288,PV72795,Sponsor 216,Canada,CNS,Case processing,Closed Lost,390000.0,3,1170000.0,2024-10-31,,,2024-12-17,,PV BD North America,2026-11-11 15:20
+PVD-24291,PV70767,Sponsor 060,United States,Oncology,Signal management,Signed,182000.0,1,182000.0,2024-11-01,2024-11-27,2025-01-24,2025-01-24,,PV BD North America,2026-11-11 15:20
+PVD-24292,PV70169,Sponsor 014,United States,CNS,Signal management,Closed Lost,351000.0,1,351000.0,2024-11-01,,,2024-11-25,,PV BD North America,2026-11-11 15:20
+PVD-24293,PV71560,Sponsor 121,United States,CNS,Medical information,Closed Lost,424000.0,1,424000.0,2024-11-01,2024-12-16,,2025-01-19,,PV BD North America,2026-11-11 15:20
+PVD-24294,PV72951,Sponsor 228,United States,Immunology,Full PV outsourcing,Closed Lost,422000.0,3,1266000.0,2024-11-01,2024-12-22,,2025-01-21,,PV BD North America,2026-11-11 15:20
+PVD-24295,PV71248,Sponsor 097,United States,Infectious disease,Full PV outsourcing,Signed,465000.0,5,2325000.0,2024-11-01,2024-12-19,2025-02-05,2025-02-05,,PV BD North America,2026-11-11 15:20
+PVD-24296,PV72639,Sponsor 204,Canada,Immunology,Signal management,Closed Lost,188000.0,3,564000.0,2024-11-01,2024-12-28,,2025-03-28,,PV BD North America,2026-11-11 15:20
+PVD-24297,PV70819,Sponsor 064,United States,Rare disease,QPPV & PSMF,Closed Lost,547000.0,5,2735000.0,2024-11-01,,,2024-11-22,,PV BD North America,2026-11-11 15:20
+PVD-24302,PV71209,Sponsor 094,Canada,Other,Full PV outsourcing,Closed Lost,142000.0,3,426000.0,2024-11-06,2024-12-14,,2025-01-10,,PV BD North America,2026-11-11 15:20
+PVD-24301,PV70585,Sponsor 046,United States,Oncology,Signal management,Signed,206000.0,4,824000.0,2024-11-06,2024-11-27,2024-12-27,2024-12-27,,PV BD North America,2026-11-11 15:20
+PVD-24300,PV70273,Sponsor 022,United States,CNS,Medical information,Signed,371000.0,5,1855000.0,2024-11-06,2024-12-24,2025-02-03,2025-02-03,,PV BD North America,2026-11-11 15:20
+PVD-24305,PV71560,Sponsor 121,United States,Immunology,Signal management,Closed Lost,806000.0,3,2418000.0,2024-11-08,2024-12-08,,2025-01-24,,PV BD North America,2026-11-11 15:20
+PVD-24309,PV72574,Sponsor 199,United States,Oncology,Literature surveillance,Closed Lost,241000.0,1,241000.0,2024-11-11,,,2024-12-31,,PV BD North America,2026-11-11 15:20
+PVD-24311,PV71313,Sponsor 102,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,208000.0,2,416000.0,2024-11-12,2024-12-14,,2025-02-01,,PV BD North America,2026-11-11 15:20
+PVD-24313,PV70273,Sponsor 022,United States,Rare disease,Full PV outsourcing,Signed,324000.0,3,972000.0,2024-11-13,2024-12-13,2025-01-27,2025-01-27,,PV BD North America,2026-11-11 15:20
+PVD-24317,PV70169,Sponsor 014,United States,Rare disease,Full PV outsourcing,Closed Lost,317000.0,2,634000.0,2024-11-15,,,2024-12-08,,PV BD North America,2026-11-11 15:20
+PVD-24318,PV70780,Sponsor 061,United States,CNS,Case processing,Closed Lost,252000.0,1,252000.0,2024-11-15,,,2024-12-01,,PV BD North America,2026-11-11 15:20
+PVD-24319,PV70156,Sponsor 013,United States,Infectious disease,Signal management,Closed Lost,463000.0,4,1852000.0,2024-11-18,2024-12-27,,2025-01-17,,PV BD North America,2026-11-11 15:20
+PVD-24320,PV71599,Sponsor 124,United States,Immunology,Case processing,Closed Lost,342000.0,3,1026000.0,2024-11-18,2024-12-26,,2025-02-05,,PV BD North America,2026-11-11 15:20
+PVD-24321,PV71365,Sponsor 106,United States,CNS,Case processing,Closed Lost,466000.0,4,1864000.0,2024-11-18,,,2024-12-12,,PV BD North America,2026-11-11 15:20
+PVD-24322,PV72379,Sponsor 184,United States,CNS,Case processing,Closed Lost,455000.0,2,910000.0,2024-11-19,2024-12-17,,2025-02-01,,PV BD North America,2026-11-11 15:20
+PVD-24325,PV70442,Sponsor 035,United States,Immunology,Signal management,Signed,67000.0,2,134000.0,2024-11-22,2024-12-30,2025-02-12,2025-02-12,,PV BD North America,2026-11-11 15:20
+PVD-24328,PV70806,Sponsor 063,United States,Oncology,Medical information,Closed Lost,313000.0,5,1565000.0,2024-11-26,2025-01-10,,2025-02-04,,PV BD North America,2026-11-11 15:20
+PVD-24329,PV71313,Sponsor 102,United States,CNS,Medical information,Closed Lost,377000.0,2,754000.0,2024-11-27,,,2025-01-22,,PV BD North America,2026-11-11 15:20
+PVD-24332,PV72691,Sponsor 208,United States,CNS,Case processing,Closed Lost,201000.0,2,402000.0,2024-11-28,2025-01-18,,2025-03-31,,PV BD North America,2026-11-11 15:20
+PVD-24335,PV71820,Sponsor 141,Canada,Immunology,QPPV & PSMF,Closed Lost,411000.0,3,1233000.0,2024-11-29,2024-12-21,,2025-02-01,,PV BD North America,2026-11-11 15:20
+PVD-24337,PV71924,Sponsor 149,United States,Oncology,Medical information,Signed,603000.0,2,1206000.0,2024-12-03,2025-01-02,2025-02-20,2025-02-20,,PV BD North America,2026-11-11 15:20
+PVD-24340,PV71430,Sponsor 111,United States,Oncology,Signal management,Closed Lost,340000.0,3,1020000.0,2024-12-05,2025-01-13,,2025-03-31,,PV BD North America,2026-11-11 15:20
+PVD-24341,PV71976,Sponsor 153,Canada,Cardiometabolic,Literature surveillance,Closed Lost,241000.0,2,482000.0,2024-12-05,2025-01-27,,2025-04-02,,PV BD North America,2026-11-11 15:20
+PVD-24342,PV70442,Sponsor 035,Canada,Oncology,Signal management,Closed Lost,245000.0,5,1225000.0,2024-12-05,2025-01-03,,2025-02-03,,PV BD North America,2026-11-11 15:20
+PVD-24344,PV72548,Sponsor 197,United States,Infectious disease,Full PV outsourcing,Closed Lost,263000.0,3,789000.0,2024-12-05,,,2024-12-19,,PV BD North America,2026-11-11 15:20
+PVD-24349,PV72145,Sponsor 166,United States,Oncology,QPPV & PSMF,Signed,461000.0,3,1383000.0,2024-12-09,2025-01-29,2025-03-25,2025-03-25,,PV BD North America,2026-11-11 15:20
+PVD-29007,PV70351,Sponsor 028,United States,Rare disease,Full PV outsourcing,Signed,335000.0,3,1005000.0,2024-12-10,,2025-04-08,2025-04-08,Cross-sell (CRO-10287),PV BD North America,2026-11-11 15:20
+PVD-24352,PV72366,Sponsor 183,United States,Oncology,Literature surveillance,Closed Lost,145000.0,1,145000.0,2024-12-10,,,2024-12-16,,PV BD North America,2026-11-11 15:20
+PVD-24353,PV70273,Sponsor 022,United States,CNS,Case processing,Closed Lost,568000.0,5,2840000.0,2024-12-11,2025-01-08,,2025-02-06,,PV BD North America,2026-11-11 15:20
+PVD-24354,PV70533,Sponsor 042,Canada,CNS,Signal management,Closed Lost,173000.0,4,692000.0,2024-12-11,2025-01-28,,2025-03-08,,PV BD North America,2026-11-11 15:20
+PVD-24355,PV71872,Sponsor 145,United States,Immunology,Case processing,Closed Lost,577000.0,2,1154000.0,2024-12-12,,,2024-12-21,,PV BD North America,2026-11-11 15:20
+PVD-24359,PV71573,Sponsor 122,United States,Rare disease,Case processing,Signed,704000.0,3,2112000.0,2024-12-16,2025-01-16,2025-03-11,2025-03-11,,PV BD North America,2026-11-11 15:20
+PVD-24358,PV72821,Sponsor 218,United States,Rare disease,Medical information,Closed Lost,214000.0,4,856000.0,2024-12-16,,,2024-12-30,,PV BD North America,2026-11-11 15:20
+PVD-24361,PV71547,Sponsor 120,United States,CNS,Case processing,Closed Lost,258000.0,2,516000.0,2024-12-16,,,2025-01-04,,PV BD North America,2026-11-11 15:20
+PVD-24362,PV71508,Sponsor 117,Canada,Immunology,Case processing,Signed,311000.0,1,311000.0,2024-12-17,2025-01-21,2025-03-26,2025-03-26,,PV BD North America,2026-11-11 15:20
+PVD-24363,PV72652,Sponsor 205,Canada,CNS,Full PV outsourcing,Signed,222000.0,1,222000.0,2024-12-17,2025-02-09,2025-03-25,2025-03-25,,PV BD North America,2026-11-11 15:20
+PVD-24365,PV72223,Sponsor 172,United States,Cardiometabolic,Signal management,Closed Lost,454000.0,3,1362000.0,2024-12-19,2025-01-17,,2025-02-19,,PV BD North America,2026-11-11 15:20
+PVD-24366,PV71183,Sponsor 092,United States,Immunology,Case processing,Closed Lost,144000.0,2,288000.0,2024-12-19,2025-01-27,,2025-03-17,,PV BD North America,2026-11-11 15:20
+PVD-24367,PV71183,Sponsor 092,Canada,CNS,Literature surveillance,Signed,200000.0,5,1000000.0,2024-12-20,2025-01-18,2025-03-26,2025-03-26,,PV BD North America,2026-11-11 15:20
+PVD-24368,PV70169,Sponsor 014,United States,CNS,Full PV outsourcing,Signed,352000.0,2,704000.0,2024-12-24,2025-01-20,2025-02-23,2025-02-23,,PV BD North America,2026-11-11 15:20
+PVD-24369,PV70000,Sponsor 001,United States,Oncology,Full PV outsourcing,Closed Lost,320000.0,3,960000.0,2024-12-24,2025-01-18,,2025-03-11,,PV BD North America,2026-11-11 15:20
+PVD-24373,PV72405,Sponsor 186,United States,Rare disease,Case processing,Closed Lost,262000.0,1,262000.0,2024-12-25,,,2025-01-13,,PV BD North America,2026-11-11 15:20
+PVD-24371,PV71547,Sponsor 120,United States,Immunology,Signal management,Closed Lost,315000.0,1,315000.0,2024-12-25,2025-01-25,,2025-03-02,,PV BD North America,2026-11-11 15:20
+PVD-24372,PV72132,Sponsor 165,Canada,Immunology,Full PV outsourcing,Closed Lost,226000.0,4,904000.0,2024-12-25,2025-01-17,,2025-03-02,,PV BD North America,2026-11-11 15:20
+PVD-24374,PV71183,Sponsor 092,Canada,Oncology,Medical information,Closed Lost,396000.0,2,792000.0,2024-12-26,2025-01-26,,2025-03-27,,PV BD North America,2026-11-11 15:20
+PVD-24376,PV70273,Sponsor 022,United States,Cardiometabolic,Signal management,Closed Lost,502000.0,5,2510000.0,2024-12-27,2025-02-05,,2025-03-16,,PV BD North America,2026-11-11 15:20
+PVD-24377,PV73185,Sponsor 246,Canada,Immunology,Signal management,Closed Lost,272000.0,1,272000.0,2024-12-27,2025-02-25,,2025-04-08,,PV BD North America,2026-11-11 15:20
+PVD-24379,PV71586,Sponsor 123,United States,Rare disease,Literature surveillance,Closed Lost,297000.0,4,1188000.0,2024-12-31,,,2025-01-08,,PV BD North America,2026-11-11 15:20
+PVD-24381,PV73185,Sponsor 246,United States,Immunology,Case processing,Closed Lost,218000.0,5,1090000.0,2025-01-02,,,2025-01-17,,PV BD North America,2026-11-11 15:20
+PVD-24382,PV72067,Sponsor 160,United States,Cardiometabolic,Signal management,Signed,337000.0,5,1685000.0,2025-01-02,2025-02-25,2025-04-30,2025-04-30,,PV BD North America,2026-11-11 15:20
+PVD-24383,PV70091,Sponsor 008,United States,Oncology,QPPV & PSMF,Signed,376000.0,2,752000.0,2025-01-02,2025-02-16,2025-03-31,2025-03-31,,PV BD North America,2026-11-11 15:20
+PVD-24385,PV71950,Sponsor 151,Canada,Cardiometabolic,Full PV outsourcing,Signed,453000.0,5,2265000.0,2025-01-02,2025-02-08,2025-03-31,2025-03-31,,PV BD North America,2026-11-11 15:20
+PVD-24386,PV71859,Sponsor 144,United States,Rare disease,Signal management,Closed Lost,292000.0,4,1168000.0,2025-01-06,2025-02-15,,2025-03-20,,PV BD North America,2026-11-11 15:20
+PVD-24392,PV73250,Sponsor 251,United States,Infectious disease,Medical information,Signed,158000.0,1,158000.0,2025-01-10,2025-02-18,2025-04-08,2025-04-08,,PV BD North America,2026-11-11 15:20
+PVD-24393,PV71469,Sponsor 114,United States,Infectious disease,Case processing,Closed Lost,268000.0,3,804000.0,2025-01-14,2025-03-08,,2025-04-23,,PV BD North America,2026-11-11 15:20
+PVD-24395,PV73185,Sponsor 246,United States,Cardiometabolic,QPPV & PSMF,Signed,109000.0,5,545000.0,2025-01-16,2025-02-22,2025-04-13,2025-04-13,,PV BD North America,2026-11-11 15:20
+PVD-24396,PV70780,Sponsor 061,United States,Oncology,Literature surveillance,Closed Lost,241000.0,3,723000.0,2025-01-17,2025-02-25,,2025-04-16,,PV BD North America,2026-11-11 15:20
+PVD-24400,PV72574,Sponsor 199,United States,Oncology,QPPV & PSMF,Closed Lost,400000.0,4,1600000.0,2025-01-17,2025-02-19,,2025-04-10,,PV BD North America,2026-11-11 15:20
+PVD-24401,PV70390,Sponsor 031,United States,Cardiometabolic,Literature surveillance,Closed Lost,417000.0,4,1668000.0,2025-01-21,2025-02-22,,2025-04-05,,PV BD North America,2026-11-11 15:20
+PVD-24403,PV70390,Sponsor 031,United States,Infectious disease,QPPV & PSMF,Signed,221000.0,1,221000.0,2025-01-22,2025-03-06,2025-04-03,2025-04-03,,PV BD North America,2026-11-11 15:20
+PVD-24404,PV70325,Sponsor 026,United States,CNS,Case processing,Closed Lost,166000.0,3,498000.0,2025-01-23,,,2025-02-12,,PV BD North America,2026-11-11 15:20
+PVD-24405,PV71365,Sponsor 106,Canada,Other,Case processing,Signed,373000.0,3,1119000.0,2025-01-23,2025-03-04,2025-04-20,2025-04-20,,PV BD North America,2026-11-11 15:20
+PVD-24406,PV71430,Sponsor 111,United States,Immunology,Full PV outsourcing,Closed Lost,456000.0,2,912000.0,2025-01-23,2025-03-21,,2025-04-22,,PV BD North America,2026-11-11 15:20
+PVD-24407,PV72548,Sponsor 197,United States,CNS,Full PV outsourcing,Signed,331000.0,1,331000.0,2025-01-24,2025-02-15,2025-04-02,2025-04-02,,PV BD North America,2026-11-11 15:20
+PVD-24410,PV71872,Sponsor 145,United States,Oncology,Case processing,Closed Lost,287000.0,3,861000.0,2025-01-27,,,2025-02-03,,PV BD North America,2026-11-11 15:20
+PVD-24411,PV70780,Sponsor 061,United States,CNS,Signal management,Closed Lost,164000.0,3,492000.0,2025-01-31,2025-02-25,,2025-04-02,,PV BD North America,2026-11-11 15:20
+PVD-24413,PV71924,Sponsor 149,United States,CNS,Signal management,Closed Lost,175000.0,1,175000.0,2025-02-03,,,2025-03-14,,PV BD North America,2026-11-11 15:20
+PVD-24417,PV70182,Sponsor 015,United States,CNS,Full PV outsourcing,Closed Lost,85000.0,3,255000.0,2025-02-06,,,2025-02-19,,PV BD North America,2026-11-11 15:20
+PVD-24419,PV72886,Sponsor 223,United States,Rare disease,Literature surveillance,Closed Lost,234000.0,2,468000.0,2025-02-07,2025-03-27,,2025-05-12,,PV BD North America,2026-11-11 15:20
+PVD-29004,PV73185,Sponsor 246,United States,Oncology,Full PV outsourcing,Signed,582000.0,3,1746000.0,2025-02-09,,2025-06-22,2025-06-22,Ergomed CRO referral,PV BD North America,2026-11-11 15:20
+PVD-24420,PV72886,Sponsor 223,United States,Other,QPPV & PSMF,Closed Lost,361000.0,3,1083000.0,2025-02-10,2025-03-25,,2025-05-13,,PV BD North America,2026-11-11 15:20
+PVD-24421,PV71521,Sponsor 118,Canada,CNS,Case processing,Closed Lost,299000.0,3,897000.0,2025-02-10,,,2025-02-23,,PV BD North America,2026-11-11 15:20
+PVD-24423,PV70780,Sponsor 061,Canada,Oncology,QPPV & PSMF,Closed Lost,214000.0,5,1070000.0,2025-02-10,2025-03-26,,2025-05-08,,PV BD North America,2026-11-11 15:20
+PVD-24425,PV70169,Sponsor 014,United States,Rare disease,Literature surveillance,Closed Lost,255000.0,5,1275000.0,2025-02-11,2025-03-07,,2025-04-22,,PV BD North America,2026-11-11 15:20
+PVD-24424,PV70507,Sponsor 040,United States,Cardiometabolic,Signal management,Closed Lost,224000.0,3,672000.0,2025-02-11,2025-03-21,,2025-05-06,,PV BD North America,2026-11-11 15:20
+PVD-24427,PV72795,Sponsor 216,United States,Oncology,Literature surveillance,Closed Lost,436000.0,1,436000.0,2025-02-12,2025-03-19,,2025-04-28,,PV BD North America,2026-11-11 15:20
+PVD-24426,PV70533,Sponsor 042,United States,Rare disease,Case processing,Signed,230000.0,5,1150000.0,2025-02-12,2025-04-02,2025-06-24,2025-06-24,,PV BD North America,2026-11-11 15:20
+PVD-24429,PV70442,Sponsor 035,United States,Cardiometabolic,Case processing,Signed,608000.0,2,1216000.0,2025-02-12,2025-03-25,2025-04-21,2025-04-21,,PV BD North America,2026-11-11 15:20
+PVD-24432,PV71573,Sponsor 122,United States,Oncology,Signal management,Signed,174000.0,3,522000.0,2025-02-13,2025-03-15,2025-06-30,2025-06-30,,PV BD North America,2026-11-11 15:20
+PVD-24434,PV70780,Sponsor 061,Canada,Rare disease,Full PV outsourcing,Closed Lost,506000.0,5,2530000.0,2025-02-14,,,2025-03-10,,PV BD North America,2026-11-11 15:20
+PVD-24437,PV71950,Sponsor 151,Canada,Immunology,Case processing,Closed Lost,586000.0,3,1758000.0,2025-02-18,2025-03-21,,2025-04-22,,PV BD North America,2026-11-11 15:20
+PVD-24441,PV72327,Sponsor 180,United States,CNS,Literature surveillance,Closed Lost,233000.0,1,233000.0,2025-02-19,2025-03-22,,2025-04-30,,PV BD North America,2026-11-11 15:20
+PVD-24442,PV71014,Sponsor 079,Canada,CNS,QPPV & PSMF,Signed,552000.0,4,2208000.0,2025-02-20,2025-03-17,2025-04-23,2025-04-23,,PV BD North America,2026-11-11 15:20
+PVD-24443,PV72769,Sponsor 214,United States,CNS,Case processing,Closed Lost,472000.0,3,1416000.0,2025-02-20,,,2025-03-08,,PV BD North America,2026-11-11 15:20
+PVD-24444,PV73367,Sponsor 260,Canada,Oncology,Medical information,Closed Lost,234000.0,3,702000.0,2025-02-24,2025-04-17,,2025-05-19,,PV BD North America,2026-11-11 15:20
+PVD-24445,PV71261,Sponsor 098,Canada,Infectious disease,Medical information,Closed Lost,311000.0,1,311000.0,2025-02-24,,,2025-03-14,,PV BD North America,2026-11-11 15:20
+PVD-24446,PV70585,Sponsor 046,Canada,Rare disease,Signal management,Closed Lost,142000.0,2,284000.0,2025-02-24,,,2025-03-12,,PV BD North America,2026-11-11 15:20
+PVD-24447,PV71027,Sponsor 080,United States,CNS,Literature surveillance,Closed Lost,275000.0,4,1100000.0,2025-02-24,,,2025-04-01,,PV BD North America,2026-11-11 15:20
+PVD-24449,PV72327,Sponsor 180,United States,Cardiometabolic,QPPV & PSMF,Signed,538000.0,4,2152000.0,2025-02-27,2025-03-24,2025-06-27,2025-06-27,,PV BD North America,2026-11-11 15:20
+PVD-24453,PV71248,Sponsor 097,United States,Rare disease,QPPV & PSMF,Signed,280000.0,3,840000.0,2025-03-04,2025-04-11,2025-05-11,2025-05-11,,PV BD North America,2026-11-11 15:20
+PVD-24455,PV72405,Sponsor 186,United States,Oncology,Case processing,Closed Lost,145000.0,2,290000.0,2025-03-05,2025-04-23,,2025-05-29,,PV BD North America,2026-11-11 15:20
+PVD-24457,PV70819,Sponsor 064,United States,Oncology,Full PV outsourcing,Closed Lost,319000.0,4,1276000.0,2025-03-05,,,2025-03-10,,PV BD North America,2026-11-11 15:20
+PVD-24458,PV71352,Sponsor 105,Canada,Oncology,Medical information,Closed Lost,475000.0,3,1425000.0,2025-03-06,,,2025-03-27,,PV BD North America,2026-11-11 15:20
+PVD-24459,PV72366,Sponsor 183,United States,Oncology,Literature surveillance,Closed Lost,512000.0,2,1024000.0,2025-03-06,2025-04-09,,2025-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24461,PV70598,Sponsor 047,United States,Immunology,Full PV outsourcing,Signed,390000.0,4,1560000.0,2025-03-10,2025-04-20,2025-06-01,2025-06-01,,PV BD North America,2026-11-11 15:20
+PVD-24464,PV72405,Sponsor 186,United States,Infectious disease,Literature surveillance,Closed Lost,409000.0,5,2045000.0,2025-03-11,,,2025-04-20,,PV BD North America,2026-11-11 15:20
+PVD-24465,PV72691,Sponsor 208,United States,Rare disease,Case processing,Closed Lost,211000.0,5,1055000.0,2025-03-12,,,2025-04-19,,PV BD North America,2026-11-11 15:20
+PVD-24470,PV70169,Sponsor 014,Canada,Immunology,Literature surveillance,Signed,392000.0,5,1960000.0,2025-03-18,2025-04-13,2025-06-02,2025-06-02,,PV BD North America,2026-11-11 15:20
+PVD-24472,PV72795,Sponsor 216,United States,CNS,Medical information,Closed Lost,248000.0,2,496000.0,2025-03-19,,,2025-04-08,,PV BD North America,2026-11-11 15:20
+PVD-24474,PV72873,Sponsor 222,United States,Rare disease,Full PV outsourcing,Signed,357000.0,2,714000.0,2025-03-20,2025-05-06,2025-06-27,2025-06-27,,PV BD North America,2026-11-11 15:20
+PVD-24477,PV70507,Sponsor 040,United States,CNS,Case processing,Closed Lost,285000.0,2,570000.0,2025-03-25,2025-04-18,,2025-05-11,,PV BD North America,2026-11-11 15:20
+PVD-24485,PV70806,Sponsor 063,United States,Rare disease,QPPV & PSMF,Signed,196000.0,5,980000.0,2025-04-01,2025-05-22,2025-06-29,2025-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24484,PV70390,Sponsor 031,United States,Rare disease,Case processing,Closed Lost,226000.0,1,226000.0,2025-04-01,,,2025-05-25,,PV BD North America,2026-11-11 15:20
+PVD-24486,PV73367,Sponsor 260,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,257000.0,4,1028000.0,2025-04-03,,,2025-04-27,,PV BD North America,2026-11-11 15:20
+PVD-24489,PV70598,Sponsor 047,United States,Rare disease,Case processing,Closed Lost,295000.0,4,1180000.0,2025-04-07,2025-05-27,,2025-07-10,,PV BD North America,2026-11-11 15:20
+PVD-24493,PV73367,Sponsor 260,Canada,Oncology,Medical information,Closed Lost,122000.0,3,366000.0,2025-04-09,2025-05-20,,2025-07-09,,PV BD North America,2026-11-11 15:20
+PVD-24495,PV72405,Sponsor 186,United States,CNS,Signal management,Closed Lost,215000.0,1,215000.0,2025-04-10,2025-05-21,,2025-07-07,,PV BD North America,2026-11-11 15:20
+PVD-24496,PV70390,Sponsor 031,United States,Rare disease,QPPV & PSMF,Signed,539000.0,3,1617000.0,2025-04-11,2025-05-18,2025-07-17,2025-07-17,,PV BD North America,2026-11-11 15:20
+PVD-24499,PV71469,Sponsor 114,United States,Infectious disease,Full PV outsourcing,Signed,566000.0,4,2264000.0,2025-04-14,2025-05-14,2025-07-16,2025-07-16,,PV BD North America,2026-11-11 15:20
+PVD-24498,PV70676,Sponsor 053,United States,Immunology,Signal management,Closed Lost,698000.0,1,698000.0,2025-04-14,,,2025-05-24,,PV BD North America,2026-11-11 15:20
+PVD-24501,PV71872,Sponsor 145,United States,Infectious disease,Literature surveillance,Closed Lost,428000.0,3,1284000.0,2025-04-15,,,2025-06-06,,PV BD North America,2026-11-11 15:20
+PVD-24502,PV72327,Sponsor 180,United States,CNS,Full PV outsourcing,Closed Lost,160000.0,1,160000.0,2025-04-15,2025-05-19,,2025-06-21,,PV BD North America,2026-11-11 15:20
+PVD-24503,PV72223,Sponsor 172,United States,Rare disease,QPPV & PSMF,Signed,182000.0,5,910000.0,2025-04-15,2025-05-10,2025-06-28,2025-06-28,,PV BD North America,2026-11-11 15:20
+PVD-24504,PV70520,Sponsor 041,United States,CNS,Case processing,Closed Lost,169000.0,5,845000.0,2025-04-16,,,2025-05-16,,PV BD North America,2026-11-11 15:20
+PVD-24507,PV71027,Sponsor 080,United States,Other,Full PV outsourcing,Signed,297000.0,2,594000.0,2025-04-22,2025-06-11,2025-08-01,2025-08-01,,PV BD North America,2026-11-11 15:20
+PVD-24509,PV72652,Sponsor 205,United States,Cardiometabolic,Case processing,Signed,321000.0,3,963000.0,2025-04-24,2025-06-02,2025-07-28,2025-07-28,,PV BD North America,2026-11-11 15:20
+PVD-24512,PV70585,Sponsor 046,United States,Other,Case processing,Signed,334000.0,3,1002000.0,2025-04-25,2025-06-01,2025-07-17,2025-07-17,,PV BD North America,2026-11-11 15:20
+PVD-24511,PV70000,Sponsor 001,United States,Oncology,Full PV outsourcing,Closed Lost,351000.0,3,1053000.0,2025-04-25,,,2025-06-17,,PV BD North America,2026-11-11 15:20
+PVD-24513,PV70208,Sponsor 017,United States,Immunology,Literature surveillance,Signed,596000.0,3,1788000.0,2025-04-28,2025-06-07,2025-09-29,2025-09-29,,PV BD North America,2026-11-11 15:20
+PVD-24516,PV71508,Sponsor 117,Canada,Other,Case processing,Closed Lost,322000.0,4,1288000.0,2025-04-29,,,2025-05-18,,PV BD North America,2026-11-11 15:20
+PVD-24517,PV70091,Sponsor 008,Canada,CNS,Literature surveillance,Closed Lost,118000.0,1,118000.0,2025-04-30,,,2025-05-30,,PV BD North America,2026-11-11 15:20
+PVD-24518,PV73328,Sponsor 257,United States,Infectious disease,Case processing,Closed Lost,202000.0,1,202000.0,2025-05-01,2025-06-27,,2025-08-08,,PV BD North America,2026-11-11 15:20
+PVD-24520,PV70169,Sponsor 014,Canada,Oncology,Full PV outsourcing,Closed Lost,198000.0,5,990000.0,2025-05-02,,,2025-05-14,,PV BD North America,2026-11-11 15:20
+PVD-24522,PV71469,Sponsor 114,Canada,Oncology,QPPV & PSMF,Closed Lost,306000.0,3,918000.0,2025-05-02,,,2025-05-11,,PV BD North America,2026-11-11 15:20
+PVD-24521,PV72691,Sponsor 208,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,180000.0,1,180000.0,2025-05-02,2025-06-02,,2025-07-23,,PV BD North America,2026-11-11 15:20
+PVD-24524,PV70715,Sponsor 056,United States,Oncology,Signal management,Closed Lost,420000.0,4,1680000.0,2025-05-05,,,2025-05-30,,PV BD North America,2026-11-11 15:20
+PVD-24525,PV71872,Sponsor 145,United States,Rare disease,QPPV & PSMF,Closed Lost,220000.0,3,660000.0,2025-05-05,2025-06-20,,2025-07-28,,PV BD North America,2026-11-11 15:20
+PVD-24526,PV71430,Sponsor 111,United States,Rare disease,Full PV outsourcing,Closed Lost,294000.0,2,588000.0,2025-05-06,,,2025-05-16,,PV BD North America,2026-11-11 15:20
+PVD-24530,PV73003,Sponsor 232,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,369000.0,5,1845000.0,2025-05-08,2025-06-21,,2025-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24531,PV70156,Sponsor 013,Canada,Rare disease,Full PV outsourcing,Closed Lost,637000.0,2,1274000.0,2025-05-08,,,2025-05-31,,PV BD North America,2026-11-11 15:20
+PVD-24532,PV70481,Sponsor 038,United States,Rare disease,Literature surveillance,Closed Lost,435000.0,1,435000.0,2025-05-09,,,2025-05-14,,PV BD North America,2026-11-11 15:20
+PVD-24534,PV71183,Sponsor 092,Canada,Infectious disease,Full PV outsourcing,Closed Lost,142000.0,1,142000.0,2025-05-12,2025-06-25,,2025-08-15,,PV BD North America,2026-11-11 15:20
+PVD-24535,PV71560,Sponsor 121,United States,Rare disease,Case processing,Closed Lost,415000.0,3,1245000.0,2025-05-12,,,2025-06-19,,PV BD North America,2026-11-11 15:20
+PVD-24537,PV71872,Sponsor 145,United States,Immunology,Case processing,Closed Lost,188000.0,3,564000.0,2025-05-14,2025-06-27,,2025-07-17,,PV BD North America,2026-11-11 15:20
+PVD-24538,PV70780,Sponsor 061,United States,Oncology,QPPV & PSMF,Closed Lost,526000.0,3,1578000.0,2025-05-14,,,2025-06-03,,PV BD North America,2026-11-11 15:20
+PVD-24536,PV70091,Sponsor 008,United States,CNS,Signal management,Closed Lost,352000.0,5,1760000.0,2025-05-14,2025-07-05,,2025-08-11,,PV BD North America,2026-11-11 15:20
+PVD-24539,PV72691,Sponsor 208,United States,Rare disease,Case processing,Closed Lost,473000.0,1,473000.0,2025-05-15,2025-07-03,,2025-07-31,,PV BD North America,2026-11-11 15:20
+PVD-24540,PV73211,Sponsor 248,United States,Cardiometabolic,Case processing,Signed,509000.0,3,1527000.0,2025-05-15,2025-06-23,2025-08-04,2025-08-04,,PV BD North America,2026-11-11 15:20
+PVD-24548,PV72873,Sponsor 222,United States,CNS,Medical information,Closed Lost,631000.0,1,631000.0,2025-05-21,,,2025-05-28,,PV BD North America,2026-11-11 15:20
+PVD-24549,PV70585,Sponsor 046,United States,CNS,Full PV outsourcing,Closed Lost,160000.0,2,320000.0,2025-05-21,,,2025-06-10,,PV BD North America,2026-11-11 15:20
+PVD-24550,PV73185,Sponsor 246,Canada,Immunology,Full PV outsourcing,Signed,344000.0,4,1376000.0,2025-05-22,2025-06-30,2025-08-19,2025-08-19,,PV BD North America,2026-11-11 15:20
+PVD-24552,PV72405,Sponsor 186,United States,CNS,Case processing,Signed,281000.0,4,1124000.0,2025-05-26,2025-07-19,2025-09-26,2025-09-26,,PV BD North America,2026-11-11 15:20
+PVD-24556,PV70507,Sponsor 040,Canada,Oncology,Signal management,Signed,153000.0,5,765000.0,2025-05-27,2025-07-17,2025-09-30,2025-09-30,,PV BD North America,2026-11-11 15:20
+PVD-24554,PV72366,Sponsor 183,United States,Oncology,Literature surveillance,Closed Lost,384000.0,5,1920000.0,2025-05-27,2025-07-10,,2025-08-16,,PV BD North America,2026-11-11 15:20
+PVD-24555,PV71261,Sponsor 098,United States,Oncology,Full PV outsourcing,Closed Lost,263000.0,3,789000.0,2025-05-27,,,2025-07-22,,PV BD North America,2026-11-11 15:20
+PVD-24557,PV71872,Sponsor 145,United States,Cardiometabolic,Case processing,Closed Lost,219000.0,4,876000.0,2025-05-29,,,2025-06-07,,PV BD North America,2026-11-11 15:20
+PVD-24558,PV71872,Sponsor 145,United States,Immunology,Full PV outsourcing,Closed Lost,192000.0,5,960000.0,2025-05-30,2025-07-13,,2025-08-10,,PV BD North America,2026-11-11 15:20
+PVD-24561,PV70767,Sponsor 060,Canada,Immunology,Full PV outsourcing,Signed,196000.0,1,196000.0,2025-06-02,2025-07-05,2025-09-30,2025-09-30,,PV BD North America,2026-11-11 15:20
+PVD-24564,PV71521,Sponsor 118,United States,Rare disease,Case processing,Closed Lost,280000.0,1,280000.0,2025-06-02,2025-07-07,,2025-08-16,,PV BD North America,2026-11-11 15:20
+PVD-24567,PV72041,Sponsor 158,United States,Other,Case processing,Signed,250000.0,4,1000000.0,2025-06-04,2025-07-14,2025-09-30,2025-09-30,,PV BD North America,2026-11-11 15:20
+PVD-24568,PV71183,Sponsor 092,Canada,Cardiometabolic,Medical information,Signed,463000.0,3,1389000.0,2025-06-04,2025-07-14,2025-09-25,2025-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24570,PV70312,Sponsor 025,United States,Rare disease,Medical information,Closed Lost,206000.0,3,618000.0,2025-06-05,2025-07-16,,2025-08-31,,PV BD North America,2026-11-11 15:20
+PVD-24573,PV72223,Sponsor 172,Canada,Infectious disease,Medical information,Closed Lost,418000.0,3,1254000.0,2025-06-06,,,2025-06-12,,PV BD North America,2026-11-11 15:20
+PVD-24572,PV70806,Sponsor 063,Canada,Infectious disease,Full PV outsourcing,Closed Lost,218000.0,2,436000.0,2025-06-06,,,2025-07-20,,PV BD North America,2026-11-11 15:20
+PVD-24574,PV71508,Sponsor 117,United States,Rare disease,Signal management,Signed,257000.0,3,771000.0,2025-06-09,2025-07-15,2025-08-13,2025-08-13,,PV BD North America,2026-11-11 15:20
+PVD-24575,PV73328,Sponsor 257,United States,Immunology,Full PV outsourcing,Closed Lost,319000.0,5,1595000.0,2025-06-10,,,2025-08-05,,PV BD North America,2026-11-11 15:20
+PVD-24576,PV70442,Sponsor 035,United States,Oncology,Full PV outsourcing,Closed Lost,360000.0,3,1080000.0,2025-06-10,2025-07-12,,2025-08-28,,PV BD North America,2026-11-11 15:20
+PVD-24577,PV73367,Sponsor 260,United States,Oncology,QPPV & PSMF,Signed,338000.0,4,1352000.0,2025-06-10,2025-07-15,2025-09-29,2025-09-29,,PV BD North America,2026-11-11 15:20
+PVD-24578,PV70390,Sponsor 031,Canada,CNS,QPPV & PSMF,Closed Lost,246000.0,2,492000.0,2025-06-11,,,2025-07-30,,PV BD North America,2026-11-11 15:20
+PVD-24580,PV72210,Sponsor 171,United States,Cardiometabolic,Signal management,Closed Lost,293000.0,5,1465000.0,2025-06-11,2025-07-26,,2025-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24582,PV72405,Sponsor 186,United States,CNS,Full PV outsourcing,Closed Lost,469000.0,3,1407000.0,2025-06-12,,,2025-07-24,,PV BD North America,2026-11-11 15:20
+PVD-24581,PV70442,Sponsor 035,Canada,Oncology,Case processing,Closed Lost,361000.0,3,1083000.0,2025-06-12,2025-07-28,,2025-09-01,,PV BD North America,2026-11-11 15:20
+PVD-24585,PV71950,Sponsor 151,United States,Oncology,Medical information,Closed Lost,140000.0,2,280000.0,2025-06-17,,,2025-08-05,,PV BD North America,2026-11-11 15:20
+PVD-24584,PV70039,Sponsor 004,Canada,Immunology,Literature surveillance,Closed Lost,178000.0,4,712000.0,2025-06-17,,,2025-07-16,,PV BD North America,2026-11-11 15:20
+PVD-24587,PV71534,Sponsor 119,Canada,Other,Full PV outsourcing,Closed Lost,171000.0,3,513000.0,2025-06-19,,,2025-07-26,,PV BD North America,2026-11-11 15:20
+PVD-24591,PV70546,Sponsor 043,United States,Oncology,QPPV & PSMF,Closed Lost,355000.0,2,710000.0,2025-06-20,2025-07-19,,2025-08-09,,PV BD North America,2026-11-11 15:20
+PVD-24589,PV71209,Sponsor 094,United States,CNS,Literature surveillance,Closed Lost,238000.0,5,1190000.0,2025-06-20,2025-07-27,,2025-09-19,,PV BD North America,2026-11-11 15:20
+PVD-24595,PV70390,Sponsor 031,United States,Oncology,Literature surveillance,Closed Lost,220000.0,4,880000.0,2025-06-24,2025-08-01,,2025-09-11,,PV BD North America,2026-11-11 15:20
+PVD-24598,PV71924,Sponsor 149,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,1000000.0,1,1000000.0,2025-06-25,,,2025-07-09,,PV BD North America,2026-11-11 15:20
+PVD-24600,PV72067,Sponsor 160,United States,Cardiometabolic,Signal management,Closed Lost,176000.0,3,528000.0,2025-06-25,2025-08-07,,2025-09-08,,PV BD North America,2026-11-11 15:20
+PVD-24596,PV71898,Sponsor 147,United States,Oncology,QPPV & PSMF,Signed,184000.0,2,368000.0,2025-06-25,2025-08-15,2025-10-07,2025-10-07,,PV BD North America,2026-11-11 15:20
+PVD-24602,PV71287,Sponsor 100,United States,Infectious disease,QPPV & PSMF,Closed Lost,177000.0,5,885000.0,2025-06-26,2025-07-29,,2025-08-27,,PV BD North America,2026-11-11 15:20
+PVD-24603,PV71547,Sponsor 120,United States,Immunology,Full PV outsourcing,Closed Lost,432000.0,2,864000.0,2025-06-26,2025-07-26,,2025-08-30,,PV BD North America,2026-11-11 15:20
+PVD-24606,PV72691,Sponsor 208,United States,Cardiometabolic,Full PV outsourcing,Signed,86000.0,4,344000.0,2025-07-01,2025-08-14,2025-09-25,2025-09-25,,PV BD North America,2026-11-11 15:20
+PVD-29002,PV71872,Sponsor 145,United States,Oncology,Full PV outsourcing,Signed,524000.0,3,1572000.0,2025-07-01,,2025-08-31,2025-08-31,Ergomed CRO referral,PV BD North America,2026-11-11 15:20
+PVD-24608,PV71677,Sponsor 130,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,249000.0,3,747000.0,2025-07-02,2025-08-03,,2025-09-17,,PV BD North America,2026-11-11 15:20
+PVD-24610,PV71209,Sponsor 094,United States,Oncology,Literature surveillance,Closed Lost,200000.0,3,600000.0,2025-07-03,,,2025-07-19,,PV BD North America,2026-11-11 15:20
+PVD-24609,PV73211,Sponsor 248,Canada,Immunology,Full PV outsourcing,Signed,280000.0,3,840000.0,2025-07-03,2025-08-08,2025-09-19,2025-09-19,,PV BD North America,2026-11-11 15:20
+PVD-24613,PV70390,Sponsor 031,United States,Other,QPPV & PSMF,Closed Lost,338000.0,1,338000.0,2025-07-04,,,2025-07-18,,PV BD North America,2026-11-11 15:20
+PVD-24616,PV71781,Sponsor 138,Canada,Other,QPPV & PSMF,Closed Lost,149000.0,3,447000.0,2025-07-07,2025-08-16,,2025-09-27,,PV BD North America,2026-11-11 15:20
+PVD-24617,PV72145,Sponsor 166,United States,Oncology,Medical information,Closed Lost,493000.0,4,1972000.0,2025-07-07,2025-08-04,,2025-09-21,,PV BD North America,2026-11-11 15:20
+PVD-24619,PV72691,Sponsor 208,United States,Oncology,Case processing,Closed Lost,211000.0,4,844000.0,2025-07-11,,,2025-07-24,,PV BD North America,2026-11-11 15:20
+PVD-24620,PV71547,Sponsor 120,Canada,Oncology,Full PV outsourcing,Closed Lost,262000.0,5,1310000.0,2025-07-11,,,2025-08-18,,PV BD North America,2026-11-11 15:20
+PVD-24626,PV71027,Sponsor 080,United States,Infectious disease,Case processing,Signed,574000.0,1,574000.0,2025-07-15,2025-08-13,2025-09-25,2025-09-25,,PV BD North America,2026-11-11 15:20
+PVD-24624,PV71560,Sponsor 121,United States,Other,Medical information,Closed Lost,192000.0,2,384000.0,2025-07-15,,,2025-07-29,,PV BD North America,2026-11-11 15:20
+PVD-24622,PV71677,Sponsor 130,United States,Infectious disease,Signal management,Closed Lost,225000.0,5,1125000.0,2025-07-15,2025-08-14,,2025-09-21,,PV BD North America,2026-11-11 15:20
+PVD-24629,PV72145,Sponsor 166,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,275000.0,3,825000.0,2025-07-16,2025-08-09,,2025-09-24,,PV BD North America,2026-11-11 15:20
+PVD-24631,PV71027,Sponsor 080,United States,Oncology,Case processing,Closed Lost,171000.0,5,855000.0,2025-07-17,2025-08-19,,2025-10-07,,PV BD North America,2026-11-11 15:20
+PVD-24635,PV72444,Sponsor 189,United States,Oncology,Full PV outsourcing,Closed Lost,271000.0,5,1355000.0,2025-07-21,2025-09-16,,2025-10-18,,PV BD North America,2026-11-11 15:20
+PVD-24634,PV72548,Sponsor 197,Canada,Cardiometabolic,Full PV outsourcing,Signed,331000.0,4,1324000.0,2025-07-21,2025-09-01,2025-10-29,2025-10-29,,PV BD North America,2026-11-11 15:20
+PVD-24636,PV71521,Sponsor 118,United States,Oncology,QPPV & PSMF,Signed,310000.0,1,310000.0,2025-07-22,2025-08-29,2025-10-21,2025-10-21,,PV BD North America,2026-11-11 15:20
+PVD-24639,PV71430,Sponsor 111,United States,Rare disease,Full PV outsourcing,Closed Lost,1048000.0,4,4192000.0,2025-07-23,,,2025-08-19,,PV BD North America,2026-11-11 15:20
+PVD-24641,PV73185,Sponsor 246,United States,Other,Full PV outsourcing,Signed,105000.0,2,210000.0,2025-07-25,2025-08-25,2025-10-12,2025-10-12,,PV BD North America,2026-11-11 15:20
+PVD-24644,PV71820,Sponsor 141,United States,Rare disease,QPPV & PSMF,Signed,313000.0,3,939000.0,2025-07-30,2025-09-01,2025-10-19,2025-10-19,,PV BD North America,2026-11-11 15:20
+PVD-24645,PV72847,Sponsor 220,United States,Oncology,Medical information,Closed Lost,339000.0,3,1017000.0,2025-07-30,2025-09-20,,2025-10-25,,PV BD North America,2026-11-11 15:20
+PVD-24647,PV70156,Sponsor 013,Canada,Other,Case processing,Signed,411000.0,3,1233000.0,2025-07-31,2025-09-22,2025-12-31,2025-12-31,,PV BD North America,2026-11-11 15:20
+PVD-24646,PV73003,Sponsor 232,United States,Cardiometabolic,Case processing,Signed,562000.0,3,1686000.0,2025-07-31,2025-09-14,2025-10-22,2025-10-22,,PV BD North America,2026-11-11 15:20
+PVD-24648,PV71027,Sponsor 080,United States,Oncology,Signal management,Closed Lost,332000.0,5,1660000.0,2025-08-01,2025-09-27,,2025-10-17,,PV BD North America,2026-11-11 15:20
+PVD-24650,PV71508,Sponsor 117,United States,Immunology,QPPV & PSMF,Signed,299000.0,4,1196000.0,2025-08-04,2025-09-08,2025-10-11,2025-10-11,,PV BD North America,2026-11-11 15:20
+PVD-24651,PV71352,Sponsor 105,United States,Rare disease,Literature surveillance,Closed Lost,306000.0,3,918000.0,2025-08-05,,,2025-08-11,,PV BD North America,2026-11-11 15:20
+PVD-24652,PV72015,Sponsor 156,Canada,Infectious disease,Literature surveillance,Signed,237000.0,3,711000.0,2025-08-05,2025-09-06,2025-11-05,2025-11-05,,PV BD North America,2026-11-11 15:20
+PVD-24656,PV71313,Sponsor 102,United States,Cardiometabolic,Literature surveillance,Closed Lost,124000.0,4,496000.0,2025-08-08,,,2025-08-26,,PV BD North America,2026-11-11 15:20
+PVD-24661,PV71092,Sponsor 085,United States,Rare disease,Full PV outsourcing,Closed Lost,292000.0,5,1460000.0,2025-08-12,,,2025-08-26,,PV BD North America,2026-11-11 15:20
+PVD-24662,PV70169,Sponsor 014,United States,Oncology,Literature surveillance,Signed,368000.0,1,368000.0,2025-08-12,2025-09-23,2025-11-18,2025-11-18,,PV BD North America,2026-11-11 15:20
+PVD-24669,PV73016,Sponsor 233,United States,Oncology,Medical information,Closed Lost,123000.0,3,369000.0,2025-08-15,2025-09-20,,2025-11-03,,PV BD North America,2026-11-11 15:20
+PVD-24671,PV70312,Sponsor 025,United States,Rare disease,Case processing,Closed Lost,193000.0,4,772000.0,2025-08-18,,,2025-09-24,,PV BD North America,2026-11-11 15:20
+PVD-24674,PV73250,Sponsor 251,United States,Infectious disease,Literature surveillance,Closed Lost,102000.0,2,204000.0,2025-08-19,2025-10-04,,2025-11-21,,PV BD North America,2026-11-11 15:20
+PVD-24676,PV73250,Sponsor 251,United States,Infectious disease,Signal management,Closed Lost,163000.0,4,652000.0,2025-08-22,2025-10-08,,2025-12-29,,PV BD North America,2026-11-11 15:20
+PVD-24677,PV71677,Sponsor 130,United States,Oncology,Case processing,Closed Lost,271000.0,3,813000.0,2025-08-25,,,2025-10-02,,PV BD North America,2026-11-11 15:20
+PVD-24684,PV71586,Sponsor 123,United States,Infectious disease,Case processing,Signed,378000.0,1,378000.0,2025-08-27,2025-10-21,2025-11-18,2025-11-18,,PV BD North America,2026-11-11 15:20
+PVD-24685,PV72548,Sponsor 197,United States,Oncology,Case processing,Closed Lost,459000.0,5,2295000.0,2025-08-28,2025-10-14,,2025-11-17,,PV BD North America,2026-11-11 15:20
+PVD-24687,PV70429,Sponsor 034,United States,Rare disease,Case processing,Signed,218000.0,2,436000.0,2025-08-29,2025-09-29,2025-11-19,2025-11-19,,PV BD North America,2026-11-11 15:20
+PVD-24688,PV70169,Sponsor 014,United States,Immunology,Full PV outsourcing,Closed Lost,228000.0,2,456000.0,2025-09-03,,,2025-09-24,,PV BD North America,2026-11-11 15:20
+PVD-24692,PV72548,Sponsor 197,United States,Oncology,QPPV & PSMF,Closed Lost,353000.0,1,353000.0,2025-09-05,2025-10-04,,2025-11-13,,PV BD North America,2026-11-11 15:20
+PVD-24691,PV71560,Sponsor 121,Canada,Rare disease,Full PV outsourcing,Closed Lost,480000.0,2,960000.0,2025-09-05,2025-10-11,,2025-11-20,,PV BD North America,2026-11-11 15:20
+PVD-24695,PV73003,Sponsor 232,United States,Oncology,Full PV outsourcing,Signed,659000.0,3,1977000.0,2025-09-08,2025-10-07,2025-11-08,2025-11-08,,PV BD North America,2026-11-11 15:20
+PVD-24694,PV70273,Sponsor 022,United States,Immunology,Medical information,Closed Lost,132000.0,4,528000.0,2025-09-08,2025-10-24,,2025-12-09,,PV BD North America,2026-11-11 15:20
+PVD-24697,PV71872,Sponsor 145,United States,CNS,QPPV & PSMF,Signed,274000.0,3,822000.0,2025-09-10,2025-10-11,2025-11-30,2025-11-30,,PV BD North America,2026-11-11 15:20
+PVD-24698,PV70520,Sponsor 041,United States,Oncology,Case processing,Closed Lost,180000.0,3,540000.0,2025-09-11,,,2025-10-24,,PV BD North America,2026-11-11 15:20
+PVD-24699,PV71248,Sponsor 097,United States,CNS,Literature surveillance,Closed Lost,398000.0,4,1592000.0,2025-09-12,2025-10-25,,2025-11-30,,PV BD North America,2026-11-11 15:20
+PVD-24701,PV72691,Sponsor 208,United States,Rare disease,Medical information,Closed Lost,220000.0,1,220000.0,2025-09-15,2025-10-26,,2025-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24703,PV71248,Sponsor 097,Canada,Oncology,Full PV outsourcing,Closed Lost,266000.0,4,1064000.0,2025-09-15,2025-11-07,,2025-12-25,,PV BD North America,2026-11-11 15:20
+PVD-24705,PV71924,Sponsor 149,United States,Cardiometabolic,Literature surveillance,Closed Lost,437000.0,5,2185000.0,2025-09-16,,,2025-09-28,,PV BD North America,2026-11-11 15:20
+PVD-24707,PV73367,Sponsor 260,United States,CNS,Case processing,Closed Lost,484000.0,1,484000.0,2025-09-16,2025-11-09,,2025-12-05,,PV BD North America,2026-11-11 15:20
+PVD-24708,PV71352,Sponsor 105,United States,Rare disease,Literature surveillance,Closed Lost,920000.0,5,4600000.0,2025-09-16,2025-10-16,,2025-12-02,,PV BD North America,2026-11-11 15:20
+PVD-24706,PV70780,Sponsor 061,Canada,Rare disease,Signal management,Signed,336000.0,1,336000.0,2025-09-16,2025-10-15,2025-12-26,2025-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24711,PV70169,Sponsor 014,United States,Oncology,Literature surveillance,Closed Lost,285000.0,1,285000.0,2025-09-17,2025-11-12,,2025-12-31,,PV BD North America,2026-11-11 15:20
+PVD-24714,PV72873,Sponsor 222,United States,Cardiometabolic,Medical information,Closed Lost,299000.0,5,1495000.0,2025-09-19,2025-10-25,,2025-12-05,,PV BD North America,2026-11-11 15:20
+PVD-24716,PV71378,Sponsor 107,Canada,Other,Medical information,Closed Lost,172000.0,2,344000.0,2025-09-19,,,2025-09-30,,PV BD North America,2026-11-11 15:20
+PVD-24719,PV70546,Sponsor 043,United States,Rare disease,Case processing,Closed Lost,262000.0,5,1310000.0,2025-09-23,,,2025-11-11,,PV BD North America,2026-11-11 15:20
+PVD-24721,PV72587,Sponsor 200,United States,Rare disease,Medical information,Closed Lost,114000.0,2,228000.0,2025-09-24,,,2025-10-19,,PV BD North America,2026-11-11 15:20
+PVD-24720,PV71573,Sponsor 122,United States,Oncology,Signal management,Closed Lost,307000.0,3,921000.0,2025-09-24,2025-10-20,,2025-11-27,,PV BD North America,2026-11-11 15:20
+PVD-24724,PV71872,Sponsor 145,United States,Rare disease,Literature surveillance,Closed Lost,405000.0,3,1215000.0,2025-09-25,2025-10-25,,2025-12-25,,PV BD North America,2026-11-11 15:20
+PVD-24722,PV72548,Sponsor 197,United States,CNS,Case processing,Closed Lost,143000.0,3,429000.0,2025-09-25,,,2025-11-17,,PV BD North America,2026-11-11 15:20
+PVD-24723,PV71521,Sponsor 118,United States,CNS,Literature surveillance,Closed Lost,239000.0,2,478000.0,2025-09-25,,,2025-10-29,,PV BD North America,2026-11-11 15:20
+PVD-24726,PV71365,Sponsor 106,United States,Rare disease,QPPV & PSMF,Closed Lost,349000.0,4,1396000.0,2025-09-26,,,2025-10-02,,PV BD North America,2026-11-11 15:20
+PVD-24730,PV72899,Sponsor 224,United States,CNS,Medical information,Closed Lost,430000.0,3,1290000.0,2025-09-29,2025-11-27,,2026-01-30,,PV BD North America,2026-11-11 15:20
+PVD-24727,PV71430,Sponsor 111,United States,Rare disease,Case processing,Closed Lost,278000.0,3,834000.0,2025-09-29,2025-11-18,,2025-12-19,,PV BD North America,2026-11-11 15:20
+PVD-24728,PV72223,Sponsor 172,Canada,Oncology,Literature surveillance,Closed Lost,387000.0,2,774000.0,2025-09-29,2025-11-12,,2025-12-11,,PV BD North America,2026-11-11 15:20
+PVD-24734,PV71573,Sponsor 122,United States,Cardiometabolic,Case processing,Closed Lost,86000.0,3,258000.0,2025-10-02,2025-11-11,,2025-12-30,,PV BD North America,2026-11-11 15:20
+PVD-24735,PV70481,Sponsor 038,Canada,Oncology,Case processing,Closed Lost,427000.0,3,1281000.0,2025-10-03,2025-12-01,,2026-01-15,,PV BD North America,2026-11-11 15:20
+PVD-24736,PV71508,Sponsor 117,United States,Immunology,Full PV outsourcing,Closed Lost,190000.0,3,570000.0,2025-10-03,,,2025-11-08,,PV BD North America,2026-11-11 15:20
+PVD-24737,PV72691,Sponsor 208,United States,CNS,Case processing,Closed Lost,227000.0,3,681000.0,2025-10-03,2025-11-11,,2025-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24739,PV70520,Sponsor 041,United States,Rare disease,Case processing,Closed Lost,197000.0,3,591000.0,2025-10-07,,,2025-10-17,,PV BD North America,2026-11-11 15:20
+PVD-24738,PV72067,Sponsor 160,Canada,Infectious disease,Literature surveillance,Closed Lost,1051000.0,2,2102000.0,2025-10-07,,,2025-10-29,,PV BD North America,2026-11-11 15:20
+PVD-24741,PV72067,Sponsor 160,United States,Infectious disease,Signal management,Signed,231000.0,3,693000.0,2025-10-08,2025-11-22,2026-01-01,2026-01-01,,PV BD North America,2026-11-11 15:20
+PVD-24742,PV70000,Sponsor 001,United States,Oncology,Signal management,Closed Lost,833000.0,1,833000.0,2025-10-08,2025-11-14,,2025-12-22,,PV BD North America,2026-11-11 15:20
+PVD-24744,PV73016,Sponsor 233,United States,CNS,Case processing,Closed Lost,388000.0,3,1164000.0,2025-10-10,,,2025-11-04,,PV BD North America,2026-11-11 15:20
+PVD-24746,PV71352,Sponsor 105,United States,Oncology,Full PV outsourcing,Closed Lost,227000.0,3,681000.0,2025-10-13,2025-12-07,,2026-01-07,,PV BD North America,2026-11-11 15:20
+PVD-24747,PV70130,Sponsor 011,United States,CNS,Medical information,Closed Lost,272000.0,3,816000.0,2025-10-13,,,2025-11-07,,PV BD North America,2026-11-11 15:20
+PVD-24748,PV70533,Sponsor 042,United States,Infectious disease,Literature surveillance,Signed,151000.0,4,604000.0,2025-10-14,2025-12-07,2026-01-23,2026-01-23,,PV BD North America,2026-11-11 15:20
+PVD-24749,PV72223,Sponsor 172,United States,Immunology,Case processing,Closed Lost,428000.0,3,1284000.0,2025-10-15,2025-11-09,,2025-12-14,,PV BD North America,2026-11-11 15:20
+PVD-24750,PV72691,Sponsor 208,United States,Cardiometabolic,Full PV outsourcing,Signed,303000.0,4,1212000.0,2025-10-15,2025-11-16,2026-01-06,2026-01-06,,PV BD North America,2026-11-11 15:20
+PVD-24751,PV73003,Sponsor 232,Canada,Rare disease,Signal management,Closed Lost,324000.0,5,1620000.0,2025-10-16,2025-12-04,,2026-01-24,,PV BD North America,2026-11-11 15:20
+PVD-24753,PV72132,Sponsor 165,United States,Rare disease,Signal management,Closed Lost,189000.0,4,756000.0,2025-10-17,2025-11-26,,2026-01-06,,PV BD North America,2026-11-11 15:20
+PVD-24755,PV70169,Sponsor 014,Canada,Other,Case processing,Signed,297000.0,5,1485000.0,2025-10-20,2025-12-04,2026-01-18,2026-01-18,,PV BD North America,2026-11-11 15:20
+PVD-24756,PV73237,Sponsor 250,United States,Rare disease,Case processing,Closed Lost,178000.0,2,356000.0,2025-10-21,,,2025-11-25,,PV BD North America,2026-11-11 15:20
+PVD-24759,PV71157,Sponsor 090,Canada,Infectious disease,QPPV & PSMF,Closed Lost,254000.0,2,508000.0,2025-10-22,,,2025-12-07,,PV BD North America,2026-11-11 15:20
+PVD-24760,PV71820,Sponsor 141,United States,Oncology,Full PV outsourcing,Closed Lost,190000.0,3,570000.0,2025-10-23,2025-12-03,,2026-01-13,,PV BD North America,2026-11-11 15:20
+PVD-24761,PV73211,Sponsor 248,United States,Infectious disease,Literature surveillance,Closed Lost,276000.0,3,828000.0,2025-10-24,2025-11-25,,2025-12-26,,PV BD North America,2026-11-11 15:20
+PVD-24762,PV72873,Sponsor 222,United States,Oncology,QPPV & PSMF,Signed,290000.0,2,580000.0,2025-10-24,2025-12-15,2026-02-09,2026-02-09,,PV BD North America,2026-11-11 15:20
+PVD-24766,PV71157,Sponsor 090,Canada,Rare disease,QPPV & PSMF,Closed Lost,409000.0,4,1636000.0,2025-10-28,2025-12-17,,2026-01-29,,PV BD North America,2026-11-11 15:20
+PVD-24772,PV71430,Sponsor 111,United States,Cardiometabolic,Literature surveillance,Closed Lost,102000.0,4,408000.0,2025-10-30,2025-11-30,,2026-01-21,,PV BD North America,2026-11-11 15:20
+PVD-24773,PV71014,Sponsor 079,United States,Oncology,Medical information,Signed,118000.0,3,354000.0,2025-10-30,2025-11-21,2026-01-06,2026-01-06,,PV BD North America,2026-11-11 15:20
+PVD-24771,PV71027,Sponsor 080,United States,Immunology,Literature surveillance,Closed Lost,210000.0,3,630000.0,2025-10-30,2025-12-21,,2026-02-07,,PV BD North America,2026-11-11 15:20
+PVD-24774,PV70858,Sponsor 067,United States,Infectious disease,Case processing,Closed Lost,200000.0,5,1000000.0,2025-10-31,2025-12-18,,2026-01-24,,PV BD North America,2026-11-11 15:20
+PVD-24777,PV73367,Sponsor 260,United States,CNS,Full PV outsourcing,Closed Lost,868000.0,1,868000.0,2025-11-05,2025-12-06,,2025-12-31,,PV BD North America,2026-11-11 15:20
+PVD-24779,PV72366,Sponsor 183,United States,Oncology,Full PV outsourcing,Closed Lost,413000.0,1,413000.0,2025-11-07,2025-12-13,,2026-02-05,,PV BD North America,2026-11-11 15:20
+PVD-24781,PV71378,Sponsor 107,United States,Immunology,Literature surveillance,Closed Lost,236000.0,3,708000.0,2025-11-07,2025-12-11,,2026-01-19,,PV BD North America,2026-11-11 15:20
+PVD-24782,PV70000,Sponsor 001,United States,Immunology,Signal management,Closed Lost,160000.0,2,320000.0,2025-11-07,,,2025-11-27,,PV BD North America,2026-11-11 15:20
+PVD-24780,PV71209,Sponsor 094,Canada,CNS,Case processing,Closed Lost,394000.0,4,1576000.0,2025-11-07,,,2025-12-01,,PV BD North America,2026-11-11 15:20
+PVD-24784,PV71248,Sponsor 097,United States,Immunology,Signal management,Closed Lost,157000.0,3,471000.0,2025-11-10,2025-12-15,,2026-01-24,,PV BD North America,2026-11-11 15:20
+PVD-24785,PV71560,Sponsor 121,Canada,Other,Case processing,Closed Lost,353000.0,3,1059000.0,2025-11-11,,,2025-11-29,,PV BD North America,2026-11-11 15:20
+PVD-24788,PV71027,Sponsor 080,United States,Oncology,Signal management,Closed Lost,651000.0,4,2604000.0,2025-11-13,,,2025-12-16,,PV BD North America,2026-11-11 15:20
+PVD-24790,PV72145,Sponsor 166,United States,Oncology,Signal management,Signed,213000.0,3,639000.0,2025-11-14,2025-12-24,2026-02-15,2026-02-15,,PV BD North America,2026-11-11 15:20
+PVD-24793,PV71027,Sponsor 080,United States,Immunology,Full PV outsourcing,Closed Lost,520000.0,4,2080000.0,2025-11-19,2025-12-22,,2026-02-01,,PV BD North America,2026-11-11 15:20
+PVD-24795,PV72132,Sponsor 165,United States,Other,Signal management,Signed,289000.0,4,1156000.0,2025-11-20,2026-01-13,2026-03-26,2026-03-26,,PV BD North America,2026-11-11 15:20
+PVD-24797,PV72873,Sponsor 222,United States,Rare disease,Literature surveillance,Closed Lost,189000.0,4,756000.0,2025-11-21,2026-01-14,,2026-03-31,,PV BD North America,2026-11-11 15:20
+PVD-24798,PV72145,Sponsor 166,United States,Cardiometabolic,Medical information,Closed Lost,273000.0,3,819000.0,2025-11-24,,,2025-12-14,,PV BD North America,2026-11-11 15:20
+PVD-24801,PV72886,Sponsor 223,United States,Rare disease,Full PV outsourcing,Signed,192000.0,5,960000.0,2025-11-25,2025-12-21,2026-02-01,2026-02-01,,PV BD North America,2026-11-11 15:20
+PVD-24802,PV70208,Sponsor 017,United States,Cardiometabolic,Literature surveillance,Signed,440000.0,1,440000.0,2025-11-25,2026-01-13,2026-03-27,2026-03-27,,PV BD North America,2026-11-11 15:20
+PVD-24803,PV70715,Sponsor 056,United States,Rare disease,Signal management,Closed Lost,320000.0,2,640000.0,2025-11-25,,,2025-12-02,,PV BD North America,2026-11-11 15:20
+PVD-24805,PV72236,Sponsor 173,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,383000.0,5,1915000.0,2025-11-26,2026-01-07,,2026-02-11,,PV BD North America,2026-11-11 15:20
+PVD-24808,PV73211,Sponsor 248,United States,Immunology,QPPV & PSMF,Closed Lost,199000.0,3,597000.0,2025-11-27,2025-12-28,,2026-02-15,,PV BD North America,2026-11-11 15:20
+PVD-24807,PV72405,Sponsor 186,United States,CNS,Literature surveillance,Closed Lost,354000.0,5,1770000.0,2025-11-27,,,2025-12-07,,PV BD North America,2026-11-11 15:20
+PVD-24810,PV72691,Sponsor 208,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,163000.0,3,489000.0,2025-12-01,,,2025-12-19,,PV BD North America,2026-11-11 15:20
+PVD-24812,PV71508,Sponsor 117,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,374000.0,5,1870000.0,2025-12-02,,,2025-12-20,,PV BD North America,2026-11-11 15:20
+PVD-24813,PV72366,Sponsor 183,United States,Rare disease,Case processing,Signed,482000.0,2,964000.0,2025-12-02,2026-01-06,2026-03-27,2026-03-27,,PV BD North America,2026-11-11 15:20
+PVD-24814,PV70442,Sponsor 035,United States,Oncology,Case processing,Closed Lost,460000.0,4,1840000.0,2025-12-02,2025-12-30,,2026-02-07,,PV BD North America,2026-11-11 15:20
+PVD-24815,PV71456,Sponsor 113,Canada,Cardiometabolic,QPPV & PSMF,Signed,382000.0,5,1910000.0,2025-12-03,2026-01-12,2026-03-01,2026-03-01,,PV BD North America,2026-11-11 15:20
+PVD-24816,PV71677,Sponsor 130,United States,Immunology,Literature surveillance,Closed Lost,325000.0,3,975000.0,2025-12-04,2026-01-12,,2026-02-01,,PV BD North America,2026-11-11 15:20
+PVD-24817,PV72223,Sponsor 172,Canada,Infectious disease,Case processing,Closed Lost,456000.0,2,912000.0,2025-12-05,2026-01-03,,2026-03-25,,PV BD North America,2026-11-11 15:20
+PVD-24819,PV71573,Sponsor 122,United States,Infectious disease,Signal management,Closed Lost,233000.0,1,233000.0,2025-12-08,2026-01-15,,2026-03-03,,PV BD North America,2026-11-11 15:20
+PVD-24823,PV71898,Sponsor 147,United States,Immunology,Full PV outsourcing,Signed,189000.0,4,756000.0,2025-12-12,2026-01-20,2026-03-16,2026-03-16,,PV BD North America,2026-11-11 15:20
+PVD-24824,PV70442,Sponsor 035,United States,Rare disease,Case processing,Closed Lost,430000.0,3,1290000.0,2025-12-15,,,2026-01-02,,PV BD North America,2026-11-11 15:20
+PVD-24826,PV71521,Sponsor 118,United States,Infectious disease,Full PV outsourcing,Closed Lost,241000.0,5,1205000.0,2025-12-16,,,2026-01-04,,PV BD North America,2026-11-11 15:20
+PVD-24828,PV70780,Sponsor 061,United States,Infectious disease,QPPV & PSMF,Closed Lost,104000.0,5,520000.0,2025-12-16,2026-01-18,,2026-03-01,,PV BD North America,2026-11-11 15:20
+PVD-24827,PV72652,Sponsor 205,United States,Cardiometabolic,Signal management,Closed Lost,285000.0,5,1425000.0,2025-12-16,,,2026-01-06,,PV BD North America,2026-11-11 15:20
+PVD-24830,PV71521,Sponsor 118,United States,Infectious disease,Signal management,Closed Lost,461000.0,5,2305000.0,2025-12-19,2026-01-31,,2026-03-15,,PV BD North America,2026-11-11 15:20
+PVD-24832,PV71027,Sponsor 080,Canada,Rare disease,Case processing,Signed,273000.0,2,546000.0,2025-12-22,2026-01-28,2026-03-14,2026-03-14,,PV BD North America,2026-11-11 15:20
+PVD-24835,PV72691,Sponsor 208,United States,Oncology,Medical information,Signed,321000.0,3,963000.0,2025-12-22,2026-02-18,2026-04-07,2026-04-07,,PV BD North America,2026-11-11 15:20
+PVD-24834,PV73367,Sponsor 260,United States,Immunology,Case processing,Signed,215000.0,1,215000.0,2025-12-22,2026-02-01,2026-03-31,2026-03-31,,PV BD North America,2026-11-11 15:20
+PVD-24833,PV72041,Sponsor 158,United States,Rare disease,Full PV outsourcing,Closed Lost,212000.0,3,636000.0,2025-12-22,,,2026-01-13,,PV BD North America,2026-11-11 15:20
+PVD-24839,PV71820,Sponsor 141,United States,Immunology,Literature surveillance,Closed Lost,445000.0,2,890000.0,2025-12-25,2026-01-27,,2026-03-25,,PV BD North America,2026-11-11 15:20
+PVD-24840,PV71560,Sponsor 121,United States,Immunology,Full PV outsourcing,Signed,566000.0,2,1132000.0,2025-12-26,2026-02-05,2026-03-27,2026-03-27,,PV BD North America,2026-11-11 15:20
+PVD-24843,PV70923,Sponsor 072,United States,Oncology,Literature surveillance,Closed Lost,336000.0,5,1680000.0,2025-12-29,,,2026-01-27,,PV BD North America,2026-11-11 15:20
+PVD-24845,PV71560,Sponsor 121,United States,Immunology,Case processing,Closed Lost,392000.0,2,784000.0,2025-12-30,,,2026-01-06,,PV BD North America,2026-11-11 15:20
+PVD-24844,PV70806,Sponsor 063,United States,Oncology,Signal management,Closed Lost,136000.0,2,272000.0,2025-12-30,,,2026-01-14,,PV BD North America,2026-11-11 15:20
+PVD-24847,PV70520,Sponsor 041,United States,Infectious disease,Case processing,Signed,482000.0,3,1446000.0,2025-12-31,2026-02-20,2026-04-15,2026-04-15,,PV BD North America,2026-11-11 15:20
+PVD-24846,PV72041,Sponsor 158,United States,Infectious disease,Literature surveillance,Closed Lost,310000.0,1,310000.0,2025-12-31,2026-02-08,,2026-03-26,,PV BD North America,2026-11-11 15:20
+PVD-24849,PV72548,Sponsor 197,United States,CNS,Full PV outsourcing,Closed Lost,203000.0,3,609000.0,2026-01-01,2026-02-11,,2026-03-05,,PV BD North America,2026-11-11 15:20
+PVD-24850,PV73003,Sponsor 232,United States,Rare disease,Full PV outsourcing,Signed,486000.0,3,1458000.0,2026-01-02,2026-02-26,2026-04-10,2026-04-10,,PV BD North America,2026-11-11 15:20
+PVD-24851,PV72067,Sponsor 160,United States,Oncology,Case processing,Closed Lost,416000.0,1,416000.0,2026-01-02,,,2026-01-18,,PV BD North America,2026-11-11 15:20
+PVD-24861,PV71248,Sponsor 097,Canada,Cardiometabolic,Literature surveillance,Signed,262000.0,3,786000.0,2026-01-13,2026-02-19,2026-04-28,2026-04-28,,PV BD North America,2026-11-11 15:20
+PVD-24863,PV72132,Sponsor 165,United States,Infectious disease,Signal management,Closed Lost,202000.0,2,404000.0,2026-01-15,2026-03-12,,2026-04-28,,PV BD North America,2026-11-11 15:20
+PVD-24866,PV71027,Sponsor 080,Canada,CNS,Full PV outsourcing,Signed,470000.0,4,1880000.0,2026-01-16,2026-03-01,2026-04-07,2026-04-07,,PV BD North America,2026-11-11 15:20
+PVD-24869,PV70182,Sponsor 015,United States,CNS,Case processing,Closed Lost,166000.0,1,166000.0,2026-01-16,2026-02-21,,2026-03-25,,PV BD North America,2026-11-11 15:20
+PVD-24870,PV71950,Sponsor 151,United States,CNS,Full PV outsourcing,Signed,817000.0,3,2451000.0,2026-01-16,2026-02-13,2026-04-05,2026-04-05,,PV BD North America,2026-11-11 15:20
+PVD-24868,PV72405,Sponsor 186,United States,Immunology,Case processing,Closed Lost,159000.0,2,318000.0,2026-01-16,,,2026-02-16,,PV BD North America,2026-11-11 15:20
+PVD-24877,PV71248,Sponsor 097,United States,Infectious disease,Literature surveillance,Closed Lost,244000.0,3,732000.0,2026-01-22,2026-02-27,,2026-03-30,,PV BD North America,2026-11-11 15:20
+PVD-24878,PV71573,Sponsor 122,Canada,CNS,Case processing,Closed Lost,248000.0,3,744000.0,2026-01-22,,,2026-02-15,,PV BD North America,2026-11-11 15:20
+PVD-24879,PV70780,Sponsor 061,Canada,Oncology,Medical information,Closed Lost,254000.0,3,762000.0,2026-01-22,2026-02-12,,2026-03-19,,PV BD North America,2026-11-11 15:20
+PVD-24880,PV72366,Sponsor 183,United States,Rare disease,Full PV outsourcing,Closed Lost,346000.0,1,346000.0,2026-01-22,2026-03-04,,2026-04-07,,PV BD North America,2026-11-11 15:20
+PVD-24883,PV71352,Sponsor 105,United States,CNS,QPPV & PSMF,Closed Lost,309000.0,2,618000.0,2026-01-26,2026-03-11,,2026-04-24,,PV BD North America,2026-11-11 15:20
+PVD-24888,PV71014,Sponsor 079,United States,Rare disease,QPPV & PSMF,Closed Lost,358000.0,4,1432000.0,2026-01-30,2026-03-10,,2026-04-11,,PV BD North America,2026-11-11 15:20
+PVD-24887,PV70117,Sponsor 010,United States,Oncology,Signal management,Closed Lost,458000.0,1,458000.0,2026-01-30,,,2026-02-06,,PV BD North America,2026-11-11 15:20
+PVD-24889,PV70442,Sponsor 035,United States,Rare disease,QPPV & PSMF,Closed Lost,381000.0,3,1143000.0,2026-02-03,2026-03-17,,2026-04-30,,PV BD North America,2026-11-11 15:20
+PVD-24891,PV71534,Sponsor 119,United States,CNS,Literature surveillance,Closed Lost,295000.0,3,885000.0,2026-02-05,2026-03-14,,2026-04-13,,PV BD North America,2026-11-11 15:20
+PVD-24895,PV72587,Sponsor 200,United States,Rare disease,Signal management,Closed Lost,197000.0,2,394000.0,2026-02-09,2026-03-31,,2026-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24894,PV72405,Sponsor 186,United States,Rare disease,Signal management,Signed,175000.0,1,175000.0,2026-02-09,2026-03-31,2026-06-03,2026-06-03,,PV BD North America,2026-11-11 15:20
+PVD-24896,PV70780,Sponsor 061,Canada,Other,Case processing,Closed Lost,727000.0,2,1454000.0,2026-02-09,2026-03-23,,2026-05-15,,PV BD North America,2026-11-11 15:20
+PVD-24898,PV71872,Sponsor 145,United States,Rare disease,Medical information,Signed,562000.0,1,562000.0,2026-02-10,2026-03-29,2026-05-14,2026-05-14,,PV BD North America,2026-11-11 15:20
+PVD-24899,PV70832,Sponsor 065,United States,Rare disease,Case processing,Signed,452000.0,3,1356000.0,2026-02-11,2026-03-26,2026-06-26,2026-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24900,PV71534,Sponsor 119,United States,CNS,Signal management,Closed Lost,541000.0,4,2164000.0,2026-02-11,,,2026-03-08,,PV BD North America,2026-11-11 15:20
+PVD-24901,PV71261,Sponsor 098,Canada,Rare disease,QPPV & PSMF,Closed Lost,546000.0,2,1092000.0,2026-02-11,,,2026-02-28,,PV BD North America,2026-11-11 15:20
+PVD-24903,PV70429,Sponsor 034,United States,Cardiometabolic,Case processing,Closed Lost,151000.0,5,755000.0,2026-02-11,2026-03-21,,2026-05-07,,PV BD North America,2026-11-11 15:20
+PVD-24902,PV70520,Sponsor 041,United States,Oncology,Case processing,Closed Lost,283000.0,2,566000.0,2026-02-11,2026-03-26,,2026-04-20,,PV BD North America,2026-11-11 15:20
+PVD-24904,PV71027,Sponsor 080,United States,Oncology,Signal management,Signed,316000.0,3,948000.0,2026-02-12,2026-03-17,2026-04-17,2026-04-17,,PV BD North America,2026-11-11 15:20
+PVD-24905,PV71794,Sponsor 139,United States,Cardiometabolic,Case processing,Closed Lost,467000.0,3,1401000.0,2026-02-12,2026-03-30,,2026-05-09,,PV BD North America,2026-11-11 15:20
+PVD-24906,PV71872,Sponsor 145,Canada,CNS,Full PV outsourcing,Closed Lost,494000.0,3,1482000.0,2026-02-12,2026-03-20,,2026-05-01,,PV BD North America,2026-11-11 15:20
+PVD-24908,PV73003,Sponsor 232,United States,Immunology,QPPV & PSMF,Closed Lost,278000.0,5,1390000.0,2026-02-16,2026-03-31,,2026-05-26,,PV BD North America,2026-11-11 15:20
+PVD-24909,PV72197,Sponsor 170,United States,CNS,QPPV & PSMF,Closed Lost,357000.0,2,714000.0,2026-02-16,,,2026-04-08,,PV BD North America,2026-11-11 15:20
+PVD-24912,PV71378,Sponsor 107,United States,CNS,Full PV outsourcing,Closed Lost,153000.0,3,459000.0,2026-02-18,,,2026-03-06,,PV BD North America,2026-11-11 15:20
+PVD-24913,PV71430,Sponsor 111,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,288000.0,3,864000.0,2026-02-18,2026-03-30,,2026-05-07,,PV BD North America,2026-11-11 15:20
+PVD-24916,PV70832,Sponsor 065,United States,Immunology,Signal management,Closed Lost,384000.0,1,384000.0,2026-02-19,,,2026-03-11,,PV BD North America,2026-11-11 15:20
+PVD-24915,PV72067,Sponsor 160,United States,CNS,Literature surveillance,Closed Lost,541000.0,3,1623000.0,2026-02-19,,,2026-03-27,,PV BD North America,2026-11-11 15:20
+PVD-24914,PV71027,Sponsor 080,United States,Rare disease,Full PV outsourcing,Closed Lost,422000.0,4,1688000.0,2026-02-19,2026-03-30,,2026-05-01,,PV BD North America,2026-11-11 15:20
+PVD-24918,PV71469,Sponsor 114,Canada,Rare disease,Case processing,Closed Lost,218000.0,4,872000.0,2026-02-19,2026-03-28,,2026-04-22,,PV BD North America,2026-11-11 15:20
+PVD-24917,PV70117,Sponsor 010,Canada,Oncology,Full PV outsourcing,Closed Lost,227000.0,2,454000.0,2026-02-19,,,2026-03-09,,PV BD North America,2026-11-11 15:20
+PVD-24921,PV70091,Sponsor 008,United States,Oncology,Full PV outsourcing,Closed Lost,264000.0,1,264000.0,2026-02-23,2026-04-08,,2026-05-17,,PV BD North America,2026-11-11 15:20
+PVD-24919,PV72431,Sponsor 188,United States,Rare disease,Case processing,Closed Lost,132000.0,1,132000.0,2026-02-23,2026-04-04,,2026-05-17,,PV BD North America,2026-11-11 15:20
+PVD-24925,PV72691,Sponsor 208,Canada,CNS,Full PV outsourcing,Closed Lost,252000.0,3,756000.0,2026-02-24,,,2026-03-01,,PV BD North America,2026-11-11 15:20
+PVD-24924,PV71599,Sponsor 124,Canada,Rare disease,Full PV outsourcing,Signed,247000.0,5,1235000.0,2026-02-24,2026-04-20,2026-05-31,2026-05-31,,PV BD North America,2026-11-11 15:20
+PVD-24929,PV72041,Sponsor 158,United States,CNS,QPPV & PSMF,Closed Lost,197000.0,2,394000.0,2026-02-25,,,2026-03-05,,PV BD North America,2026-11-11 15:20
+PVD-24932,PV71365,Sponsor 106,United States,Immunology,QPPV & PSMF,Closed Lost,81000.0,4,324000.0,2026-02-26,2026-04-04,,2026-06-24,,PV BD North America,2026-11-11 15:20
+PVD-24936,PV72327,Sponsor 180,United States,Rare disease,Case processing,Closed Lost,327000.0,3,981000.0,2026-03-02,,,2026-04-08,,PV BD North America,2026-11-11 15:20
+PVD-24937,PV72691,Sponsor 208,Canada,Rare disease,Case processing,Signed,266000.0,4,1064000.0,2026-03-02,2026-04-13,2026-06-29,2026-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24938,PV70208,Sponsor 017,United States,CNS,QPPV & PSMF,Signed,250000.0,4,1000000.0,2026-03-02,2026-04-14,2026-05-11,2026-05-11,,PV BD North America,2026-11-11 15:20
+PVD-24939,PV71963,Sponsor 152,United States,Rare disease,Medical information,Closed Lost,382000.0,1,382000.0,2026-03-03,,,2026-04-04,,PV BD North America,2026-11-11 15:20
+PVD-24941,PV72405,Sponsor 186,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,316000.0,4,1264000.0,2026-03-05,2026-04-08,,2026-05-10,,PV BD North America,2026-11-11 15:20
+PVD-24944,PV72886,Sponsor 223,Canada,Other,Signal management,Closed Lost,321000.0,5,1605000.0,2026-03-06,2026-04-06,,2026-05-08,,PV BD North America,2026-11-11 15:20
+PVD-24945,PV72366,Sponsor 183,United States,Rare disease,Literature surveillance,Signed,318000.0,3,954000.0,2026-03-06,2026-04-13,2026-06-26,2026-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24947,PV72041,Sponsor 158,Canada,Cardiometabolic,Case processing,Closed Lost,119000.0,3,357000.0,2026-03-10,2026-04-23,,2026-06-24,,PV BD North America,2026-11-11 15:20
+PVD-24948,PV71027,Sponsor 080,United States,Immunology,Full PV outsourcing,Signed,130000.0,2,260000.0,2026-03-10,2026-04-16,2026-05-24,2026-05-24,,PV BD North America,2026-11-11 15:20
+PVD-24949,PV71209,Sponsor 094,United States,Oncology,Medical information,Closed Lost,449000.0,5,2245000.0,2026-03-10,2026-04-20,,2026-06-30,,PV BD North America,2026-11-11 15:20
+PVD-24955,PV71950,Sponsor 151,United States,Oncology,Full PV outsourcing,Closed Lost,379000.0,4,1516000.0,2026-03-12,,,2026-04-01,,PV BD North America,2026-11-11 15:20
+PVD-24957,PV71924,Sponsor 149,United States,Infectious disease,Case processing,Closed Lost,320000.0,3,960000.0,2026-03-13,,,2026-04-07,,PV BD North America,2026-11-11 15:20
+PVD-24956,PV70520,Sponsor 041,United States,Rare disease,Case processing,Closed Lost,137000.0,3,411000.0,2026-03-13,,,2026-05-04,,PV BD North America,2026-11-11 15:20
+PVD-24960,PV70832,Sponsor 065,United States,Rare disease,Literature surveillance,Closed Lost,246000.0,3,738000.0,2026-03-17,2026-05-11,,2026-06-18,,PV BD North America,2026-11-11 15:20
+PVD-24961,PV72067,Sponsor 160,Canada,Rare disease,Literature surveillance,Closed Lost,203000.0,5,1015000.0,2026-03-17,2026-05-04,,2026-06-16,,PV BD North America,2026-11-11 15:20
+PVD-24962,PV70039,Sponsor 004,United States,CNS,QPPV & PSMF,Closed Lost,242000.0,4,968000.0,2026-03-19,,,2026-04-12,,PV BD North America,2026-11-11 15:20
+PVD-24963,PV71209,Sponsor 094,United States,Infectious disease,Full PV outsourcing,Closed Lost,471000.0,1,471000.0,2026-03-20,,,2026-03-30,,PV BD North America,2026-11-11 15:20
+PVD-24964,PV71950,Sponsor 151,United States,Infectious disease,Literature surveillance,Closed Lost,215000.0,3,645000.0,2026-03-20,2026-04-17,,2026-06-30,,PV BD North America,2026-11-11 15:20
+PVD-24965,PV70442,Sponsor 035,United States,Cardiometabolic,Case processing,Signed,140000.0,2,280000.0,2026-03-23,2026-05-10,2026-06-29,2026-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24966,PV70533,Sponsor 042,United States,Oncology,Full PV outsourcing,Signed,253000.0,2,506000.0,2026-03-23,2026-05-05,2026-06-29,2026-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24967,PV70780,Sponsor 061,United States,Rare disease,Signal management,Signed,173000.0,5,865000.0,2026-03-23,2026-04-26,2026-06-29,2026-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24969,PV71248,Sponsor 097,Canada,Immunology,Full PV outsourcing,Closed Lost,732000.0,4,2928000.0,2026-03-24,2026-04-18,,2026-05-31,,PV BD North America,2026-11-11 15:20
+PVD-24971,PV70780,Sponsor 061,United States,CNS,QPPV & PSMF,Closed Lost,298000.0,1,298000.0,2026-03-26,2026-05-14,,2026-06-08,,PV BD North America,2026-11-11 15:20
+PVD-24975,PV71365,Sponsor 106,United States,Oncology,Case processing,Signed,278000.0,2,556000.0,2026-03-30,2026-05-08,2026-06-26,2026-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24976,PV71027,Sponsor 080,United States,Infectious disease,Signal management,Closed Lost,374000.0,2,748000.0,2026-03-31,,,2026-04-13,,PV BD North America,2026-11-11 15:20
+PVD-24977,PV70390,Sponsor 031,United States,Infectious disease,Case processing,Closed Lost,277000.0,3,831000.0,2026-03-31,2026-05-10,,2026-07-07,,PV BD North America,2026-11-11 15:20
+PVD-24979,PV72327,Sponsor 180,United States,Rare disease,Case processing,Closed Lost,227000.0,3,681000.0,2026-04-02,,,2026-05-01,,PV BD North America,2026-11-11 15:20
+PVD-24981,PV72873,Sponsor 222,Canada,Infectious disease,Full PV outsourcing,Closed Lost,204000.0,5,1020000.0,2026-04-03,,,2026-04-24,,PV BD North America,2026-11-11 15:20
+PVD-24984,PV73328,Sponsor 257,Canada,Oncology,Case processing,Closed Lost,372000.0,4,1488000.0,2026-04-07,2026-05-12,,2026-06-14,,PV BD North America,2026-11-11 15:20
+PVD-24985,PV73003,Sponsor 232,United States,Immunology,Full PV outsourcing,Closed Lost,343000.0,5,1715000.0,2026-04-07,2026-05-03,,2026-07-02,,PV BD North America,2026-11-11 15:20
+PVD-24986,PV71508,Sponsor 117,United States,Cardiometabolic,Case processing,Closed Lost,219000.0,5,1095000.0,2026-04-07,2026-05-15,,2026-06-30,,PV BD North America,2026-11-11 15:20
+PVD-24988,PV71508,Sponsor 117,United States,Oncology,Full PV outsourcing,Closed Lost,126000.0,1,126000.0,2026-04-08,2026-05-06,,2026-06-04,,PV BD North America,2026-11-11 15:20
+PVD-24989,PV72886,Sponsor 223,United States,Cardiometabolic,Case processing,Closed Lost,165000.0,2,330000.0,2026-04-09,,,2026-05-30,,PV BD North America,2026-11-11 15:20
+PVD-24990,PV70507,Sponsor 040,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,256000.0,3,768000.0,2026-04-09,2026-05-27,,2026-07-05,,PV BD North America,2026-11-11 15:20
+PVD-24991,PV70533,Sponsor 042,United States,CNS,Signal management,Signed,260000.0,1,260000.0,2026-04-09,2026-05-15,2026-07-11,2026-07-11,,PV BD North America,2026-11-11 15:20
+PVD-24994,PV71950,Sponsor 151,United States,Immunology,Full PV outsourcing,Closed Lost,345000.0,4,1380000.0,2026-04-10,2026-05-12,,2026-06-26,,PV BD North America,2026-11-11 15:20
+PVD-24995,PV71547,Sponsor 120,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,164000.0,2,328000.0,2026-04-10,2026-05-22,,2026-06-27,,PV BD North America,2026-11-11 15:20
+PVD-24993,PV71027,Sponsor 080,United States,Rare disease,Case processing,Signed,485000.0,3,1455000.0,2026-04-10,2026-05-14,2026-06-24,2026-06-24,,PV BD North America,2026-11-11 15:20
+PVD-29006,PV72327,Sponsor 180,United States,Rare disease,Full PV outsourcing,Signed,561000.0,3,1683000.0,2026-04-13,,2026-08-19,2026-08-19,Ergomed CRO referral,PV BD North America,2026-11-11 15:20
+PVD-24997,PV73003,Sponsor 232,United States,Rare disease,Full PV outsourcing,Closed Lost,295000.0,3,885000.0,2026-04-13,2026-05-19,,2026-06-24,,PV BD North America,2026-11-11 15:20
+PVD-24996,PV70676,Sponsor 053,United States,Rare disease,Medical information,Closed Lost,323000.0,5,1615000.0,2026-04-13,2026-05-30,,2026-06-29,,PV BD North America,2026-11-11 15:20
+PVD-24998,PV71209,Sponsor 094,United States,Immunology,Signal management,Closed Lost,283000.0,1,283000.0,2026-04-14,2026-06-08,,2026-07-14,,PV BD North America,2026-11-11 15:20
+PVD-24999,PV72132,Sponsor 165,Canada,Rare disease,Full PV outsourcing,Closed Lost,134000.0,5,670000.0,2026-04-14,,,2026-04-28,,PV BD North America,2026-11-11 15:20
+PVD-25000,PV71430,Sponsor 111,United States,Immunology,Case processing,Closed Lost,244000.0,4,976000.0,2026-04-15,,,2026-05-19,,PV BD North America,2026-11-11 15:20
+PVD-25001,PV72067,Sponsor 160,United States,Rare disease,Literature surveillance,Closed Lost,208000.0,1,208000.0,2026-04-15,2026-06-06,,2026-07-20,,PV BD North America,2026-11-11 15:20
+PVD-25002,PV73042,Sponsor 235,Canada,CNS,Full PV outsourcing,Closed Lost,751000.0,5,3755000.0,2026-04-15,,,2026-05-30,,PV BD North America,2026-11-11 15:20
+PVD-25004,PV73159,Sponsor 244,United States,CNS,Full PV outsourcing,Closed Lost,177000.0,2,354000.0,2026-04-16,,,2026-05-15,,PV BD North America,2026-11-11 15:20
+PVD-25005,PV72041,Sponsor 158,United States,Rare disease,Literature surveillance,Closed Lost,388000.0,1,388000.0,2026-04-16,2026-05-17,,2026-07-09,,PV BD North America,2026-11-11 15:20
+PVD-25006,PV70026,Sponsor 003,United States,Immunology,Case processing,Closed Lost,171000.0,3,513000.0,2026-04-17,2026-05-15,,2026-06-26,,PV BD North America,2026-11-11 15:20
+PVD-25007,PV71859,Sponsor 144,Canada,Immunology,Case processing,Signed,134000.0,3,402000.0,2026-04-20,2026-05-17,2026-06-22,2026-06-22,,PV BD North America,2026-11-11 15:20
+PVD-25011,PV72041,Sponsor 158,United States,Rare disease,Case processing,Closed Lost,258000.0,3,774000.0,2026-04-22,,,2026-04-28,,PV BD North America,2026-11-11 15:20
+PVD-25018,PV70273,Sponsor 022,Canada,CNS,Full PV outsourcing,Signed,315000.0,2,630000.0,2026-04-28,2026-06-02,2026-07-24,2026-07-24,,PV BD North America,2026-11-11 15:20
+PVD-25019,PV71859,Sponsor 144,Canada,Infectious disease,Medical information,Closed Lost,351000.0,1,351000.0,2026-04-28,2026-06-04,,2026-07-12,,PV BD North America,2026-11-11 15:20
+PVD-25020,PV70481,Sponsor 038,United States,Cardiometabolic,Medical information,Closed Lost,197000.0,5,985000.0,2026-04-28,,,2026-05-17,,PV BD North America,2026-11-11 15:20
+PVD-25021,PV71027,Sponsor 080,United States,Cardiometabolic,Full PV outsourcing,Signed,453000.0,2,906000.0,2026-04-29,2026-06-26,2026-08-15,2026-08-15,,PV BD North America,2026-11-11 15:20
+PVD-25022,PV70585,Sponsor 046,Canada,Infectious disease,Full PV outsourcing,Closed Lost,688000.0,4,2752000.0,2026-04-29,,,2026-05-13,,PV BD North America,2026-11-11 15:20
+PVD-25023,PV71209,Sponsor 094,Canada,Rare disease,Medical information,Closed Lost,134000.0,3,402000.0,2026-04-30,2026-06-11,,2026-09-30,,PV BD North America,2026-11-11 15:20
+PVD-25024,PV71313,Sponsor 102,United States,Oncology,Full PV outsourcing,Closed Lost,252000.0,4,1008000.0,2026-04-30,,,2026-06-03,,PV BD North America,2026-11-11 15:20
+PVD-25025,PV71508,Sponsor 117,United States,Immunology,Medical information,Signed,1017000.0,2,2034000.0,2026-05-01,2026-06-14,2026-08-13,2026-08-13,,PV BD North America,2026-11-11 15:20
+PVD-25026,PV71430,Sponsor 111,United States,Immunology,QPPV & PSMF,Closed Lost,277000.0,2,554000.0,2026-05-01,2026-05-21,,2026-07-08,,PV BD North America,2026-11-11 15:20
+PVD-25027,PV73367,Sponsor 260,United States,Other,Medical information,Closed Lost,238000.0,1,238000.0,2026-05-01,,,2026-05-08,,PV BD North America,2026-11-11 15:20
+PVD-25030,PV72678,Sponsor 207,United States,Infectious disease,Signal management,Closed Lost,703000.0,3,2109000.0,2026-05-04,2026-06-05,,2026-07-08,,PV BD North America,2026-11-11 15:20
+PVD-25029,PV72691,Sponsor 208,United States,Oncology,Case processing,Closed Lost,237000.0,5,1185000.0,2026-05-04,,,2026-05-12,,PV BD North America,2026-11-11 15:20
+PVD-25032,PV71014,Sponsor 079,United States,Infectious disease,Case processing,Signed,231000.0,3,693000.0,2026-05-05,2026-06-29,2026-08-21,2026-08-21,,PV BD North America,2026-11-11 15:20
+PVD-25035,PV71248,Sponsor 097,Canada,Other,QPPV & PSMF,Closed Lost,321000.0,2,642000.0,2026-05-06,,,2026-05-24,,PV BD North America,2026-11-11 15:20
+PVD-25036,PV70806,Sponsor 063,United States,Oncology,QPPV & PSMF,Signed,261000.0,3,783000.0,2026-05-06,2026-06-07,2026-07-15,2026-07-15,,PV BD North America,2026-11-11 15:20
+PVD-25038,PV71924,Sponsor 149,United States,CNS,Case processing,Signed,507000.0,4,2028000.0,2026-05-11,2026-06-23,2026-09-09,2026-09-09,,PV BD North America,2026-11-11 15:20
+PVD-25042,PV71534,Sponsor 119,United States,Rare disease,Signal management,Closed Lost,295000.0,3,885000.0,2026-05-14,,,2026-05-21,,PV BD North America,2026-11-11 15:20
+PVD-25041,PV71365,Sponsor 106,United States,Infectious disease,Case processing,Closed Lost,194000.0,3,582000.0,2026-05-14,2026-06-18,,2026-07-30,,PV BD North America,2026-11-11 15:20
+PVD-25048,PV70442,Sponsor 035,United States,Other,QPPV & PSMF,Closed Lost,274000.0,3,822000.0,2026-05-19,,,2026-06-06,,PV BD North America,2026-11-11 15:20
+PVD-25050,PV72444,Sponsor 189,United States,Immunology,Signal management,Closed Lost,199000.0,4,796000.0,2026-05-19,2026-06-14,,2026-07-30,,PV BD North America,2026-11-11 15:20
+PVD-25051,PV70481,Sponsor 038,United States,Oncology,Full PV outsourcing,Closed Lost,495000.0,3,1485000.0,2026-05-20,2026-06-20,,2026-07-21,,PV BD North America,2026-11-11 15:20
+PVD-25052,PV72795,Sponsor 216,United States,Rare disease,Full PV outsourcing,Closed Lost,217000.0,4,868000.0,2026-05-20,2026-07-06,,2026-09-25,,PV BD North America,2026-11-11 15:20
+PVD-25061,PV70442,Sponsor 035,United States,Other,Signal management,Closed Lost,238000.0,5,1190000.0,2026-05-22,,,2026-06-13,,PV BD North America,2026-11-11 15:20
+PVD-25057,PV71924,Sponsor 149,United States,Immunology,Signal management,Closed Lost,272000.0,4,1088000.0,2026-05-22,2026-06-28,,2026-08-08,,PV BD North America,2026-11-11 15:20
+PVD-25062,PV70390,Sponsor 031,United States,Immunology,Full PV outsourcing,Signed,306000.0,3,918000.0,2026-05-22,2026-07-04,2026-09-28,2026-09-28,,PV BD North America,2026-11-11 15:20
+PVD-25060,PV72886,Sponsor 223,United States,CNS,Signal management,Signed,321000.0,5,1605000.0,2026-05-22,2026-07-07,2026-09-28,2026-09-28,,PV BD North America,2026-11-11 15:20
+PVD-25064,PV72353,Sponsor 182,United States,Rare disease,Full PV outsourcing,Signed,552000.0,3,1656000.0,2026-05-25,2026-06-17,2026-07-31,2026-07-31,,PV BD North America,2026-11-11 15:20
+PVD-25063,PV71183,Sponsor 092,United States,Immunology,Signal management,Signed,511000.0,2,1022000.0,2026-05-25,2026-07-04,2026-09-07,2026-09-07,,PV BD North America,2026-11-11 15:20
+PVD-25065,PV71469,Sponsor 114,United States,Cardiometabolic,Case processing,Closed Lost,266000.0,1,266000.0,2026-05-25,,,2026-06-16,,PV BD North America,2026-11-11 15:20
+PVD-25074,PV73328,Sponsor 257,United States,Oncology,Case processing,Closed Lost,369000.0,4,1476000.0,2026-05-28,2026-07-14,,2026-08-30,,PV BD North America,2026-11-11 15:20
+PVD-25072,PV70780,Sponsor 061,United States,Rare disease,QPPV & PSMF,Closed Lost,460000.0,3,1380000.0,2026-05-28,2026-07-10,,2026-09-29,,PV BD North America,2026-11-11 15:20
+PVD-25071,PV71573,Sponsor 122,United States,CNS,Full PV outsourcing,Signed,559000.0,3,1677000.0,2026-05-28,2026-07-11,2026-09-28,2026-09-28,,PV BD North America,2026-11-11 15:20
+PVD-25077,PV70520,Sponsor 041,United States,Immunology,Full PV outsourcing,Closed Lost,169000.0,3,507000.0,2026-06-02,2026-07-01,,2026-08-29,,PV BD North America,2026-11-11 15:20
+PVD-25078,PV71248,Sponsor 097,Canada,Oncology,QPPV & PSMF,Closed Lost,157000.0,3,471000.0,2026-06-02,,,2026-06-08,,PV BD North America,2026-11-11 15:20
+PVD-25081,PV70442,Sponsor 035,United States,Oncology,Case processing,Closed Lost,363000.0,3,1089000.0,2026-06-04,,,2026-06-11,,PV BD North America,2026-11-11 15:20
+PVD-25080,PV72405,Sponsor 186,United States,Oncology,Full PV outsourcing,Closed Lost,156000.0,3,468000.0,2026-06-04,2026-07-11,,2026-08-13,,PV BD North America,2026-11-11 15:20
+PVD-25083,PV72366,Sponsor 183,United States,Cardiometabolic,Medical information,Signed,333000.0,5,1665000.0,2026-06-09,2026-07-22,2026-09-24,2026-09-24,,PV BD North America,2026-11-11 15:20
+PVD-25082,PV70806,Sponsor 063,United States,Immunology,QPPV & PSMF,Signed,241000.0,3,723000.0,2026-06-09,2026-07-20,2026-09-18,2026-09-18,,PV BD North America,2026-11-11 15:20
+PVD-25089,PV70780,Sponsor 061,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,334000.0,2,668000.0,2026-06-12,2026-07-18,,2026-09-24,,PV BD North America,2026-11-11 15:20
+PVD-25090,PV72132,Sponsor 165,United States,Immunology,Full PV outsourcing,Closed Lost,448000.0,3,1344000.0,2026-06-12,2026-07-12,,2026-08-29,,PV BD North America,2026-11-11 15:20
+PVD-25091,PV70715,Sponsor 056,United States,Oncology,QPPV & PSMF,Closed Lost,469000.0,3,1407000.0,2026-06-15,2026-07-26,,2026-08-23,,PV BD North America,2026-11-11 15:20
+PVD-25095,PV71469,Sponsor 114,United States,Immunology,Case processing,Closed Lost,186000.0,3,558000.0,2026-06-15,2026-07-11,,2026-08-16,,PV BD North America,2026-11-11 15:20
+PVD-25096,PV71820,Sponsor 141,United States,Immunology,Signal management,Closed Lost,144000.0,4,576000.0,2026-06-15,2026-07-28,,2026-08-24,,PV BD North America,2026-11-11 15:20
+PVD-25098,PV72977,Sponsor 230,United States,Oncology,Medical information,Signed,268000.0,5,1340000.0,2026-06-16,2026-07-26,2026-09-14,2026-09-14,,PV BD North America,2026-11-11 15:20
+PVD-25100,PV71352,Sponsor 105,United States,Immunology,Full PV outsourcing,Closed Lost,325000.0,4,1300000.0,2026-06-16,,,2026-07-21,,PV BD North America,2026-11-11 15:20
+PVD-25101,PV70208,Sponsor 017,Canada,Oncology,QPPV & PSMF,Signed,170000.0,5,850000.0,2026-06-16,2026-07-20,2026-09-28,2026-09-28,,PV BD North America,2026-11-11 15:20
+PVD-25102,PV71534,Sponsor 119,United States,Infectious disease,Signal management,Closed Lost,501000.0,3,1503000.0,2026-06-18,,,2026-07-24,,PV BD North America,2026-11-11 15:20
+PVD-25103,PV72366,Sponsor 183,United States,Oncology,Signal management,Signed,126000.0,3,378000.0,2026-06-18,2026-07-14,2026-09-13,2026-09-13,,PV BD North America,2026-11-11 15:20
+PVD-25104,PV71027,Sponsor 080,Canada,Cardiometabolic,Signal management,Closed Lost,249000.0,1,249000.0,2026-06-18,,,2026-07-25,,PV BD North America,2026-11-11 15:20
+PVD-25105,PV72041,Sponsor 158,United States,Immunology,Medical information,Closed Lost,416000.0,4,1664000.0,2026-06-19,2026-07-24,,2026-08-23,,PV BD North America,2026-11-11 15:20
+PVD-25107,PV72691,Sponsor 208,United States,Rare disease,Literature surveillance,Closed Lost,142000.0,5,710000.0,2026-06-19,,,2026-07-14,,PV BD North America,2026-11-11 15:20
+PVD-25109,PV72067,Sponsor 160,United States,Rare disease,Medical information,Closed Lost,448000.0,3,1344000.0,2026-06-19,2026-07-29,,2026-09-13,,PV BD North America,2026-11-11 15:20
+PVD-25110,PV71950,Sponsor 151,United States,Oncology,Full PV outsourcing,Closed Lost,193000.0,1,193000.0,2026-06-22,2026-08-02,,2026-10-02,,PV BD North America,2026-11-11 15:20
+PVD-25112,PV72041,Sponsor 158,United States,Infectious disease,Medical information,Closed Lost,294000.0,4,1176000.0,2026-06-22,2026-08-04,,2026-09-21,,PV BD North America,2026-11-11 15:20
+PVD-25115,PV70520,Sponsor 041,United States,Immunology,Case processing,Closed Lost,237000.0,2,474000.0,2026-06-24,,,2026-07-31,,PV BD North America,2026-11-11 15:20
+PVD-25116,PV72067,Sponsor 160,United States,Oncology,Full PV outsourcing,Closed Lost,235000.0,4,940000.0,2026-06-24,,,2026-07-02,,PV BD North America,2026-11-11 15:20
+PVD-25122,PV71027,Sponsor 080,United States,Rare disease,Case processing,Closed Lost,390000.0,5,1950000.0,2026-06-29,2026-08-20,,2026-09-28,,PV BD North America,2026-11-11 15:20
+PVD-25121,PV73185,Sponsor 246,United States,Oncology,Medical information,Signed,164000.0,3,492000.0,2026-06-29,2026-08-06,2026-09-30,2026-09-30,,PV BD North America,2026-11-11 15:20
+PVD-25123,PV70390,Sponsor 031,United States,Infectious disease,Literature surveillance,Closed Lost,509000.0,3,1527000.0,2026-06-29,2026-08-03,,2026-09-09,,PV BD North America,2026-11-11 15:20
+PVD-25125,PV71651,Sponsor 128,United States,CNS,Full PV outsourcing,Closed Lost,183000.0,3,549000.0,2026-07-01,,,2026-08-01,,PV BD North America,2026-11-11 15:20
+PVD-25126,PV71248,Sponsor 097,United States,Infectious disease,Literature surveillance,Signed,255000.0,5,1275000.0,2026-07-01,2026-08-10,2026-09-28,2026-09-28,,PV BD North America,2026-11-11 15:20
+PVD-29003,PV70884,Sponsor 069,Canada,Oncology,Full PV outsourcing,Signed,588000.0,3,1764000.0,2026-07-01,,2026-10-09,2026-10-09,Cross-sell (CRO-10954),PV BD North America,2026-11-11 15:20
+PVD-25131,PV71677,Sponsor 130,United States,Cardiometabolic,Literature surveillance,Closed Lost,195000.0,3,585000.0,2026-07-06,2026-08-20,,2026-10-18,,PV BD North America,2026-11-11 15:20
+PVD-25132,PV70780,Sponsor 061,United States,Other,Full PV outsourcing,Signed,437000.0,5,2185000.0,2026-07-06,2026-08-22,2026-10-05,2026-10-05,,PV BD North America,2026-11-11 15:20
+PVD-25136,PV71352,Sponsor 105,United States,Oncology,Full PV outsourcing,Closed Lost,289000.0,4,1156000.0,2026-07-08,,,2026-07-14,,PV BD North America,2026-11-11 15:20
+PVD-25135,PV71209,Sponsor 094,United States,Infectious disease,Case processing,Signed,606000.0,5,3030000.0,2026-07-08,2026-08-06,2026-09-24,2026-09-24,,PV BD North America,2026-11-11 15:20
+PVD-25137,PV71248,Sponsor 097,United States,CNS,Literature surveillance,Signed,309000.0,3,927000.0,2026-07-09,2026-08-16,2026-09-15,2026-09-15,,PV BD North America,2026-11-11 15:20
+PVD-25138,PV71573,Sponsor 122,United States,Rare disease,Full PV outsourcing,Closed Lost,219000.0,3,657000.0,2026-07-09,,,2026-08-20,,PV BD North America,2026-11-11 15:20
+PVD-25139,PV72405,Sponsor 186,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,256000.0,1,256000.0,2026-07-09,2026-08-10,,2026-09-18,,PV BD North America,2026-11-11 15:20
+PVD-25140,PV73367,Sponsor 260,United States,Rare disease,Literature surveillance,Signed,355000.0,1,355000.0,2026-07-10,2026-08-25,2026-09-25,2026-09-25,,PV BD North America,2026-11-11 15:20
+PVD-25142,PV71248,Sponsor 097,Canada,Cardiometabolic,Case processing,Closed Lost,444000.0,3,1332000.0,2026-07-10,2026-08-08,,2026-09-05,,PV BD North America,2026-11-11 15:20
+PVD-25141,PV70273,Sponsor 022,United States,CNS,Medical information,Closed Lost,378000.0,4,1512000.0,2026-07-10,2026-08-11,,2026-09-21,,PV BD North America,2026-11-11 15:20
+PVD-25144,PV70039,Sponsor 004,United States,Infectious disease,Full PV outsourcing,Closed Lost,124000.0,2,248000.0,2026-07-13,2026-08-19,,2026-09-12,,PV BD North America,2026-11-11 15:20
+PVD-25143,PV72067,Sponsor 160,United States,Rare disease,Literature surveillance,Signed,367000.0,2,734000.0,2026-07-13,2026-08-11,2026-10-06,2026-10-06,,PV BD North America,2026-11-11 15:20
+PVD-25146,PV70169,Sponsor 014,United States,Oncology,Full PV outsourcing,Closed Lost,488000.0,3,1464000.0,2026-07-14,,,2026-07-23,,PV BD North America,2026-11-11 15:20
+PVD-25145,PV72132,Sponsor 165,Canada,Immunology,Medical information,Signed,557000.0,5,2785000.0,2026-07-14,2026-08-27,2026-10-17,2026-10-17,,PV BD North America,2026-11-11 15:20
+PVD-25147,PV71027,Sponsor 080,United States,Rare disease,Literature surveillance,Closed Lost,224000.0,1,224000.0,2026-07-14,,,2026-08-18,,PV BD North America,2026-11-11 15:20
+PVD-25150,PV71144,Sponsor 089,United States,Cardiometabolic,QPPV & PSMF,Signed,375000.0,2,750000.0,2026-07-16,2026-08-16,2026-10-05,2026-10-05,,PV BD North America,2026-11-11 15:20
+PVD-25149,PV71248,Sponsor 097,United States,Oncology,Full PV outsourcing,Signed,258000.0,4,1032000.0,2026-07-16,2026-08-27,2026-10-17,2026-10-17,,PV BD North America,2026-11-11 15:20
+PVD-25154,PV72886,Sponsor 223,United States,Oncology,Signal management,Signed,208000.0,1,208000.0,2026-07-17,2026-08-30,2026-09-29,2026-09-29,,PV BD North America,2026-11-11 15:20
+PVD-25152,PV70312,Sponsor 025,United States,Rare disease,QPPV & PSMF,Signed,101000.0,2,202000.0,2026-07-17,2026-09-14,2026-10-28,2026-10-28,,PV BD North America,2026-11-11 15:20
+PVD-25153,PV70481,Sponsor 038,United States,Rare disease,Case processing,Closed Lost,410000.0,2,820000.0,2026-07-17,2026-08-30,,2026-10-14,,PV BD North America,2026-11-11 15:20
+PVD-25155,PV71508,Sponsor 117,United States,Rare disease,Medical information,Closed Lost,186000.0,2,372000.0,2026-07-22,2026-08-24,,2026-10-18,,PV BD North America,2026-11-11 15:20
+PVD-25156,PV70182,Sponsor 015,United States,Immunology,Literature surveillance,Signed,519000.0,1,519000.0,2026-07-22,2026-08-25,2026-10-04,2026-10-04,,PV BD North America,2026-11-11 15:20
+PVD-25159,PV72132,Sponsor 165,United States,Oncology,Medical information,Signed,162000.0,3,486000.0,2026-07-23,2026-08-26,2026-10-14,2026-10-14,,PV BD North America,2026-11-11 15:20
+PVD-25160,PV72795,Sponsor 216,Canada,Cardiometabolic,Case processing,Signed,287000.0,3,861000.0,2026-07-27,2026-09-14,2026-10-23,2026-10-23,,PV BD North America,2026-11-11 15:20
+PVD-25162,PV71547,Sponsor 120,United States,CNS,Case processing,Closed Lost,229000.0,3,687000.0,2026-07-28,2026-09-14,,2026-10-18,,PV BD North America,2026-11-11 15:20
+PVD-25165,PV72548,Sponsor 197,United States,Cardiometabolic,Medical information,Closed Lost,402000.0,3,1206000.0,2026-07-29,,,2026-08-06,,PV BD North America,2026-11-11 15:20
+PVD-25166,PV73367,Sponsor 260,United States,Cardiometabolic,QPPV & PSMF,Closed Lost,236000.0,4,944000.0,2026-07-29,2026-09-15,,2026-10-20,,PV BD North America,2026-11-11 15:20
+PVD-25167,PV70598,Sponsor 047,United States,Infectious disease,Full PV outsourcing,Closed Lost,263000.0,3,789000.0,2026-07-29,,,2026-08-29,,PV BD North America,2026-11-11 15:20
+PVD-25168,PV70832,Sponsor 065,United States,CNS,Full PV outsourcing,Signed,129000.0,2,258000.0,2026-07-29,2026-09-11,2026-11-05,2026-11-05,,PV BD North America,2026-11-11 15:20
+PVD-25169,PV72145,Sponsor 166,United States,CNS,Full PV outsourcing,Closed Lost,393000.0,5,1965000.0,2026-07-30,2026-09-20,,2026-10-21,,PV BD North America,2026-11-11 15:20
+PVD-25171,PV71157,Sponsor 090,United States,CNS,Full PV outsourcing,Closed Lost,152000.0,3,456000.0,2026-07-31,2026-08-23,,2026-10-21,,PV BD North America,2026-11-11 15:20
+PVD-25172,PV70169,Sponsor 014,United States,CNS,Signal management,Closed Lost,511000.0,5,2555000.0,2026-07-31,,,2026-09-10,,PV BD North America,2026-11-11 15:20
+PVD-25174,PV72067,Sponsor 160,United States,Oncology,Literature surveillance,Signed,202000.0,2,404000.0,2026-08-03,2026-08-30,2026-10-16,2026-10-16,,PV BD North America,2026-11-11 15:20
+PVD-25177,PV72041,Sponsor 158,Canada,Immunology,Case processing,Closed Lost,585000.0,1,585000.0,2026-08-04,,,2026-08-11,,PV BD North America,2026-11-11 15:20
+PVD-25181,PV72405,Sponsor 186,United States,Oncology,Signal management,Closed Lost,620000.0,1,620000.0,2026-08-05,,,2026-09-21,,PV BD North America,2026-11-11 15:20
+PVD-25187,PV70780,Sponsor 061,United States,Immunology,Literature surveillance,Proposal Sent,848000.0,3,2544000.0,2026-08-07,2026-10-03,,2026-10-03,,PV BD North America,2026-11-11 15:20
+PVD-25185,PV70754,Sponsor 059,United States,Cardiometabolic,Full PV outsourcing,Signed,512000.0,5,2560000.0,2026-08-07,2026-09-05,2026-11-02,2026-11-02,,PV BD North America,2026-11-11 15:20
+PVD-25189,PV71157,Sponsor 090,United States,CNS,Full PV outsourcing,Closed Lost,234000.0,3,702000.0,2026-08-10,2026-09-15,,2026-10-29,,PV BD North America,2026-11-11 15:20
+PVD-25190,PV70598,Sponsor 047,United States,Oncology,Full PV outsourcing,Signed,200000.0,4,800000.0,2026-08-11,2026-09-15,2026-10-28,2026-10-28,,PV BD North America,2026-11-11 15:20
+PVD-25191,PV73185,Sponsor 246,United States,Cardiometabolic,Case processing,Signed,244000.0,1,244000.0,2026-08-12,2026-09-03,2026-10-15,2026-10-15,,PV BD North America,2026-11-11 15:20
+PVD-25193,PV72132,Sponsor 165,United States,Rare disease,Signal management,Closed Lost,141000.0,2,282000.0,2026-08-13,,,2026-09-03,,PV BD North America,2026-11-11 15:20
+PVD-25194,PV72067,Sponsor 160,Canada,Oncology,Signal management,Negotiation,201000.0,5,1005000.0,2026-08-14,2026-10-04,,2026-11-07,,PV BD North America,2026-11-11 15:20
+PVD-25201,PV71209,Sponsor 094,United States,Rare disease,Literature surveillance,Closed Lost,425000.0,4,1700000.0,2026-08-19,2026-09-20,,2026-10-25,,PV BD North America,2026-11-11 15:20
+PVD-25205,PV73003,Sponsor 232,United States,CNS,Full PV outsourcing,Closed Lost,176000.0,4,704000.0,2026-08-24,,,2026-09-18,,PV BD North America,2026-11-11 15:20
+PVD-25206,PV73159,Sponsor 244,United States,Cardiometabolic,Literature surveillance,Signed,352000.0,5,1760000.0,2026-08-25,2026-10-04,2026-11-05,2026-11-05,,PV BD North America,2026-11-11 15:20
+PVD-25207,PV72873,Sponsor 222,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,296000.0,3,888000.0,2026-08-26,,,2026-09-20,,PV BD North America,2026-11-11 15:20
+PVD-25210,PV72366,Sponsor 183,United States,Oncology,Case processing,Proposal Sent,126000.0,4,504000.0,2026-08-27,2026-10-20,,2026-10-20,,PV BD North America,2026-11-11 15:20
+PVD-25211,PV70442,Sponsor 035,United States,Immunology,Literature surveillance,Negotiation,421000.0,3,1263000.0,2026-08-27,2026-10-07,,2026-11-04,,PV BD North America,2026-11-11 15:20
+PVD-25209,PV70520,Sponsor 041,United States,Immunology,Case processing,Proposal Sent,234000.0,3,702000.0,2026-08-27,2026-10-20,,2026-10-20,,PV BD North America,2026-11-11 15:20
+PVD-25219,PV70598,Sponsor 047,United States,CNS,Case processing,Closed Lost,359000.0,3,1077000.0,2026-09-03,,,2026-09-29,,PV BD North America,2026-11-11 15:20
+PVD-25220,PV72691,Sponsor 208,United States,CNS,QPPV & PSMF,Closed Lost,348000.0,4,1392000.0,2026-09-04,,,2026-09-27,,PV BD North America,2026-11-11 15:20
+PVD-25221,PV73003,Sponsor 232,Canada,CNS,Medical information,Closed Lost,301000.0,2,602000.0,2026-09-04,,,2026-09-29,,PV BD North America,2026-11-11 15:20
+PVD-25222,PV70390,Sponsor 031,Canada,Cardiometabolic,Literature surveillance,Closed Lost,223000.0,5,1115000.0,2026-09-04,,,2026-09-13,,PV BD North America,2026-11-11 15:20
+PVD-25227,PV70429,Sponsor 034,Canada,CNS,Medical information,Proposal Sent,276000.0,3,828000.0,2026-09-09,2026-10-23,,2026-10-23,,PV BD North America,2026-11-11 15:20
+PVD-25228,PV71950,Sponsor 151,United States,Oncology,Case processing,Proposal Sent,678000.0,2,1356000.0,2026-09-10,2026-11-05,,2026-11-05,,PV BD North America,2026-11-11 15:20
+PVD-25230,PV70923,Sponsor 072,Canada,Oncology,Case processing,Negotiation,257000.0,3,771000.0,2026-09-10,2026-10-18,,2026-11-06,,PV BD North America,2026-11-11 15:20
+PVD-25231,PV72132,Sponsor 165,United States,Cardiometabolic,QPPV & PSMF,Proposal Sent,265000.0,4,1060000.0,2026-09-10,2026-10-17,,2026-10-17,,PV BD North America,2026-11-11 15:20
+PVD-25233,PV71521,Sponsor 118,Canada,Oncology,Case processing,Proposal Sent,433000.0,4,1732000.0,2026-09-11,2026-10-22,,2026-10-22,,PV BD North America,2026-11-11 15:20
+PVD-25235,PV70806,Sponsor 063,United States,Rare disease,Signal management,Proposal Sent,316000.0,3,948000.0,2026-09-11,2026-10-31,,2026-10-31,,PV BD North America,2026-11-11 15:20
+PVD-25236,PV70390,Sponsor 031,United States,Oncology,Full PV outsourcing,Proposal Sent,480000.0,3,1440000.0,2026-09-14,2026-10-25,,2026-10-25,,PV BD North America,2026-11-11 15:20
+PVD-25237,PV72951,Sponsor 228,Canada,Oncology,Signal management,Signed,297000.0,4,1188000.0,2026-09-14,2026-10-12,2026-11-05,2026-11-05,,PV BD North America,2026-11-11 15:20
+PVD-25241,PV71027,Sponsor 080,United States,Cardiometabolic,Case processing,Proposal Sent,341000.0,1,341000.0,2026-09-14,2026-10-18,,2026-10-18,,PV BD North America,2026-11-11 15:20
+PVD-25244,PV72678,Sponsor 207,United States,Other,Full PV outsourcing,Proposal Sent,367000.0,5,1835000.0,2026-09-17,2026-11-01,,2026-11-01,,PV BD North America,2026-11-11 15:20
+PVD-25246,PV72015,Sponsor 156,Canada,Infectious disease,Full PV outsourcing,Closed Lost,261000.0,5,1305000.0,2026-09-17,,,2026-10-21,,PV BD North America,2026-11-11 15:20
+PVD-25247,PV71573,Sponsor 122,Canada,Rare disease,Medical information,Proposal Sent,495000.0,3,1485000.0,2026-09-17,2026-10-31,,2026-10-31,,PV BD North America,2026-11-11 15:20
+PVD-25248,PV72847,Sponsor 220,United States,Infectious disease,Literature surveillance,Proposal Sent,425000.0,4,1700000.0,2026-09-18,2026-10-27,,2026-10-27,,PV BD North America,2026-11-11 15:20
+PVD-25251,PV71781,Sponsor 138,United States,Rare disease,Case processing,Proposal Sent,245000.0,5,1225000.0,2026-09-21,2026-11-02,,2026-11-02,,PV BD North America,2026-11-11 15:20
+PVD-25255,PV72041,Sponsor 158,United States,Rare disease,QPPV & PSMF,Closed Lost,446000.0,5,2230000.0,2026-09-23,,,2026-10-12,,PV BD North America,2026-11-11 15:20
+PVD-25256,PV70715,Sponsor 056,United States,Cardiometabolic,Medical information,Closed Lost,115000.0,3,345000.0,2026-09-24,,,2026-10-07,,PV BD North America,2026-11-11 15:20
+PVD-25257,PV70442,Sponsor 035,United States,Oncology,QPPV & PSMF,Closed Lost,211000.0,2,422000.0,2026-09-29,,,2026-10-31,,PV BD North America,2026-11-11 15:20
+PVD-25259,PV70585,Sponsor 046,United States,Oncology,Signal management,Closed Lost,831000.0,3,2493000.0,2026-09-30,,,2026-10-09,,PV BD North America,2026-11-11 15:20
+PVD-25262,PV72041,Sponsor 158,United States,Cardiometabolic,Full PV outsourcing,Closed Lost,161000.0,3,483000.0,2026-10-05,,,2026-10-13,,PV BD North America,2026-11-11 15:20
+PVD-25269,PV70780,Sponsor 061,United States,Infectious disease,Literature surveillance,Qualified,379000.0,2,758000.0,2026-10-13,,,2026-11-02,,PV BD North America,2026-11-11 15:20
+PVD-25271,PV72067,Sponsor 160,United States,Oncology,Full PV outsourcing,Qualified,263000.0,2,526000.0,2026-10-14,,,2026-10-25,,PV BD North America,2026-11-11 15:20
+PVD-25272,PV71547,Sponsor 120,United States,Cardiometabolic,Literature surveillance,Closed Lost,597000.0,4,2388000.0,2026-10-14,,,2026-10-30,,PV BD North America,2026-11-11 15:20
+PVD-25273,PV71872,Sponsor 145,United States,Rare disease,Signal management,Closed Lost,247000.0,2,494000.0,2026-10-14,,,2026-11-06,,PV BD North America,2026-11-11 15:20
+PVD-25274,PV70117,Sponsor 010,United States,Cardiometabolic,Full PV outsourcing,Qualified,416000.0,5,2080000.0,2026-10-15,,,2026-11-04,,PV BD North America,2026-11-11 15:20
+PVD-25278,PV73185,Sponsor 246,United States,Infectious disease,Full PV outsourcing,Qualified,271000.0,1,271000.0,2026-10-19,,,2026-10-27,,PV BD North America,2026-11-11 15:20
+PVD-25277,PV70832,Sponsor 065,United States,Cardiometabolic,Case processing,Qualified,201000.0,2,402000.0,2026-10-19,,,2026-11-03,,PV BD North America,2026-11-11 15:20
+PVD-25276,PV71521,Sponsor 118,United States,Cardiometabolic,Signal management,Qualified,400000.0,2,800000.0,2026-10-19,,,2026-10-30,,PV BD North America,2026-11-11 15:20
+PVD-25283,PV70507,Sponsor 040,United States,CNS,QPPV & PSMF,Lead,301000.0,5,1505000.0,2026-10-21,,,2026-10-21,,PV BD North America,2026-11-11 15:20
+PVD-25284,PV70715,Sponsor 056,United States,Cardiometabolic,Case processing,Lead,181000.0,3,543000.0,2026-10-22,,,2026-10-22,,PV BD North America,2026-11-11 15:20
+PVD-25285,PV71352,Sponsor 105,Canada,Oncology,Full PV outsourcing,Qualified,260000.0,1,260000.0,2026-10-22,,,2026-11-02,,PV BD North America,2026-11-11 15:20
+PVD-25286,PV72691,Sponsor 208,Canada,Other,Full PV outsourcing,Qualified,439000.0,1,439000.0,2026-10-23,,,2026-11-07,,PV BD North America,2026-11-11 15:20
+PVD-25293,PV70676,Sponsor 053,United States,CNS,QPPV & PSMF,Lead,255000.0,1,255000.0,2026-10-28,,,2026-10-28,,PV BD North America,2026-11-11 15:20
+PVD-25294,PV70507,Sponsor 040,United States,CNS,QPPV & PSMF,Lead,256000.0,3,768000.0,2026-10-28,,,2026-10-28,,PV BD North America,2026-11-11 15:20
+PVD-25297,PV72886,Sponsor 223,United States,CNS,Full PV outsourcing,Lead,243000.0,1,243000.0,2026-10-29,,,2026-10-29,,PV BD North America,2026-11-11 15:20
+PVD-25298,PV72886,Sponsor 223,United States,Rare disease,Signal management,Lead,243000.0,4,972000.0,2026-10-30,,,2026-10-30,,PV BD North America,2026-11-11 15:20
+PVD-25302,PV70481,Sponsor 038,Canada,Cardiometabolic,Case processing,Lead,380000.0,1,380000.0,2026-11-02,,,2026-11-02,,PV BD North America,2026-11-11 15:20
+PVD-25306,PV70520,Sponsor 041,United States,Infectious disease,Case processing,Lead,94000.0,1,94000.0,2026-11-05,,,2026-11-05,,PV BD North America,2026-11-11 15:20
